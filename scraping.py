@@ -167,4 +167,23 @@ def scrapProline(database, allCards, date):
         if(i+1 >= pages):
             print('Scrapped ' + str(cardsAdded) + ' cards from proline.pl')
             break 
+
+def scrapKomtek(database, allCards, date):
+    cardsAdded = 0
+    soup = getWebpage('https://komtek24.pl/komputery/podzespoly-komputerowe/karty-graficzne/1/default/4/f_at_17183_33592/1/f_availability_2/1')
+
+    for product in soup.find('div', class_='products viewphot s-row').find_all('div', class_='product-inner-wrap'):
+        try:
+            card = product.find('a', class_='prodname f-row') 
+            name = card['title']    
+            link = 'https://komtek24.pl' + card['href'] 
+            price = priceCleanup(product.find('div', class_='price f-row').em.text)
+
+            addCard(database, allCards, 'komtek', name, link, date, price)
+            cardsAdded = cardsAdded + 1
+        except:
+            pass
+
+    print('Scrapped ' + str(cardsAdded) + ' cards from komtek24.pl')
+
             

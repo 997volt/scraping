@@ -13,7 +13,7 @@
         }
       }
     },
-    "ASUS ROG STRIX RTX 3060 Ti V2 GAMING OC" : {
+    "Asus ROG Strix RTX 3060 Ti V2 Gaming OC" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-asus-rog-strix-rtx-3060ti-gaming-oc-8gb-gddr6-rog-strix-rtx3060ti-o8g-v2-gaming-5948840/",
         "name" : "Karta graficzna Asus ROG Strix RTX 3060Ti Gaming OC 8GB GDDR6 (ROG-STRIX-RTX3060TI-O8G-V2-GAMING)",
@@ -37,7 +37,7 @@
         }
       }
     },
-    "GIGABYTE AORUS RTX 3080 XTREME WaterForce WB" : {
+    "Gigabyte AORUS RTX 3080 XTREME WaterForce WB" : {
       "xkom" : {
         "link" : "https://www.x-kom.pl/p/676561-karta-graficzna-nvidia-gigabyte-geforce-rtx-3080-xtreme-waterforce-lhr-10gb-gddr6x.html",
         "name" : "Gigabyte GeForce RTX 3080 XTREME WATERFORCE LHR 10GB GDDR6X",
@@ -50,7 +50,7 @@
         }
       }
     },
-    "GIGABYTE AORUS RX 6900 XT MASTER" : {
+    "Gigabyte AORUS RX 6900 XT Master" : {
       "euro" : {
         "link" : "https://www.euro.com.pl/karty-graficzne/gigabyte-karta-graf-giga-rx-6900-aorxt-mas-16g.bhtml",
         "name" : "Gigabyte AORUS Radeon RX 6900 XT MASTER 16GB GDDR6 256bit",
@@ -72,7 +72,7 @@
         }
       }
     },
-    "GIGABYTE GTX 1050 Ti" : {
+    "Gigabyte GTX 1050 Ti" : {
       "komputronik" : {
         "link" : "https://www.komputronik.pl/product/348033/gigabyte-geforce-gtx-1050-ti-4gb.html",
         "name" : "Gigabyte GeForce GTX 1050 Ti 4GB",
@@ -81,7 +81,7 @@
         }
       }
     },
-    "GIGABYTE RTX 3060 Ti GAMING OC PRO Rev3" : {
+    "Gigabyte RTX 3060 Ti Gaming OC PRO Rev3" : {
       "euro" : {
         "link" : "https://www.euro.com.pl/karty-graficzne/gigabyte-karta-graf-giga-rtx-3060ti-gam-8g-3-0.bhtml",
         "name" : "Gigabyte GeForce RTX 3060 Ti GAMING OC PRO (rev. 3.0) 8GB GDDR6 256bit",
@@ -133,7 +133,7 @@
         }
       }
     },
-    "GIGABYTE RTX 3060 Ti VISION OC" : {
+    "Gigabyte RTX 3060 Ti Vision OC" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-gigabyte-geforce-rtx-3060ti-vision-oc-8gb-gddr6-gv-n306tvision-oc-8gd-5945976/",
         "name" : "Karta graficzna Gigabyte GeForce RTX 3060Ti Vision OC 8GB GDDR6 (GV-N306TVISION OC-8GD)",
@@ -172,7 +172,7 @@
         }
       }
     },
-    "Inno3D RTX 3060 TWIN X2 LHR" : {
+    "Inno3D RTX 3060 Twin X2 LHR" : {
       "xkom" : {
         "link" : "https://www.x-kom.pl/p/673611-karta-graficzna-nvidia-inno3d-geforce-rtx-3060-twin-x2-lhr-12gb-gddr6.html",
         "name" : "Inno3D GeForce RTX 3060 Twin X2 LHR 12GB GDDR6",
@@ -185,7 +185,7 @@
         }
       }
     },
-    "Inno3D RTX 3060 Ti TWIN X2 LHR" : {
+    "Inno3D RTX 3060 Ti Twin X2 LHR" : {
       "sferis" : {
         "link" : "https://www.sferis.pl/karta-graf-inno3d-geforce-rtx-3060-ti-twin-x2-lhr-n306t2-08d6-119032ah-p720997",
         "name" : "Karta Graf INNO3D GEFORCE RTX 3060 Ti TWIN X2 LHR - N306T2-08D6-119032AH",
@@ -224,7 +224,7 @@
         }
       }
     },
-    "MSI RTX 3060 Ti GAMING X LHR" : {
+    "MSI RTX 3060 Ti Gaming X LHR" : {
       "sferis" : {
         "link" : "https://www.sferis.pl/karta-graficzna-msi-geforce-rtx-3060-ti-gaming-x-8g-lhr-v397-231r-p713324",
         "name" : "Karta graficzna MSI GeForce RTX 3060 Ti GAMING X 8G LHR - V397-231R",
@@ -237,7 +237,7 @@
         }
       }
     },
-    "MSI RTX 3060 Ti GAMING Z TRIO LHR" : {
+    "MSI RTX 3060 Ti Gaming Z Trio LHR" : {
       "sferis" : {
         "link" : "https://www.sferis.pl/karta-graficzna-msi-geforce-rtx-3060-ti-gaming-z-trio-8g-lhr-v390-290r-p713323",
         "name" : "Karta graficzna MSI GeForce RTX 3060 Ti GAMING Z TRIO 8G LHR - V390-290R",
@@ -250,7 +250,7 @@
         }
       }
     },
-    "MSI RX 6900 XT GAMING Z TRIO" : {
+    "MSI RX 6900 XT Gaming Z Trio" : {
       "sferis" : {
         "link" : "https://www.sferis.pl/karta-graficzna-msi-rad-rx6900xt-gaming-z-trio-16gb-v395-019r-p711181",
         "name" : "Karta graficzna MSI Rad RX6900XT Gaming Z Trio 16GB - V395-019R",
@@ -288,7 +288,7 @@
         }
       }
     },
-    "XFX Speedster MERC319 RX 6700 XT BLACK" : {
+    "XFX Speedster MERC319 RX 6700 XT Black" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-xfx-radeon-rx-6700-xt-speedtester-merc319-black-12gb-gddr6-rx-67xtytbdp-8148721/",
         "name" : "Karta graficzna XFX Radeon RX 6700 XT Speedtester Merc319 Black 12GB GDDR6 (RX-67XTYTBDP)",
@@ -299,7 +299,7 @@
         }
       }
     },
-    "XFX Speedster QICK319 RX 6700 XT ULTRA" : {
+    "XFX Speedster QICK319 RX 6700 XT Ultra" : {
       "fox" : {
         "link" : "https://foxkomputer.pl/pl/p/XFX-Radeon-RX-6700-XT-ULTRA-SPEEDSTER-QICK-12GB-GDDR6-/18351",
         "name" : "XFX Radeon RX 6700 XT ULTRA SPEEDSTER QICK 12GB GDDR6 ",
@@ -310,7 +310,7 @@
         }
       }
     },
-    "ZOTAC RTX 3060 Ti Twin Edge LHR" : {
+    "Zotac RTX 3060 Ti Twin Edge LHR" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-zotac-geforce-rtx-3060-ti-twin-edge-8gb-gddr6-zt-a30610e-10mlhr-8765756/",
         "name" : "Karta graficzna Zotac GeForce RTX 3060 Ti Twin Edge 8GB GDDR6 (ZT-A30610E-10MLHR)",
@@ -323,7 +323,7 @@
         }
       }
     },
-    "ZOTAC RTX 3060 Ti Twin Edge OC LHR" : {
+    "Zotac RTX 3060 Ti Twin Edge OC LHR" : {
       "proline" : {
         "link" : "https://proline.pl//zotac-geforce-rtx-3060-ti-twin-edge-oc-lhr-8gb-gddr6-zt-a30610h-10mlhr-p8079280",
         "name" : "ZOTAC GeForce RTX 3060 Ti Twin Edge OC LHR 8GB GDDR6 ZT-A30610H-10MLHR",
@@ -332,7 +332,7 @@
         }
       }
     },
-    "ZOTAC RTX 3070 Ti Trinity" : {
+    "Zotac RTX 3070 Ti Trinity" : {
       "sferis" : {
         "link" : "https://www.sferis.pl/karta-graficzna-zotac-gaming-geforce-rtx-3070-ti-trinity-8gb-gddr6x-zt-a30710d-10p-p717534",
         "name" : "Karta Graficzna ZOTAC GAMING GeForce RTX 3070 Ti Trinity 8GB GDDR6X - ZT-A30710D-10P",
@@ -345,7 +345,7 @@
         }
       }
     },
-    "ZOTAC RTX 3090 Trinity OC" : {
+    "Zotac RTX 3090 Trinity OC" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-zotac-geforce-rtx-3090-trinity-oc-24gb-gddr6x-zt-a30900j-10p-5946556/",
         "name" : "Karta graficzna Zotac GeForce RTX 3090 Trinity OC 24GB GDDR6X (ZT-A30900J-10P)",
@@ -434,6 +434,15 @@
         "name" : "AMD Radeon Pro WX 2100 2GB GDDR5",
         "prices" : {
           "2021-09-28" : 769.0
+        }
+      }
+    },
+    "new-07dd5b15-07f7-40b1-8bbd-5d4f282ae77c" : {
+      "komtek" : {
+        "link" : "https://komtek24.pl/afox-nvidia-geforce-gt730-2gb-128-bit",
+        "name" : "Karta graficzna Afox Nvidia GeForce GT730 2GB 128-bit",
+        "prices" : {
+          "2021-09-28" : 319.99
         }
       }
     },
@@ -1207,6 +1216,15 @@
         }
       }
     },
+    "new-1c593806-dd78-4b4c-9662-e0b0411292c3" : {
+      "komtek" : {
+        "link" : "https://komtek24.pl/karta-graficzna-gigabyte-gtx-1660-super-6gb-gddr6",
+        "name" : "Karta graficzna Gigabyte GTX 1660 Super 6GB GDDR6",
+        "prices" : {
+          "2021-09-28" : 3399.99
+        }
+      }
+    },
     "new-1ca30da9-94fa-4c55-a710-fbe262796176" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-palit-geforce-rtx-3060-dual-oc-12gb-gddr6-ne63060t19k9-190ad-5946395/",
@@ -1265,6 +1283,15 @@
           "2021-09-26" : 4161.93,
           "2021-09-27" : 4149.57,
           "2021-09-28" : 4149.57
+        }
+      }
+    },
+    "new-1e3e6770-7e88-4472-a1ec-7ca23747244e" : {
+      "komtek" : {
+        "link" : "https://komtek24.pl/karta-graficzna-afox-gt1030-4gb-hdmi",
+        "name" : "Karta graficzna Afox GT1030 4GB HDMI",
+        "prices" : {
+          "2021-09-28" : 649.99
         }
       }
     },
@@ -1384,6 +1411,15 @@
         }
       }
     },
+    "new-20cad35f-80e1-4fc9-b532-ec3ef3a84ae8" : {
+      "komtek" : {
+        "link" : "https://komtek24.pl/karta-graficzna-gigabyte-gt-1030-2gb-lp",
+        "name" : "Karta graficzna Gigabyte GT 1030 2GB LP",
+        "prices" : {
+          "2021-09-28" : 439.99
+        }
+      }
+    },
     "new-20cd4ae6-cbb6-4558-99d8-3377a18ccbb8" : {
       "sferis" : {
         "link" : "https://www.sferis.pl/afox-geforce-gtx750ti-2gb-gddr5-128bit-atx-dual-fa-af750ti-2048d5h5-v9-p717928",
@@ -1407,6 +1443,15 @@
           "2021-09-26" : 1706.34,
           "2021-09-27" : 1698.47,
           "2021-09-28" : 1698.47
+        }
+      }
+    },
+    "new-214def46-e58a-4ace-96eb-39be2fd04ba8" : {
+      "komtek" : {
+        "link" : "https://komtek24.pl/karta-graficzna-afox-gt610-2gb-lp-hdmi",
+        "name" : "Karta graficzna Afox GT610 2GB LP HDMI",
+        "prices" : {
+          "2021-09-28" : 229.99
         }
       }
     },
@@ -1451,6 +1496,15 @@
         "name" : "AMD Radeon PRO W6800 32GB GDDR6 ",
         "prices" : {
           "2021-09-28" : 10999.0
+        }
+      }
+    },
+    "new-242226e1-fb77-476a-b5c9-29f2a17bc42e" : {
+      "komtek" : {
+        "link" : "https://komtek24.pl/karta-graficzna-arktek-rx550-4gb",
+        "name" : "Karta graficzna Arktek RX550 4GB",
+        "prices" : {
+          "2021-09-28" : 1279.99
         }
       }
     },
@@ -1751,6 +1805,15 @@
         }
       }
     },
+    "new-2928f056-3c38-40de-839d-972b98a32a04" : {
+      "komtek" : {
+        "link" : "https://komtek24.pl/karta-graficzna-inno3d-gtx1660-super-compact-6gb",
+        "name" : "Karta graficzna Inno3D GTX1660 Super Compact 6GB",
+        "prices" : {
+          "2021-09-28" : 2999.99
+        }
+      }
+    },
     "new-298833e5-a59b-47dc-ac8c-264156bb6bf1" : {
       "xkom" : {
         "link" : "https://www.x-kom.pl/p/673559-karta-graficzna-nvidia-gigabyte-geforce-rtx-3080-aorus-xtreme-wf-lhr-10gb-gddr6x.html",
@@ -1785,6 +1848,15 @@
           "2021-09-25" : 2399.0,
           "2021-09-26" : 2399.0,
           "2021-09-27" : 2399.0
+        }
+      }
+    },
+    "new-2ba8420e-8179-4850-b006-3b6bd67dfcca" : {
+      "komtek" : {
+        "link" : "https://komtek24.pl/karta-graficzna-manli-gtx1650-4gb-gddr6-gaming-oc",
+        "name" : "Karta graficzna Manli GTX1650 4GB GDDR6 Gaming OC",
+        "prices" : {
+          "2021-09-28" : 1599.99
         }
       }
     },
@@ -1986,6 +2058,15 @@
           "2021-09-26" : 6799.0,
           "2021-09-27" : 6799.0,
           "2021-09-28" : 6799.0
+        }
+      }
+    },
+    "new-32777a4c-3c1f-4826-bee6-ceebff3c357f" : {
+      "komtek" : {
+        "link" : "https://komtek24.pl/karta-graficzna-asrock-radeon-rx-6800-16gb-phantom-gaming",
+        "name" : "Karta graficzna ASRock Radeon RX 6800 16GB Phantom Gaming",
+        "prices" : {
+          "2021-09-28" : 6599.99
         }
       }
     },
@@ -2504,6 +2585,15 @@
         }
       }
     },
+    "new-3e579f5b-d146-44b5-9ec2-f62a00494e86" : {
+      "komtek" : {
+        "link" : "https://komtek24.pl/karta-graficzna-radeon-hd6350-512mb",
+        "name" : "Karta graficzna Radeon HD6350 512MB",
+        "prices" : {
+          "2021-09-28" : 40.0
+        }
+      }
+    },
     "new-3e9e818b-bab4-4bdf-8b29-e608073258ad" : {
       "euro" : {
         "link" : "https://www.euro.com.pl/karty-graficzne/gainward-geforce-gt-730-2gb-ddr3-64-bit.bhtml",
@@ -2514,6 +2604,15 @@
           "2021-09-26" : 349.0,
           "2021-09-27" : 349.0,
           "2021-09-28" : 349.0
+        }
+      }
+    },
+    "new-3ec7649b-8179-4e77-a97a-3d770d9465e8" : {
+      "komtek" : {
+        "link" : "https://komtek24.pl/karta-graficzna-afox-gtx-750-4gb-gddr5",
+        "name" : "Karta graficzna Afox GTX 750 4GB GDDR5",
+        "prices" : {
+          "2021-09-28" : 749.99
         }
       }
     },
@@ -2932,6 +3031,15 @@
         }
       }
     },
+    "new-4b170987-bd40-41af-b8c2-ee1a66ed7ed3" : {
+      "komtek" : {
+        "link" : "https://komtek24.pl/karta-graficzna-rx580-gigabyte-8gb",
+        "name" : "Karta graficzna RX580 Gigabyte 8GB ",
+        "prices" : {
+          "2021-09-28" : 2869.99
+        }
+      }
+    },
     "new-4b3777de-2b65-40fe-bb21-9459d049d8fb" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-fujitsu-nvidia-quadro-p400-2gb-gddr5-s26462-f2222-l45-8406443/",
@@ -3214,6 +3322,15 @@
           "2021-09-26" : 6949.0,
           "2021-09-27" : 6849.0,
           "2021-09-28" : 6849.0
+        }
+      }
+    },
+    "new-5430e8c4-0523-4f4e-901b-5879c370c9fc" : {
+      "komtek" : {
+        "link" : "https://komtek24.pl/karta-graficzna-gigabyte-geforce-rtx-3060-eagle-oc-12gb",
+        "name" : "Karta graficzna Gigabyte GeForce RTX 3060 EAGLE OC 12GB",
+        "prices" : {
+          "2021-09-28" : 3299.99
         }
       }
     },
@@ -4384,6 +4501,15 @@
         }
       }
     },
+    "new-728b7478-4f34-402e-9602-1b28d4efb2f5" : {
+      "komtek" : {
+        "link" : "https://komtek24.pl/karta-graficzna-afox-gtx-750ti-2gb-gddr5",
+        "name" : "Karta graficzna Afox GTX 750Ti 2GB GDDR5",
+        "prices" : {
+          "2021-09-28" : 689.99
+        }
+      }
+    },
     "new-73328e94-d23d-4b48-9518-0430676f853b" : {
       "xkom" : {
         "link" : "https://www.x-kom.pl/p/597359-karta-graficzna-nvidia-pny-quadro-p1000-dvi-4gb-gddr5.html",
@@ -4632,6 +4758,15 @@
         }
       }
     },
+    "new-7c446af0-f35b-4f82-a5a3-81b573f0b1d0" : {
+      "komtek" : {
+        "link" : "https://komtek24.pl/karta-graficzna-geforce-gtx-1050-2-gb",
+        "name" : "Karta graficzna GeForce GTX 1050 2 GB",
+        "prices" : {
+          "2021-09-28" : 869.99
+        }
+      }
+    },
     "new-7d5aab46-3174-4583-85f4-7408d87cd127" : {
       "euro" : {
         "link" : "https://www.euro.com.pl/karty-graficzne/msi-karta-graf-msi-1660-ti-ventus-xs-6g-oc.bhtml",
@@ -4651,6 +4786,15 @@
           "2021-09-26" : 3399.0,
           "2021-09-27" : 3399.0,
           "2021-09-28" : 3399.0
+        }
+      }
+    },
+    "new-7d86d4ee-38e9-4d06-b6ae-d29c0be19908" : {
+      "komtek" : {
+        "link" : "https://komtek24.pl/afox-nvidia-geforce-gt730-4gb-128-bit",
+        "name" : "Karta graficzna Afox Nvidia GeForce GT730 4GB 128-bit",
+        "prices" : {
+          "2021-09-28" : 449.99
         }
       }
     },
@@ -5276,6 +5420,15 @@
         }
       }
     },
+    "new-8fa4b8f7-507b-4383-abb4-1a8c0d1b7bac" : {
+      "komtek" : {
+        "link" : "https://komtek24.pl/karta-graficzna-geforce-gt1030-2gb-lp",
+        "name" : "Karta graficzna GeForce GT1030 2GB LP",
+        "prices" : {
+          "2021-09-28" : 419.99
+        }
+      }
+    },
     "new-9037abaa-af52-4bdd-b670-59f7b44f2251" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-pny-quadro-p2000-5gb-gddr5-vcqp2000-pb-1134799/",
@@ -5429,6 +5582,15 @@
         }
       }
     },
+    "new-949e1223-9fd6-4979-9464-d9dbeb1eafcf" : {
+      "komtek" : {
+        "link" : "https://komtek24.pl/karta-graficzna-rx-6900-xt-asrock-phantom-gaming-16gb",
+        "name" : "Karta graficzna RX 6900 XT AsRock Phantom Gaming 16GB",
+        "prices" : {
+          "2021-09-28" : 7399.99
+        }
+      }
+    },
     "new-94d613c1-9f4e-423c-b6f1-29fc5df7fdc8" : {
       "fox" : {
         "link" : "https://foxkomputer.pl/pl/p/ASUS-GeForce-GTX-1660-Ti-TUF-Gaming-EVO-OC-6GB-GDDR6/18400",
@@ -5509,6 +5671,15 @@
           "2021-09-26" : 5199.0,
           "2021-09-27" : 5199.0,
           "2021-09-28" : 5199.0
+        }
+      }
+    },
+    "new-972d2578-ecb5-482b-b496-447639a43b9d" : {
+      "komtek" : {
+        "link" : "https://komtek24.pl/karta-graficzna-msi-gtx1650-4gb-low-profile",
+        "name" : "Karta graficzna MSI GTX1650 4GB Low Profile",
+        "prices" : {
+          "2021-09-28" : 1599.99
         }
       }
     },
@@ -5677,12 +5848,30 @@
         }
       }
     },
+    "new-9e16a432-5841-4881-bc2f-5bf330dbc610" : {
+      "komtek" : {
+        "link" : "https://komtek24.pl/gtx-1660-msi-ti-ventus-6gb-192bit",
+        "name" : "Karta graficzna GTX 1660 Ti Ventus MSI XS 6GB 192bit",
+        "prices" : {
+          "2021-09-28" : 2949.99
+        }
+      }
+    },
     "new-9eff31d2-f471-42c8-a6cd-a3a5703f80a3" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-zotac-geforce-gt-730-zone-2gb-ddr3-zt-71113-20l-697738/",
         "name" : "Karta graficzna Zotac GeForce GT 730 Zone 2GB DDR3 (ZT-71113-20L)",
         "prices" : {
           "2021-09-28" : 356.0
+        }
+      }
+    },
+    "new-9f00e37b-6d30-4fa6-946a-fed9f76112ce" : {
+      "komtek" : {
+        "link" : "https://komtek24.pl/karta-graficzna-aorus-rtx-3080-master-10gb-gddr6x",
+        "name" : "Karta graficzna Aorus RTX 3080 master 10GB GDDR6X",
+        "prices" : {
+          "2021-09-28" : 12799.99
         }
       }
     },
@@ -6280,6 +6469,15 @@
           "2021-09-24" : 2831.97,
           "2021-09-25" : 2831.97,
           "2021-09-26" : 2831.97
+        }
+      }
+    },
+    "new-b01ebbd4-4d02-49d8-a00a-2bdd73ff3d09" : {
+      "komtek" : {
+        "link" : "https://komtek24.pl/karta-graficzna-rtx-3060-12gb-oc-gainward-pegasus",
+        "name" : "Karta graficzna RTX 3060 12GB OC Gainward Pegasus",
+        "prices" : {
+          "2021-09-28" : 3599.99
         }
       }
     },
@@ -7111,6 +7309,15 @@
           "2021-09-26" : 8369.0,
           "2021-09-27" : 8369.0,
           "2021-09-28" : 8369.0
+        }
+      }
+    },
+    "new-c65932ac-8b4c-4d75-9b03-56ec7adc445b" : {
+      "komtek" : {
+        "link" : "https://komtek24.pl/karta-graficzna-msi-rtx-3080-suprim-x-10gb-gddr6x",
+        "name" : "Karta graficzna MSI RTX 3080 Suprim X 10GB GDDR6X",
+        "prices" : {
+          "2021-09-28" : 11699.99
         }
       }
     },
