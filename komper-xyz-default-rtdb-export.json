@@ -37,6 +37,19 @@
         }
       }
     },
+    "Gainward RTX 3080 Ti Phoenix" : {
+      "euro" : {
+        "link" : "https://www.euro.com.pl/karty-graficzne/gainward-karta-graf-gainward-rtx-3080ti-ph-12g.bhtml",
+        "name" : "Gainward GeForce RTX 3080 Ti Phoenix 12GB GDDR6X 384bit",
+        "prices" : {
+          "2021-09-24" : 8999.0,
+          "2021-09-25" : 8999.0,
+          "2021-09-26" : 8999.0,
+          "2021-09-27" : 8999.0,
+          "2021-09-28" : 8999.0
+        }
+      }
+    },
     "Gigabyte AORUS RTX 3080 XTREME WaterForce WB" : {
       "xkom" : {
         "link" : "https://www.x-kom.pl/p/676561-karta-graficzna-nvidia-gigabyte-geforce-rtx-3080-xtreme-waterforce-lhr-10gb-gddr6x.html",
@@ -146,19 +159,6 @@
         }
       }
     },
-    "Gainward RTX 3080 Ti Phoenix" : {
-      "euro" : {
-        "link" : "https://www.euro.com.pl/karty-graficzne/gainward-karta-graf-gainward-rtx-3080ti-ph-12g.bhtml",
-        "name" : "Gainward GeForce RTX 3080 Ti Phoenix 12GB GDDR6X 384bit",
-        "prices" : {
-          "2021-09-24" : 8999.0,
-          "2021-09-25" : 8999.0,
-          "2021-09-26" : 8999.0,
-          "2021-09-27" : 8999.0,
-          "2021-09-28" : 8999.0
-        }
-      }
-    },
     "HP Quadro P2200" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-hp-quadro-p2200-5gb-gddr5x-6yt67aa-6201829/",
@@ -172,19 +172,6 @@
         }
       }
     },
-    "Inno3D RTX 3060 Twin X2 LHR" : {
-      "xkom" : {
-        "link" : "https://www.x-kom.pl/p/673611-karta-graficzna-nvidia-inno3d-geforce-rtx-3060-twin-x2-lhr-12gb-gddr6.html",
-        "name" : "Inno3D GeForce RTX 3060 Twin X2 LHR 12GB GDDR6",
-        "prices" : {
-          "2021-09-24" : 3649.0,
-          "2021-09-25" : 3649.0,
-          "2021-09-26" : 3649.0,
-          "2021-09-27" : 3649.0,
-          "2021-09-28" : 3649.0
-        }
-      }
-    },
     "Inno3D RTX 3060 Ti Twin X2 LHR" : {
       "sferis" : {
         "link" : "https://www.sferis.pl/karta-graf-inno3d-geforce-rtx-3060-ti-twin-x2-lhr-n306t2-08d6-119032ah-p720997",
@@ -195,6 +182,19 @@
           "2021-09-26" : 4419.19,
           "2021-09-27" : 4419.19,
           "2021-09-28" : 4419.19
+        }
+      }
+    },
+    "Inno3D RTX 3060 Twin X2 LHR" : {
+      "xkom" : {
+        "link" : "https://www.x-kom.pl/p/673611-karta-graficzna-nvidia-inno3d-geforce-rtx-3060-twin-x2-lhr-12gb-gddr6.html",
+        "name" : "Inno3D GeForce RTX 3060 Twin X2 LHR 12GB GDDR6",
+        "prices" : {
+          "2021-09-24" : 3649.0,
+          "2021-09-25" : 3649.0,
+          "2021-09-26" : 3649.0,
+          "2021-09-27" : 3649.0,
+          "2021-09-28" : 3649.0
         }
       }
     },
@@ -365,6 +365,24 @@
         }
       }
     },
+    "new-003c5544-553f-44f0-bf06-f173acfa60f5" : {
+      "pcforce" : {
+        "link" : "https://pcforce.pl/pl/p/Karta-graficzna-Geforce-GT610-1GB-DDR3-64Bit-DVI-HDMI-VGA-LP-Fan-L5-/274279",
+        "name" : "Karta graficzna - Geforce GT610 1GB DDR3 64Bit DVI HDMI VGA LP Fan L5 ",
+        "prices" : {
+          "2021-09-28" : 204.99
+        }
+      }
+    },
+    "new-01e71258-1dee-444e-9667-2f6cbc2a4826" : {
+      "pcforce" : {
+        "link" : "https://pcforce.pl/pl/p/Gainward-Karta-graficzna-RTX-3080-Ti-Phoenix-12GB-GDDR6X-384bit-3DPHDMI/276696",
+        "name" : "Gainward Karta graficzna RTX 3080 Ti Phoenix 12GB GDDR6X 384bit 3DP/HDMI",
+        "prices" : {
+          "2021-09-28" : 9120.99
+        }
+      }
+    },
     "new-0215dd77-95f7-43e8-a69a-b594c85571af" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-afox-geforce-gt-740-low-profile-4gb-ddr3-af740-4096d3l3-6513024/",
@@ -402,6 +420,15 @@
         "name" : "Karta graf. ASUS TUF Gaming GeF RTX 3080 Ti OC 12GB - 90YV0GU1-M0NM00",
         "prices" : {
           "2021-09-28" : 9377.96
+        }
+      }
+    },
+    "new-061d0faa-2d3b-422c-a8f5-083132b497e3" : {
+      "pcforce" : {
+        "link" : "https://pcforce.pl/pl/p/Gigabyte-Karta-graficzna-GT710-2GB-DDR3-64BIT-DVIHDMIDSUB/254986",
+        "name" : "Gigabyte Karta graficzna GT710 2GB DDR3 64BIT DVI/HDMI/DSUB",
+        "prices" : {
+          "2021-09-28" : 259.99
         }
       }
     },
@@ -1839,6 +1866,15 @@
         }
       }
     },
+    "new-2afdc0b6-03fb-42e6-b09b-4a4e94448b51" : {
+      "pcforce" : {
+        "link" : "https://pcforce.pl/pl/p/SAPPHIRE-Toxic-Radeon-RX-6900-XT-Extreme-Edition-16384-MB-GDDR6/276707",
+        "name" : "SAPPHIRE Toxic Radeon RX 6900 XT Extreme Edition 16384 MB GDDR6",
+        "prices" : {
+          "2021-09-28" : 8999.99
+        }
+      }
+    },
     "new-2b18c712-f6dd-409d-b01c-c4dbdccccf10" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-asus-phoenix-geforce-gtx-1660-oc-6gb-gddr5-ph-gtx1660-o6g-5887533/",
@@ -2045,6 +2081,15 @@
           "2021-09-24" : 4399.0,
           "2021-09-25" : 4399.0,
           "2021-09-26" : 4399.0
+        }
+      }
+    },
+    "new-3224d76f-1a8d-412a-bd2e-77442859f39a" : {
+      "pcforce" : {
+        "link" : "https://pcforce.pl/pl/p/Gigabyte-Karta-graficzna-RX-6900XT-XTREME-WF-WB-16GB-GDDR6-256BIT-2DP2HDMI/274759",
+        "name" : "Gigabyte Karta graficzna RX 6900XT XTREME WF WB 16GB GDDR6 256BIT 2DP/2HDMI",
+        "prices" : {
+          "2021-09-28" : 10128.99
         }
       }
     },
@@ -2758,6 +2803,15 @@
           "2021-09-26" : 4899.0,
           "2021-09-27" : 4899.0,
           "2021-09-28" : 4549.0
+        }
+      }
+    },
+    "new-44484e88-c1c8-49b0-a553-2bca60a04f07" : {
+      "pcforce" : {
+        "link" : "https://pcforce.pl/pl/p/Gigabyte-Karta-graficzna-GeForce-GT710-2GB-GDDR5-64bit-Low-Profile-DVIHDMID-SUB/276927",
+        "name" : "Gigabyte Karta graficzna GeForce GT710 2GB GDDR5 64bit Low Profile DVI/HDMI/D-SUB",
+        "prices" : {
+          "2021-09-28" : 342.99
         }
       }
     },
@@ -3685,6 +3739,15 @@
         }
       }
     },
+    "new-5a9c839b-e738-46ed-99a7-d9492f6f9ed5" : {
+      "pcforce" : {
+        "link" : "https://pcforce.pl/pl/p/PNY-Karta-graficzna-Quadro-P620v2-2GB-DDR5-128BIT-4x-mDP/255182",
+        "name" : "PNY Karta graficzna Quadro P620v2 2GB DDR5 128BIT 4x mDP",
+        "prices" : {
+          "2021-09-28" : 977.99
+        }
+      }
+    },
     "new-5ab091e7-363d-4166-b863-d8a0ac796c13" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-gigabyte-aorus-geforce-rtx-3080-xtreme-waterforce-wb-10gb-gddr6x-gv-n3080aorusx-wb-10gd-2-0-5948910/",
@@ -4310,6 +4373,15 @@
         }
       }
     },
+    "new-6de7581e-3a55-47a7-93f4-ee6179380e7c" : {
+      "pcforce" : {
+        "link" : "https://pcforce.pl/pl/p/ASUS-GeForce-RTX-3080-Ti-TUF-12G-12288-MB-GDDR6X/273073",
+        "name" : "ASUS GeForce RTX 3080 Ti TUF 12G 12288 MB GDDR6X",
+        "prices" : {
+          "2021-09-28" : 9199.99
+        }
+      }
+    },
     "new-6e3a898c-46f9-4441-8b46-2589c53709c0" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-asrock-rx-6700-xt-challenger-d-12gb-gddr6-rx6700xt-cld-12g-8153946/",
@@ -4679,6 +4751,15 @@
         "name" : "Karta graficzna Palit GeForce GT 730 2GB DDR3 (NEAT7300HD46H)",
         "prices" : {
           "2021-09-28" : 336.99
+        }
+      }
+    },
+    "new-791ae842-9cfd-429c-b4be-1ff6a27f5835" : {
+      "pcforce" : {
+        "link" : "https://pcforce.pl/pl/p/Gigabyte-Karta-graficzna-GeForce-GT-1030-2GB-GDDR5-64BIT-PCI-eHDMIDVI/254930",
+        "name" : "Gigabyte Karta graficzna GeForce GT 1030 2GB GDDR5 64BIT PCI-e/HDMI/DVI",
+        "prices" : {
+          "2021-09-28" : 480.99
         }
       }
     },
@@ -5227,6 +5308,15 @@
         }
       }
     },
+    "new-89d0da27-c740-4564-8806-c972c1408951" : {
+      "pcforce" : {
+        "link" : "https://pcforce.pl/pl/p/AFOX-Karta-graficzna-Radeon-R5-230-2GB-DDR3-64Bit-DVI-HDMI-VGA-LP-Single-Fan-L4-/274274",
+        "name" : "AFOX Karta graficzna - Radeon R5 230 2GB DDR3 64Bit DVI HDMI VGA LP Single Fan L4 ",
+        "prices" : {
+          "2021-09-28" : 226.99
+        }
+      }
+    },
     "new-8a1b2e0f-7950-4092-adfc-c15d4c4d6a24" : {
       "komputronik" : {
         "link" : "https://www.komputronik.pl/product/388526/asus-geforce-gt-1030-2g-oc.html",
@@ -5270,6 +5360,15 @@
           "2021-09-26" : 1699.0,
           "2021-09-27" : 1699.0,
           "2021-09-28" : 1199.0
+        }
+      }
+    },
+    "new-8bab537f-d917-4bbe-a167-800409796945" : {
+      "pcforce" : {
+        "link" : "https://pcforce.pl/pl/p/AFOX-Karta-graficzna-Geforce-GT710-2GB-DDR3-64Bit-DVI-HDMI-VGA-LP-Radiator-L1/276502",
+        "name" : "AFOX Karta graficzna - Geforce GT710 2GB DDR3 64Bit DVI HDMI VGA LP Radiator L1",
+        "prices" : {
+          "2021-09-28" : 245.99
         }
       }
     },
@@ -5759,6 +5858,15 @@
         }
       }
     },
+    "new-9a8c474c-1214-42eb-aeee-5251f40c85f1" : {
+      "pcforce" : {
+        "link" : "https://pcforce.pl/pl/p/ZOTAC-Karta-graficzna-GeForce-GT730-4GB-DDR3-64bit-DVIHDMIVGA/255346",
+        "name" : "ZOTAC Karta graficzna GeForce GT730 4GB DDR3 64bit DVI/HDMI/VGA",
+        "prices" : {
+          "2021-09-28" : 470.99
+        }
+      }
+    },
     "new-9ab1f085-d427-4294-9051-eb1ddf01b057" : {
       "sferis" : {
         "link" : "https://www.sferis.pl/karta-graf-asus-tuf-gaming-gef-rtx-3060-v2-oc-12gb-90yv0gc0-m0na10-p713586",
@@ -6142,6 +6250,15 @@
         }
       }
     },
+    "new-a69f7e99-0bad-4b76-b486-29087bc6e129" : {
+      "pcforce" : {
+        "link" : "https://pcforce.pl/pl/p/AFOX-Karta-graficzna-Geforce-GT730-4GB-DDR3-128Bit-DVI-HDMI-VGA-LP-Single-Fan-L4/276503",
+        "name" : "AFOX Karta graficzna - Geforce GT730 4GB DDR3 128Bit DVI HDMI VGA LP Single Fan L4",
+        "prices" : {
+          "2021-09-28" : 416.99
+        }
+      }
+    },
     "new-a6a5a411-ef2e-4e5e-bad6-60a4a2fa1200" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-gainward-geforce-gt-1030-2gb-ddr4-426018336-4085-5628226/",
@@ -6289,6 +6406,15 @@
           "2021-09-25" : 2877.45,
           "2021-09-27" : 2877.45,
           "2021-09-28" : 2877.45
+        }
+      }
+    },
+    "new-aa8068f6-a509-45b9-a2f0-7d3d6b2eaeaa" : {
+      "pcforce" : {
+        "link" : "https://pcforce.pl/pl/p/INNO3D-GeForce-RTX-3080-Ti-iChill-X4-LHR-12288-MB-GDDR6X/273980",
+        "name" : "INNO3D GeForce RTX 3080 Ti iChill X4 LHR 12288 MB GDDR6X",
+        "prices" : {
+          "2021-09-28" : 8299.99
         }
       }
     },
@@ -6481,6 +6607,15 @@
         }
       }
     },
+    "new-b066335b-03e5-4185-8b3a-8e1f38391324" : {
+      "pcforce" : {
+        "link" : "https://pcforce.pl/pl/p/PNY-Karta-graficzna-Quadro-P620v2-2GB-DDR5-128BIT-4x-mDPDVI/255203",
+        "name" : "PNY Karta graficzna Quadro P620v2 2GB DDR5 128BIT 4x mDP/DVI",
+        "prices" : {
+          "2021-09-28" : 999.99
+        }
+      }
+    },
     "new-b072421d-7c52-4818-a2c0-39700b06abfe" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-msi-geforce-rtx-3080-sea-hawk-x-10gb-gddr6x-rtx-3080-sea-hawk-x-10g-lhr-5948894/",
@@ -6511,6 +6646,15 @@
         "name" : "Karta graficzna KFA2 GeForce GT 710 2GB DDR3 (71GPF4HI00GK)",
         "prices" : {
           "2021-09-28" : 304.36
+        }
+      }
+    },
+    "new-b14b831b-5fdd-4444-80d5-28a749f99dd8" : {
+      "pcforce" : {
+        "link" : "https://pcforce.pl/pl/p/Palit-Karta-graficzna-GeForce-GT-1030-2GB-64BIT-DDR4-DVIHDMI/271648",
+        "name" : "Palit Karta graficzna GeForce GT 1030 2GB 64BIT DDR4 DVI/HDMI",
+        "prices" : {
+          "2021-09-28" : 461.99
         }
       }
     },
@@ -7015,6 +7159,15 @@
         }
       }
     },
+    "new-bdec8bbb-1655-44e3-8cf8-a150998ea1b8" : {
+      "pcforce" : {
+        "link" : "https://pcforce.pl/pl/p/HP-Inc.-Karta-graficzna-NVIDIA-T600-4GB-GDDR6-4mDP-PCIe-340K9AA/276786",
+        "name" : "HP Inc. Karta graficzna NVIDIA T600 4GB GDDR6 4mDP PCIe  340K9AA",
+        "prices" : {
+          "2021-09-28" : 866.99
+        }
+      }
+    },
     "new-bdf56b91-4809-40d1-9038-6a403480ae6f" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-asus-geforce-gt-710-2gb-gddr5-gt710-sl-2gd5-1457185/",
@@ -7393,6 +7546,15 @@
         }
       }
     },
+    "new-c6b6cd2a-96c6-46ce-99d6-bedbc1cbfd76" : {
+      "pcforce" : {
+        "link" : "https://pcforce.pl/pl/p/PNY-Karta-graficzna-Quadro-T400-2GB-DDR6-VCNT400-PB/276302",
+        "name" : "PNY Karta graficzna Quadro T400 2GB DDR6 VCNT400-PB",
+        "prices" : {
+          "2021-09-28" : 654.99
+        }
+      }
+    },
     "new-c6b6d82f-9396-42d8-b7b8-409e8788a891" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-gigabyte-geforce-rtx-3080-ti-eagle-12gb-gddr6x-gv-n308teagle-12gd-5947951/",
@@ -7498,6 +7660,15 @@
         "prices" : {
           "2021-09-24" : 4649.0,
           "2021-09-25" : 4649.0
+        }
+      }
+    },
+    "new-c7e5794f-af26-4d87-aee8-3d6de337e214" : {
+      "pcforce" : {
+        "link" : "https://pcforce.pl/pl/p/Gainward-Karta-graficzna-GT-1030-2GB-64BIT-GDDR4-DVIHDMI-/274284",
+        "name" : "Gainward Karta graficzna GT 1030 2GB 64BIT GDDR4 DVI/HDMI ",
+        "prices" : {
+          "2021-09-28" : 446.99
         }
       }
     },
@@ -7864,6 +8035,15 @@
         }
       }
     },
+    "new-d184c62e-9e39-43a4-b409-0822dfd44271" : {
+      "pcforce" : {
+        "link" : "https://pcforce.pl/pl/p/Gigabyte-Karta-graficzna-RTX-3080Ti-AORUS-GAMING-BOX-12G-2HDMI3DP-550W-3xUSB3.0-/276608",
+        "name" : "Gigabyte Karta graficzna RTX 3080Ti AORUS GAMING BOX 12G 2HDMI/3DP 550W 3xUSB3.0 ",
+        "prices" : {
+          "2021-09-28" : 11075.99
+        }
+      }
+    },
     "new-d1c7feae-8142-41bf-b4c1-2394e3d58637" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-asus-rog-strix-geforce-rtx-3060-gaming-oc-12gb-gddr6-rog-strix-rtx3060-o12g-v2-gaming-8648109/",
@@ -7982,6 +8162,15 @@
           "2021-09-24" : 5108.12,
           "2021-09-25" : 5108.12,
           "2021-09-26" : 5108.12
+        }
+      }
+    },
+    "new-d4a09c00-7f83-45d9-b1fa-f8901a8291d5" : {
+      "pcforce" : {
+        "link" : "https://pcforce.pl/pl/p/MSI-Karta-graficzna-Ge-Force-GT730-2GB-DDR3-64BIT-DVIHDMID-SUB/255055",
+        "name" : "MSI Karta graficzna Ge Force GT730 2GB DDR3 64BIT DVI/HDMI/D-SUB",
+        "prices" : {
+          "2021-09-28" : 366.99
         }
       }
     },
@@ -8678,6 +8867,15 @@
         }
       }
     },
+    "new-e2f4f7ae-732d-45cd-aff7-9c4bfcacd7a1" : {
+      "pcforce" : {
+        "link" : "https://pcforce.pl/pl/p/Gigabyte-Karta-graficzna-GeForce-GT-1030-2GB-GDDR4-64BIT-HDMIDVI-LP/271641",
+        "name" : "Gigabyte Karta graficzna GeForce GT 1030 2GB GDDR4 64BIT HDMI/DVI LP",
+        "prices" : {
+          "2021-09-28" : 405.99
+        }
+      }
+    },
     "new-e32751e3-d3cc-476e-ac08-d72d142b0437" : {
       "sferis" : {
         "link" : "https://www.sferis.pl/karta-graf-asus-dual-geforce-rtx-3060-v2-oc-ed-12g-90yv0gb2-m0na10-p712712",
@@ -8740,6 +8938,15 @@
           "2021-09-26" : 15437.06,
           "2021-09-27" : 15370.07,
           "2021-09-28" : 15470.54
+        }
+      }
+    },
+    "new-e4fcfc9d-2368-482e-a9db-9aaeae7106d9" : {
+      "pcforce" : {
+        "link" : "https://pcforce.pl/pl/p/SAPPHIRE-Toxic-Radeon-RX-6900-XT-Limited-Edition-16384-MB-GDDR6/276706",
+        "name" : "SAPPHIRE Toxic Radeon RX 6900 XT Limited Edition 16384 MB GDDR6",
+        "prices" : {
+          "2021-09-28" : 8499.99
         }
       }
     },
@@ -8945,6 +9152,15 @@
           "2021-09-24" : 3669.0,
           "2021-09-25" : 3669.0,
           "2021-09-26" : 3669.0
+        }
+      }
+    },
+    "new-ed6595c9-e7af-4e8b-af14-7594627d4ca3" : {
+      "pcforce" : {
+        "link" : "https://pcforce.pl/pl/p/AFOX-Karta-graficzna-Radeon-RX-550-4GB-GDDR5-128Bit-DVI-HDMI-DP-ATX/276501",
+        "name" : "AFOX Karta graficzna - Radeon RX 550 4GB GDDR5 128Bit DVI HDMI DP ATX",
+        "prices" : {
+          "2021-09-28" : 799.99
         }
       }
     },
@@ -9260,6 +9476,15 @@
         }
       }
     },
+    "new-f72d952f-f7f9-4f38-8919-ad6afe12b2c5" : {
+      "pcforce" : {
+        "link" : "https://pcforce.pl/pl/p/ASUS-Karta-graficzna-GeForce-GT-1030-2GB-GDDR5-64BIT-HDMIDVI/254835",
+        "name" : "ASUS Karta graficzna GeForce GT 1030 2GB GDDR5 64BIT HDMI/DVI",
+        "prices" : {
+          "2021-09-28" : 455.99
+        }
+      }
+    },
     "new-f7aede33-5539-44f4-b372-18de585354bb" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-power-color-radeon-rx-6800-red-dragon-oc-16gb-gddr6-axrx-6800-16gbd6-3dhr-oc-5946214/",
@@ -9303,6 +9528,15 @@
         "name" : "Gigabyte GeForce GT 1030 2G OC",
         "prices" : {
           "2021-09-24" : 529.0
+        }
+      }
+    },
+    "new-f8b1a27f-705b-4e0e-ac46-353d3eb97159" : {
+      "pcforce" : {
+        "link" : "https://pcforce.pl/pl/p/Gainward-GeForce-GT-710-SilentFX-2GB-DDR3-64BIT-HDMIDVIVGA/271637",
+        "name" : "Gainward GeForce GT 710 SilentFX 2GB DDR3 64BIT HDMI/DVI/VGA",
+        "prices" : {
+          "2021-09-28" : 246.99
         }
       }
     },

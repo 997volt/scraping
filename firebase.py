@@ -9,7 +9,9 @@ shops = {
     'euro',
     'xkom',
     'sferis',
-    'proline'
+    'proline',
+    'komtek',
+    'pcforce'
 }
 
 def getDatabase():

@@ -12,6 +12,8 @@ def scrapFromAllShops(database, allCards, date):
     scrapFox(database, allCards, date)
     scrapMorele(database, allCards, date)
     scrapProline(database, allCards, date)
+    scrapKomtek(database, allCards, date)
+    scrapPcforce(database, allCards, date)
 
 
 def getWebpage(url):
@@ -168,22 +170,62 @@ def scrapProline(database, allCards, date):
             print('Scrapped ' + str(cardsAdded) + ' cards from proline.pl')
             break 
 
+# the same function working for komtek and pcforce 
+def getPagesKP(soup):
+    try:
+        pages = soup.find('ul', class_='paginator').find_all('li')
+        return int(pages[len(pages)-2].text)
+    except:
+        return 1
+
 def scrapKomtek(database, allCards, date):
     cardsAdded = 0
-    soup = getWebpage('https://komtek24.pl/komputery/podzespoly-komputerowe/karty-graficzne/1/default/4/f_at_17183_33592/1/f_availability_2/1')
+    for i in range(1,maxPagesNumber):
+        soup = getWebpage('https://komtek24.pl/komputery/podzespoly-komputerowe/karty-graficzne/'+ str(i) +'/default/4/f_at_17183_33592/1/f_availability_2/1')
+        pages = getPagesKP(soup)
 
-    for product in soup.find('div', class_='products viewphot s-row').find_all('div', class_='product-inner-wrap'):
-        try:
-            card = product.find('a', class_='prodname f-row') 
-            name = card['title']    
-            link = 'https://komtek24.pl' + card['href'] 
-            price = priceCleanup(product.find('div', class_='price f-row').em.text)
+        for product in soup.find('div', class_='products viewphot s-row').find_all('div', class_='product-inner-wrap'):
+            try:
+                card = product.find('a', class_='prodname f-row') 
+                name = card['title']    
+                link = 'https://komtek24.pl' + card['href'] 
+                price = priceCleanup(product.find('div', class_='price f-row').em.text)
 
-            addCard(database, allCards, 'komtek', name, link, date, price)
-            cardsAdded = cardsAdded + 1
-        except:
-            pass
+                addCard(database, allCards, 'komtek', name, link, date, price)
+                cardsAdded = cardsAdded + 1
+            except:
+                pass
 
-    print('Scrapped ' + str(cardsAdded) + ' cards from komtek24.pl')
+        if(i >= pages):
+            print('Scrapped ' + str(cardsAdded) + ' cards from komtek24.pl')
+            break
+
+            
+def scrapPcforce(database, allCards, date):
+    cardsAdded = 0
+    for i in range(1,maxPagesNumber):
+        soup = getWebpage('https://pcforce.pl/Podzespoly-komputerowe/Karty-graficzne/1/Karty-graficzne-nVidia/AMD/'+ str(i) +'/default/1/f_availability_2/1')
+        pages = getPagesKP(soup)
+
+        for product in  soup.find('div', class_='products viewphot s-row').find_all('div', class_='product-inner-wrap'):
+            try:
+                card = product.find('a', class_='prodname f-row') 
+                name = card['title']    
+                link = 'https://pcforce.pl' + card['href'] 
+                price = priceCleanup(product.find('div', class_='price f-row').em.text)
+
+                addCard(database, allCards, 'pcforce', name, link, date, price)
+                cardsAdded = cardsAdded + 1
+            except:
+                pass
+
+        if(i >= pages):
+            print('Scrapped ' + str(cardsAdded) + ' cards from pcforce.pl')
+            break 
+
+def scrapVobis(database, allCards, date):
+    cardsAdded = 0
+    for i in range(1,maxPagesNumber):
+        soup = getWebpage('https://vobis.pl/peryferia/karty-graficzne?limit=100&page='+ str(i))
 
             
