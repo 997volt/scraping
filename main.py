@@ -6,7 +6,7 @@ today = datetime.now().strftime("%Y-%m-%d")
 database = getDatabase()
 allCards = getAllCards(database)
 
-if 1:
+if 0:
     scrapFromAllShops(database, allCards, today)
 giveCardNewName(database, allCards)
 

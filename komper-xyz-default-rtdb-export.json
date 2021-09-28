@@ -13,6 +13,18 @@
         }
       }
     },
+    "ASUS ROG STRIX RTX 3060 Ti V2 GAMING OC" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-asus-rog-strix-rtx-3060ti-gaming-oc-8gb-gddr6-rog-strix-rtx3060ti-o8g-v2-gaming-5948840/",
+        "name" : "Karta graficzna Asus ROG Strix RTX 3060Ti Gaming OC 8GB GDDR6 (ROG-STRIX-RTX3060TI-O8G-V2-GAMING)",
+        "prices" : {
+          "2021-09-25" : 5059.99,
+          "2021-09-26" : 5119.7,
+          "2021-09-27" : 5516.93,
+          "2021-09-28" : 5418.28
+        }
+      }
+    },
     "EVGA RTX 2060 SC" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-evga-geforce-rtx-2060-sc-gaming-6gb-gddr6-06g-p4-2062-kr-6352921/",
@@ -69,6 +81,58 @@
         }
       }
     },
+    "GIGABYTE RTX 3060 Ti GAMING OC PRO Rev3" : {
+      "euro" : {
+        "link" : "https://www.euro.com.pl/karty-graficzne/gigabyte-karta-graf-giga-rtx-3060ti-gam-8g-3-0.bhtml",
+        "name" : "Gigabyte GeForce RTX 3060 Ti GAMING OC PRO (rev. 3.0) 8GB GDDR6 256bit",
+        "prices" : {
+          "2021-09-24" : 3999.0,
+          "2021-09-25" : 3999.0,
+          "2021-09-26" : 3999.0,
+          "2021-09-27" : 3999.0,
+          "2021-09-28" : 3999.0
+        }
+      },
+      "fox" : {
+        "link" : "https://foxkomputer.pl/pl/p/Karta-graficzna-Gigabyte-RTX-3060-Ti-GAMING-OC-PRO-8G-GDDR6-R3.0-LHR-GV-N306TGAMINGOC-PRO-8GD-R3.0-/17458",
+        "name" : "Karta graficzna Gigabyte RTX 3060 Ti GAMING OC PRO 8G GDDR6 R3.0 LHR ( GV-N306TGAMINGOC-PRO-8GD R3.0 )",
+        "prices" : {
+          "2021-09-24" : 3999.0,
+          "2021-09-25" : 3999.0,
+          "2021-09-26" : 3999.0,
+          "2021-09-27" : 3899.0,
+          "2021-09-28" : 3899.0
+        }
+      },
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-gigabyte-geforce-rtx-3060ti-gaming-oc-pro-8gb-gddr6-gv-n306tgamingoc-pro-8gd-3-0-5948220/",
+        "name" : "Karta graficzna Gigabyte GeForce RTX 3060Ti Gaming OC Pro 8GB GDDR6 (GV-N306TGAMINGOC PRO-8GD 3.0)",
+        "prices" : {
+          "2021-09-24" : 3939.0,
+          "2021-09-25" : 3939.0,
+          "2021-09-26" : 3939.0,
+          "2021-09-27" : 3939.0,
+          "2021-09-28" : 3939.0
+        }
+      },
+      "proline" : {
+        "link" : "https://proline.pl//gigabyte-geforce-rtx-3060-ti-gaming-oc-pro-8gb-gddr6-lhr-gv-n306tgamingoc-pro-8gd-3-0-p8078736",
+        "name" : "Gigabyte GeForce RTX 3060 Ti Gaming OC PRO 8GB GDDR6 LHR (GV-N306TGAMINGOC PRO-8GD 3.0)",
+        "prices" : {
+          "2021-09-28" : 3899.0
+        }
+      },
+      "sferis" : {
+        "link" : "https://www.sferis.pl/karta-graficzna-gigabyte-gef-rtx3060ti-gaming-ocpro-8g-30-gv-n306tgamingoc-pro-8gd-30-p714390",
+        "name" : "Karta graficzna Gigabyte GeF RTX3060Ti GAMING OCPRO 8G 3.0 - GV-N306TGAMINGOC PRO-8GD 3.0",
+        "prices" : {
+          "2021-09-24" : 4558.53,
+          "2021-09-25" : 4558.53,
+          "2021-09-26" : 4558.53,
+          "2021-09-28" : 4556.36
+        }
+      }
+    },
     "GIGABYTE RTX 3060 Ti VISION OC" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-gigabyte-geforce-rtx-3060ti-vision-oc-8gb-gddr6-gv-n306tvision-oc-8gd-5945976/",
@@ -121,6 +185,19 @@
         }
       }
     },
+    "Inno3D RTX 3060 Ti TWIN X2 LHR" : {
+      "sferis" : {
+        "link" : "https://www.sferis.pl/karta-graf-inno3d-geforce-rtx-3060-ti-twin-x2-lhr-n306t2-08d6-119032ah-p720997",
+        "name" : "Karta Graf INNO3D GEFORCE RTX 3060 Ti TWIN X2 LHR - N306T2-08D6-119032AH",
+        "prices" : {
+          "2021-09-24" : 4419.19,
+          "2021-09-25" : 4419.19,
+          "2021-09-26" : 4419.19,
+          "2021-09-27" : 4419.19,
+          "2021-09-28" : 4419.19
+        }
+      }
+    },
     "Inno3D RTX 3070 Ti X3 OC" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-inno3d-geforce-rtx-3070-ti-x3-oc-dual-slot-8gb-gddr6x-n307t3-086xx-1820va45-5947969/",
@@ -144,6 +221,32 @@
           "2021-09-26" : 5356.99,
           "2021-09-27" : 5356.99,
           "2021-09-28" : 5356.99
+        }
+      }
+    },
+    "MSI RTX 3060 Ti GAMING X LHR" : {
+      "sferis" : {
+        "link" : "https://www.sferis.pl/karta-graficzna-msi-geforce-rtx-3060-ti-gaming-x-8g-lhr-v397-231r-p713324",
+        "name" : "Karta graficzna MSI GeForce RTX 3060 Ti GAMING X 8G LHR - V397-231R",
+        "prices" : {
+          "2021-09-24" : 4591.79,
+          "2021-09-25" : 4591.79,
+          "2021-09-26" : 4591.79,
+          "2021-09-27" : 4570.6,
+          "2021-09-28" : 4571.19
+        }
+      }
+    },
+    "MSI RTX 3060 Ti GAMING Z TRIO LHR" : {
+      "sferis" : {
+        "link" : "https://www.sferis.pl/karta-graficzna-msi-geforce-rtx-3060-ti-gaming-z-trio-8g-lhr-v390-290r-p713323",
+        "name" : "Karta graficzna MSI GeForce RTX 3060 Ti GAMING Z TRIO 8G LHR - V390-290R",
+        "prices" : {
+          "2021-09-24" : 4791.17,
+          "2021-09-25" : 4791.17,
+          "2021-09-26" : 4791.17,
+          "2021-09-27" : 4769.05,
+          "2021-09-28" : 4769.05
         }
       }
     },
@@ -173,6 +276,18 @@
         }
       }
     },
+    "Palit RTX 3060 Ti Dual" : {
+      "sferis" : {
+        "link" : "https://www.sferis.pl/karta-graf-palit-geforce-rtx-3060-ti-dual-8gb-ne6306t019p2-190ad-p720003",
+        "name" : "Karta graf. PALIT GeForce RTX 3060 Ti Dual 8GB - NE6306T019P2-190AD",
+        "prices" : {
+          "2021-09-24" : 4455.3,
+          "2021-09-25" : 4455.3,
+          "2021-09-26" : 4455.3,
+          "2021-09-28" : 4434.74
+        }
+      }
+    },
     "XFX Speedster MERC319 RX 6700 XT BLACK" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-xfx-radeon-rx-6700-xt-speedtester-merc319-black-12gb-gddr6-rx-67xtytbdp-8148721/",
@@ -192,6 +307,28 @@
           "2021-09-24" : 3999.0,
           "2021-09-25" : 3999.0,
           "2021-09-26" : 3999.0
+        }
+      }
+    },
+    "ZOTAC RTX 3060 Ti Twin Edge LHR" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-zotac-geforce-rtx-3060-ti-twin-edge-8gb-gddr6-zt-a30610e-10mlhr-8765756/",
+        "name" : "Karta graficzna Zotac GeForce RTX 3060 Ti Twin Edge 8GB GDDR6 (ZT-A30610E-10MLHR)",
+        "prices" : {
+          "2021-09-24" : 4089.0,
+          "2021-09-25" : 4089.0,
+          "2021-09-26" : 4089.0,
+          "2021-09-27" : 4089.0,
+          "2021-09-28" : 4089.0
+        }
+      }
+    },
+    "ZOTAC RTX 3060 Ti Twin Edge OC LHR" : {
+      "proline" : {
+        "link" : "https://proline.pl//zotac-geforce-rtx-3060-ti-twin-edge-oc-lhr-8gb-gddr6-zt-a30610h-10mlhr-p8079280",
+        "name" : "ZOTAC GeForce RTX 3060 Ti Twin Edge OC LHR 8GB GDDR6 ZT-A30610H-10MLHR",
+        "prices" : {
+          "2021-09-28" : 3899.0
         }
       }
     },
@@ -724,15 +861,6 @@
         "prices" : {
           "2021-09-25" : 4390.88,
           "2021-09-26" : 4390.88
-        }
-      }
-    },
-    "new-138b1bf4-9ae1-4f2b-a596-601751605fe9" : {
-      "proline" : {
-        "link" : "https://proline.pl//gigabyte-geforce-rtx-3060-ti-gaming-oc-pro-8gb-gddr6-lhr-gv-n306tgamingoc-pro-8gd-3-0-p8078736",
-        "name" : "Gigabyte GeForce RTX 3060 Ti Gaming OC PRO 8GB GDDR6 LHR (GV-N306TGAMINGOC PRO-8GD 3.0)",
-        "prices" : {
-          "2021-09-28" : 3899.0
         }
       }
     },
@@ -1657,19 +1785,6 @@
           "2021-09-25" : 2399.0,
           "2021-09-26" : 2399.0,
           "2021-09-27" : 2399.0
-        }
-      }
-    },
-    "new-2b26a285-8c9a-4be9-bd11-b5e69fb9ed26" : {
-      "fox" : {
-        "link" : "https://foxkomputer.pl/pl/p/Karta-graficzna-Gigabyte-RTX-3060-Ti-GAMING-OC-PRO-8G-GDDR6-R3.0-LHR-GV-N306TGAMINGOC-PRO-8GD-R3.0-/17458",
-        "name" : "Karta graficzna Gigabyte RTX 3060 Ti GAMING OC PRO 8G GDDR6 R3.0 LHR ( GV-N306TGAMINGOC-PRO-8GD R3.0 )",
-        "prices" : {
-          "2021-09-24" : 3999.0,
-          "2021-09-25" : 3999.0,
-          "2021-09-26" : 3999.0,
-          "2021-09-27" : 3899.0,
-          "2021-09-28" : 3899.0
         }
       }
     },
@@ -3937,19 +4052,6 @@
         }
       }
     },
-    "new-6a89a5e7-c98b-4ea2-9c30-241c2e50b664" : {
-      "morele" : {
-        "link" : "https://www.morele.net/karta-graficzna-gigabyte-geforce-rtx-3060ti-gaming-oc-pro-8gb-gddr6-gv-n306tgamingoc-pro-8gd-3-0-5948220/",
-        "name" : "Karta graficzna Gigabyte GeForce RTX 3060Ti Gaming OC Pro 8GB GDDR6 (GV-N306TGAMINGOC PRO-8GD 3.0)",
-        "prices" : {
-          "2021-09-24" : 3939.0,
-          "2021-09-25" : 3939.0,
-          "2021-09-26" : 3939.0,
-          "2021-09-27" : 3939.0,
-          "2021-09-28" : 3939.0
-        }
-      }
-    },
     "new-6a9671a0-989a-46bb-b75a-f84d2482ca14" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-kfa2-geforce-rtx-3060-ex-12gb-gddr6-36nol7md2nek-8882474/",
@@ -4377,19 +4479,6 @@
           "2021-09-26" : 369.0,
           "2021-09-27" : 369.0,
           "2021-09-28" : 369.0
-        }
-      }
-    },
-    "new-7760798d-cf1b-475a-b62d-c2e4740cb6b2" : {
-      "euro" : {
-        "link" : "https://www.euro.com.pl/karty-graficzne/gigabyte-karta-graf-giga-rtx-3060ti-gam-8g-3-0.bhtml",
-        "name" : "Gigabyte GeForce RTX 3060 Ti GAMING OC PRO (rev. 3.0) 8GB GDDR6 256bit",
-        "prices" : {
-          "2021-09-24" : 3999.0,
-          "2021-09-25" : 3999.0,
-          "2021-09-26" : 3999.0,
-          "2021-09-27" : 3999.0,
-          "2021-09-28" : 3999.0
         }
       }
     },
@@ -6474,18 +6563,6 @@
           "2021-09-26" : 3739.0,
           "2021-09-27" : 3739.0,
           "2021-09-28" : 3739.0
-        }
-      }
-    },
-    "new-b7c90d8c-851f-4afa-962c-a0a062920169" : {
-      "sferis" : {
-        "link" : "https://www.sferis.pl/karta-graficzna-gigabyte-gef-rtx3060ti-gaming-ocpro-8g-30-gv-n306tgamingoc-pro-8gd-30-p714390",
-        "name" : "Karta graficzna Gigabyte GeF RTX3060Ti GAMING OCPRO 8G 3.0 - GV-N306TGAMINGOC PRO-8GD 3.0",
-        "prices" : {
-          "2021-09-24" : 4558.53,
-          "2021-09-25" : 4558.53,
-          "2021-09-26" : 4558.53,
-          "2021-09-28" : 4556.36
         }
       }
     },

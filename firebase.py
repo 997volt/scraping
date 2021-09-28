@@ -48,7 +48,7 @@ def isCardInDatabase(allCards, cardId):
     return False
 
 def giveCardNewName(database, allCards):
-    searchFor = '3060'
+    searchFor = '3.0'
     for card in allCards.each():
         if(card.key()[0:3] == 'new'):
             for shop in shops:
