@@ -1,5 +1,5 @@
 from firebase import getDatabase, getAllCards, giveCardNewName
-from scraping import scrapFromAllShops, scrapKomputronik
+from scraping import scrapFromAllShops
 from datetime import datetime
 
 today = datetime.now().strftime("%Y-%m-%d")

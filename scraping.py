@@ -11,6 +11,7 @@ def scrapFromAllShops(database, allCards, date):
     scrapEuro(database, allCards, date)
     scrapFox(database, allCards, date)
     scrapMorele(database, allCards, date)
+    scrapProline(database, allCards, date)
 
 
 def getWebpage(url):
@@ -44,7 +45,7 @@ def scrapSferis(database, allCards, date):
 def scrapXkom(database, allCards, date):
     cardsAdded = 0
     for i in range(1,maxPagesNumber):
-        soup = getWebpage('https://www.x-kom.pl/g-5/c/346-karty-graficzne-nvidia.html?page=' + str(i))
+        soup = getWebpage('https://www.x-kom.pl/g-5/c/345-karty-graficzne.html?page=' + str(i))
         pages = int(soup.find('span', class_='sc-11oikyw-2 ekasrY').text.replace('z ', ''))
 
         for product in soup.find_all('div', class_="sc-1yu46qn-4 zZmhy sc-2ride2-0 eYsBmG"):
@@ -111,7 +112,7 @@ def scrapFox(database, allCards, date):
 def scrapMorele(database, allCards, date):
     cardsAdded = 0
     for i in range(1,maxPagesNumber):
-        soup = getWebpage('https://www.morele.net/kategoria/karty-graficzne-12/,,,,,,,,0,,,,20672O1497281.656951.1101394.1689337/' + str(i))
+        soup = getWebpage('https://www.morele.net/kategoria/karty-graficzne-12/,,,,,,,,0,,,,/' + str(i))
         for product in soup.find_all('div', class_="cat-product card"):
             card = product.find('a', class_="productLink")
             if(card != None):
@@ -145,3 +146,25 @@ def scrapKomputronik(database, allCards, date):
         if(i >= pages):
             print('Scrapped ' + str(cardsAdded) + ' cards from Komputeronik.pl')
             break  
+
+def scrapProline(database, allCards, date):
+    cardsAdded = 0
+    for i in range(0,maxPagesNumber):
+        soup = getWebpage('https://proline.pl/?kat=Karty+graficzne+PCI-E&stan=dostepne&page=0' + str(i))
+        pages = int(soup.find('input', class_="pageNumber")['max'])
+        
+        for product in soup.find('table', class_='cennik pbig').find_all('tr'):
+            try:
+                name = product.a['title'][0:-1]        
+                link = 'https://proline.pl/'+product.a['href'] 
+                price = priceCleanup(product.find(class_='c').text)
+
+                addCard(database, allCards, 'proline', name, link, date, price)
+                cardsAdded = cardsAdded + 1
+            except:
+                pass
+
+        if(i+1 >= pages):
+            print('Scrapped ' + str(cardsAdded) + ' cards from proline.pl')
+            break 
+            

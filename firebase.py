@@ -8,7 +8,8 @@ shops = {
     'fox',
     'euro',
     'xkom',
-    'sferis'
+    'sferis',
+    'proline'
 }
 
 def getDatabase():
@@ -47,15 +48,17 @@ def isCardInDatabase(allCards, cardId):
     return False
 
 def giveCardNewName(database, allCards):
+    searchFor = '3060'
     for card in allCards.each():
         if(card.key()[0:3] == 'new'):
             for shop in shops:
                 try:
-                    print(card.val()[shop]['name'])
-                    newName = input('Give new name: ')
-                    if(len(newName) > 5):
-                        database.child('cards').child(newName).update(card.val())
-                        database.child('cards').child(card.key()).remove()
+                    if(searchFor in card.val()[shop]['name']):
+                        print(card.val()[shop]['name'])
+                        newName = input('Give new name: ')
+                        if(len(newName) > 5):
+                            database.child('cards').child(newName).update(card.val())
+                            database.child('cards').child(card.key()).remove()
                 except:
                     pass
         

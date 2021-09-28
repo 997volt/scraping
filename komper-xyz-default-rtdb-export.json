@@ -8,7 +8,8 @@
           "2021-09-24" : 479.0,
           "2021-09-25" : 479.0,
           "2021-09-26" : 479.0,
-          "2021-09-27" : 479.0
+          "2021-09-27" : 479.0,
+          "2021-09-28" : 479.0
         }
       }
     },
@@ -19,7 +20,8 @@
         "prices" : {
           "2021-09-24" : 3209.99,
           "2021-09-25" : 3209.99,
-          "2021-09-26" : 3209.99
+          "2021-09-26" : 3209.99,
+          "2021-09-28" : 3194.99
         }
       }
     },
@@ -31,7 +33,8 @@
           "2021-09-24" : 7999.0,
           "2021-09-25" : 7999.0,
           "2021-09-26" : 7999.0,
-          "2021-09-27" : 7999.0
+          "2021-09-27" : 7999.0,
+          "2021-09-28" : 7999.0
         }
       }
     },
@@ -43,7 +46,8 @@
           "2021-09-24" : 8099.0,
           "2021-09-25" : 8099.0,
           "2021-09-26" : 8099.0,
-          "2021-09-27" : 8099.0
+          "2021-09-27" : 8099.0,
+          "2021-09-28" : 8099.0
         }
       },
       "sferis" : {
@@ -73,7 +77,8 @@
           "2021-09-24" : 5024.94,
           "2021-09-25" : 4998.05,
           "2021-09-26" : 4994.79,
-          "2021-09-27" : 3485.32
+          "2021-09-27" : 3485.32,
+          "2021-09-28" : 4200.0
         }
       }
     },
@@ -85,7 +90,8 @@
           "2021-09-24" : 8999.0,
           "2021-09-25" : 8999.0,
           "2021-09-26" : 8999.0,
-          "2021-09-27" : 8999.0
+          "2021-09-27" : 8999.0,
+          "2021-09-28" : 8999.0
         }
       }
     },
@@ -97,7 +103,8 @@
           "2021-09-24" : 3021.99,
           "2021-09-25" : 3021.99,
           "2021-09-26" : 3021.99,
-          "2021-09-27" : 3334.89
+          "2021-09-27" : 3334.89,
+          "2021-09-28" : 3338.26
         }
       }
     },
@@ -135,7 +142,8 @@
           "2021-09-24" : 5356.99,
           "2021-09-25" : 5356.99,
           "2021-09-26" : 5356.99,
-          "2021-09-27" : 5356.99
+          "2021-09-27" : 5356.99,
+          "2021-09-28" : 5356.99
         }
       }
     },
@@ -147,7 +155,8 @@
           "2021-09-24" : 9176.91,
           "2021-09-25" : 9176.91,
           "2021-09-26" : 9176.91,
-          "2021-09-27" : 8191.99
+          "2021-09-27" : 8191.99,
+          "2021-09-28" : 8191.99
         }
       }
     },
@@ -170,7 +179,8 @@
         "name" : "Karta graficzna XFX Radeon RX 6700 XT Speedtester Merc319 Black 12GB GDDR6 (RX-67XTYTBDP)",
         "prices" : {
           "2021-09-26" : 4969.12,
-          "2021-09-27" : 4969.12
+          "2021-09-27" : 4969.12,
+          "2021-09-28" : 4969.12
         }
       }
     },
@@ -218,6 +228,24 @@
         }
       }
     },
+    "new-0215dd77-95f7-43e8-a69a-b594c85571af" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-afox-geforce-gt-740-low-profile-4gb-ddr3-af740-4096d3l3-6513024/",
+        "name" : "Karta graficzna AFOX GeForce GT 740 Low Profile 4GB DDR3 (AF740-4096D3L3)",
+        "prices" : {
+          "2021-09-28" : 549.73
+        }
+      }
+    },
+    "new-0262e32d-b8a5-4353-bd24-bdd76d3c8cae" : {
+      "xkom" : {
+        "link" : "https://www.x-kom.pl/p/625907-karta-graficzna-amd-amd-radeon-pro-w5700-8gb-gddr6.html",
+        "name" : "AMD Radeon Pro W5700 8GB GDDR6",
+        "prices" : {
+          "2021-09-28" : 4349.0
+        }
+      }
+    },
     "new-03d5a9b3-d736-40e9-97d8-d2ee40e03c4c" : {
       "euro" : {
         "link" : "https://www.euro.com.pl/karty-graficzne/msi-geforce-gt-730-2gb-ddr3-64bit.bhtml",
@@ -228,6 +256,15 @@
           "2021-09-26" : 419.0,
           "2021-09-27" : 419.0,
           "2021-09-28" : 419.0
+        }
+      }
+    },
+    "new-04ddf95e-719a-4f9e-adfe-d2022dc0a8ef" : {
+      "sferis" : {
+        "link" : "https://www.sferis.pl/karta-graf-asus-tuf-gaming-gef-rtx-3080-ti-oc-12gb-90yv0gu1-m0nm00-p712825",
+        "name" : "Karta graf. ASUS TUF Gaming GeF RTX 3080 Ti OC 12GB - 90YV0GU1-M0NM00",
+        "prices" : {
+          "2021-09-28" : 9377.96
         }
       }
     },
@@ -251,6 +288,24 @@
         "prices" : {
           "2021-09-27" : 6889.0,
           "2021-09-28" : 7178.82
+        }
+      }
+    },
+    "new-079658e0-866a-4550-8384-e1eda479b1e1" : {
+      "xkom" : {
+        "link" : "https://www.x-kom.pl/p/418777-karta-graficzna-amd-amd-radeon-pro-wx-2100-2gb-gddr5.html",
+        "name" : "AMD Radeon Pro WX 2100 2GB GDDR5",
+        "prices" : {
+          "2021-09-28" : 769.0
+        }
+      }
+    },
+    "new-07f24a2b-b697-4ece-b21b-af1a78ebb814" : {
+      "proline" : {
+        "link" : "https://proline.pl//zotac-geforce-rtx-3060-ti-twin-edge-oc-lhr-8gb-gddr6-zt-a30610h-10mlhr-p8079280",
+        "name" : "ZOTAC GeForce RTX 3060 Ti Twin Edge OC LHR 8GB GDDR6 ZT-A30610H-10MLHR",
+        "prices" : {
+          "2021-09-28" : 3899.0
         }
       }
     },
@@ -301,6 +356,24 @@
           "2021-09-26" : 8781.76,
           "2021-09-27" : 8781.76,
           "2021-09-28" : 8781.76
+        }
+      }
+    },
+    "new-092f19c1-6a87-4684-9708-587c11283a39" : {
+      "proline" : {
+        "link" : "https://proline.pl//gigabyte-geforce-rtx-3060-ti-gaming-oc-8gb-gddr6-lhr-gv-n306tgaming-oc-8gd-2-0-p8079044",
+        "name" : "Gigabyte GeForce RTX 3060 Ti Gaming OC 8GB GDDR6 LHR (GV-N306TGAMING OC-8GD 2.0)",
+        "prices" : {
+          "2021-09-28" : 3949.0
+        }
+      }
+    },
+    "new-093a487d-c911-41b7-b9ae-37948ff4a958" : {
+      "proline" : {
+        "link" : "https://proline.pl//gigabyte-radeon-rx-6700-xt-gaming-oc-12gb-pci-e-gddr6-gv-r67xtgaming-oc-12gd-p8077658",
+        "name" : "Gigabyte Radeon RX 6700 XT Gaming OC 12GB PCI-E GDDR6 (GV-R67XTGAMING OC-12GD )",
+        "prices" : {
+          "2021-09-28" : 4499.0
         }
       }
     },
@@ -417,6 +490,15 @@
         }
       }
     },
+    "new-0d205ca1-25fc-4027-8268-666c911e2df7" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-nvidia-geforce-gt-220-1gb-gddr3-af220-1024d3l4-8392696/",
+        "name" : "Karta graficzna NVIDIA GeForce GT 220 1GB GDDR3 (AF220-1024D3L4)",
+        "prices" : {
+          "2021-09-28" : 190.3
+        }
+      }
+    },
     "new-0d5ab9eb-c05f-47a7-99e6-d82953e4242c" : {
       "xkom" : {
         "link" : "https://www.x-kom.pl/p/627432-karta-graficzna-nvidia-lenovo-quadro-p400-2gb-gddr5.html",
@@ -478,7 +560,7 @@
           "2021-09-25" : 4591.79,
           "2021-09-26" : 4591.79,
           "2021-09-27" : 4570.6,
-          "2021-09-28" : 4570.6
+          "2021-09-28" : 4571.19
         }
       }
     },
@@ -593,6 +675,15 @@
         }
       }
     },
+    "new-12686d6a-ccb2-4cbc-bedc-36c0f0b63dcd" : {
+      "sferis" : {
+        "link" : "https://www.sferis.pl/karta-graficzna-asus-tuf-rtx3090-o24g-gaming-90yv0fd1-m0nm00-p685426",
+        "name" : "Karta graficzna Asus TUF-RTX3090-O24G-GAMING - 90YV0FD1-M0NM00",
+        "prices" : {
+          "2021-09-28" : 14227.96
+        }
+      }
+    },
     "new-12cb9dca-d110-4726-85e5-e2ebe57fa73f" : {
       "komputronik" : {
         "link" : "https://www.komputronik.pl/product/732656/msi-geforce-rtx-3070-ventus-3x-8gb-oc-lhr.html",
@@ -633,6 +724,15 @@
         "prices" : {
           "2021-09-25" : 4390.88,
           "2021-09-26" : 4390.88
+        }
+      }
+    },
+    "new-138b1bf4-9ae1-4f2b-a596-601751605fe9" : {
+      "proline" : {
+        "link" : "https://proline.pl//gigabyte-geforce-rtx-3060-ti-gaming-oc-pro-8gb-gddr6-lhr-gv-n306tgamingoc-pro-8gd-3-0-p8078736",
+        "name" : "Gigabyte GeForce RTX 3060 Ti Gaming OC PRO 8GB GDDR6 LHR (GV-N306TGAMINGOC PRO-8GD 3.0)",
+        "prices" : {
+          "2021-09-28" : 3899.0
         }
       }
     },
@@ -709,7 +809,7 @@
           "2021-09-25" : 5059.99,
           "2021-09-26" : 5119.7,
           "2021-09-27" : 5516.93,
-          "2021-09-28" : 5427.34
+          "2021-09-28" : 5418.28
         }
       }
     },
@@ -720,6 +820,15 @@
         "prices" : {
           "2021-09-27" : 2822.04,
           "2021-09-28" : 2822.04
+        }
+      }
+    },
+    "new-174642f4-5cd6-4823-a1ad-e920bf9ca043" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-palit-geforce-gt-710-2gb-ddr3-neat7100hd46h-852781/",
+        "name" : "Karta graficzna Palit GeForce GT 710 2GB DDR3 (NEAT7100HD46H)",
+        "prices" : {
+          "2021-09-28" : 288.02
         }
       }
     },
@@ -744,7 +853,7 @@
           "2021-09-24" : 4455.3,
           "2021-09-25" : 4455.3,
           "2021-09-26" : 4455.3,
-          "2021-09-28" : 4361.99
+          "2021-09-28" : 4434.74
         }
       }
     },
@@ -810,6 +919,15 @@
           "2021-09-26" : 2059.0,
           "2021-09-27" : 2059.0,
           "2021-09-28" : 2059.0
+        }
+      }
+    },
+    "new-18ce6c54-54d9-4a0b-ab00-665b303fa3e5" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-sapphire-sapphire-r7-240-4g-ddr3-pci-e-2-0-hdmi-dvi-d-vga-11216-35-20g-5947777/",
+        "name" : "Karta graficzna Sapphire Sapphire R7 240 4G DDR3 PCI-E 2.0 HDMI / DVI-D / VGA (11216-35-20G)",
+        "prices" : {
+          "2021-09-28" : 299.0
         }
       }
     },
@@ -884,6 +1002,15 @@
           "2021-09-26" : 5490.0,
           "2021-09-27" : 5490.0,
           "2021-09-28" : 5490.0
+        }
+      }
+    },
+    "new-19ce790d-00c6-427f-bfc3-9f76ad85659a" : {
+      "proline" : {
+        "link" : "https://proline.pl//gigabyte-geforce-rtx-3080-ti-gaming-oc-12gb-gddr6x-gv-n308tgaming-oc-12gd-p8078475",
+        "name" : "Gigabyte GeForce RTX 3080 Ti Gaming OC 12GB GDDR6X (GV-N308TGAMING OC-12GD)",
+        "prices" : {
+          "2021-09-28" : 8499.0
         }
       }
     },
@@ -1009,7 +1136,7 @@
           "2021-09-25" : 4161.93,
           "2021-09-26" : 4161.93,
           "2021-09-27" : 4149.57,
-          "2021-09-28" : 4134.99
+          "2021-09-28" : 4149.57
         }
       }
     },
@@ -1046,6 +1173,24 @@
         "prices" : {
           "2021-09-27" : 2999.0,
           "2021-09-28" : 2999.0
+        }
+      }
+    },
+    "new-1f7b019a-f920-458c-9080-64dd9ce8cf6b" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-gigabyte-geforce-gt-710-2gb-ddr3-gv-n710d3-2gl-855698/",
+        "name" : "Karta graficzna Gigabyte GeForce GT 710 2GB DDR3 (GV-N710D3-2GL)",
+        "prices" : {
+          "2021-09-28" : 335.77
+        }
+      }
+    },
+    "new-1fa75f87-794a-4a97-901d-94c8fb48f84b" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-afox-geforce-gt730-2gb-gddr3-af730-2048d3l8-8274221/",
+        "name" : "Karta graficzna AFOX Geforce GT730 2GB GDDR3 (AF730-2048D3L8)",
+        "prices" : {
+          "2021-09-28" : 350.82
         }
       }
     },
@@ -1169,6 +1314,15 @@
           "2021-09-26" : 38988.99,
           "2021-09-27" : 38819.99,
           "2021-09-28" : 39072.99
+        }
+      }
+    },
+    "new-241517df-eec3-4eea-a894-31d4420788f7" : {
+      "xkom" : {
+        "link" : "https://www.x-kom.pl/p/661718-karta-graficzna-amd-amd-radeon-pro-w6800-32gb-gddr6.html",
+        "name" : "AMD Radeon PRO W6800 32GB GDDR6 ",
+        "prices" : {
+          "2021-09-28" : 10999.0
         }
       }
     },
@@ -1309,6 +1463,15 @@
         "prices" : {
           "2021-09-24" : 6700.0,
           "2021-09-25" : 6700.0
+        }
+      }
+    },
+    "new-26cda7ad-5659-4ca0-8562-283952629847" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-msi-geforce-gt-730-low-profile-2gb-ddr3-n730k-2gd3h-lp-839032/",
+        "name" : "Karta graficzna MSI GeForce GT 730 Low Profile 2GB DDR3 (N730K-2GD3H/LP)",
+        "prices" : {
+          "2021-09-28" : 348.44
         }
       }
     },
@@ -1578,6 +1741,15 @@
         }
       }
     },
+    "new-2e927e52-0823-4ec2-ba2b-5f39b1e55ec3" : {
+      "proline" : {
+        "link" : "https://proline.pl//gigabyte-radeon-rx-6900-xt-aorus-xtreme-wf-wb-16gb-gddr6-gv-r69xtaorusx-wb-16gd-p8078880",
+        "name" : "Gigabyte Radeon RX 6900 XT Aorus XTREME WF WB 16GB GDDR6 (GV-R69XTAORUSX WB-16GD)",
+        "prices" : {
+          "2021-09-28" : 9799.0
+        }
+      }
+    },
     "new-2ead69e2-e116-4d85-ba0a-bd7bb83995a0" : {
       "komputronik" : {
         "link" : "https://www.komputronik.pl/product/731958/gigabyte-geforce-rtx-3060-eagle-12gb-2-0.html",
@@ -1624,7 +1796,7 @@
           "2021-09-25" : 2388.34,
           "2021-09-26" : 2388.34,
           "2021-09-27" : 2377.32,
-          "2021-09-28" : 2378.99
+          "2021-09-28" : 2377.32
         }
       }
     },
@@ -1702,6 +1874,24 @@
         }
       }
     },
+    "new-3285a653-748f-4e8c-8ce0-6ffdee1aa497" : {
+      "proline" : {
+        "link" : "https://proline.pl//gigabyte-geforce-rtx-3060-ti-eagle-oc-8gb-gddr6-lhr-gv-n306teagle-oc-8gd-2-0-p8078732",
+        "name" : "Gigabyte GeForce RTX 3060 Ti EAGLE OC 8GB GDDR6 LHR (GV-N306TEAGLE OC-8GD 2.0)",
+        "prices" : {
+          "2021-09-28" : 3799.0
+        }
+      }
+    },
+    "new-328fb82d-9dd1-4012-91f7-842a0db64c8e" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-msi-geforce-gt-730-2gb-ddr3-n730k-2gd3hlpv1-9012088/",
+        "name" : "Karta graficzna MSI GeForce GT 730 2GB DDR3 (N730K-2GD3HLPV1)",
+        "prices" : {
+          "2021-09-28" : 395.99
+        }
+      }
+    },
     "new-32d202ea-3dad-40c5-8ca8-d4e45756c6d8" : {
       "komputronik" : {
         "link" : "https://www.komputronik.pl/product/341373/asus-geforce-gt-730-2gb-ddr5.html",
@@ -1772,6 +1962,15 @@
         }
       }
     },
+    "new-33934108-9b61-404f-8346-7ac4148e43b3" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-nvidia-geforce-gt730-2gb-gddr3-af730-2048d3l6-8392697/",
+        "name" : "Karta graficzna NVIDIA Geforce GT730 2GB GDDR3 (AF730-2048D3L6)",
+        "prices" : {
+          "2021-09-28" : 346.73
+        }
+      }
+    },
     "new-3458018c-d1fb-4248-b6f9-d3c63247cfd4" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-asrock-radeon-rx-6700-xt-challenger-d-oc-12gb-gddr6-rx6700xt-cld-12go-5948118/",
@@ -1816,7 +2015,7 @@
           "2021-09-25" : 5349.0,
           "2021-09-26" : 5349.0,
           "2021-09-27" : 5349.0,
-          "2021-09-28" : 5899.0
+          "2021-09-28" : 5799.0
         }
       }
     },
@@ -1842,7 +2041,7 @@
           "2021-09-25" : 452.14,
           "2021-09-26" : 452.14,
           "2021-09-27" : 452.14,
-          "2021-09-28" : 441.99
+          "2021-09-28" : 452.14
         }
       }
     },
@@ -1853,7 +2052,7 @@
         "prices" : {
           "2021-09-25" : 3129.14,
           "2021-09-26" : 3129.14,
-          "2021-09-28" : 3191.99
+          "2021-09-28" : 3114.7
         }
       }
     },
@@ -1867,6 +2066,15 @@
           "2021-09-26" : 3589.0,
           "2021-09-27" : 3589.0,
           "2021-09-28" : 3589.0
+        }
+      }
+    },
+    "new-3642abb7-4687-438c-8f6f-124a28d1447f" : {
+      "proline" : {
+        "link" : "https://proline.pl//gigabyte-geforce-rtx-3060-eagle-12gb-gddr6-gv-n3060eagle-12gd-2-0-p8079189",
+        "name" : "Gigabyte GeForce RTX 3060 EAGLE 12GB GDDR6 (GV-N3060EAGLE-12GD 2.0)",
+        "prices" : {
+          "2021-09-28" : 3399.0
         }
       }
     },
@@ -1906,6 +2114,24 @@
           "2021-09-26" : 259.0,
           "2021-09-27" : 259.0,
           "2021-09-28" : 259.0
+        }
+      }
+    },
+    "new-37159c81-3860-4cdc-b55a-02dc515b8b95" : {
+      "proline" : {
+        "link" : "https://proline.pl//gigabyte-radeon-rx-6700-xt-aorus-elite-12gb-pci-e-gddr6-gv-r67xtaorus-e-12gd-p8077840",
+        "name" : "Gigabyte Radeon RX 6700 XT Aorus Elite 12GB PCI-E GDDR6 (GV-R67XTAORUS E-12GD)",
+        "prices" : {
+          "2021-09-28" : 4599.0
+        }
+      }
+    },
+    "new-37cd1eab-f7be-48f6-bd6d-eee8e9499ad5" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-nvidia-geforce-gt-710-2gb-ddr3-af710-2048d3l5-8549174/",
+        "name" : "Karta graficzna NVIDIA GeForce GT 710 2GB DDR3 (AF710-2048D3L5)",
+        "prices" : {
+          "2021-09-28" : 251.0
         }
       }
     },
@@ -2146,7 +2372,7 @@
           "2021-09-25" : 4362.03,
           "2021-09-26" : 4362.03,
           "2021-09-27" : 4341.89,
-          "2021-09-28" : 4341.89
+          "2021-09-28" : 4487.84
         }
       }
     },
@@ -2159,7 +2385,7 @@
           "2021-09-25" : 663.03,
           "2021-09-26" : 663.03,
           "2021-09-27" : 662.61,
-          "2021-09-28" : 662.61
+          "2021-09-28" : 661.29
         }
       }
     },
@@ -2230,6 +2456,15 @@
         }
       }
     },
+    "new-42009d2e-e20e-470d-85de-a050a4053e5f" : {
+      "xkom" : {
+        "link" : "https://www.x-kom.pl/p/418772-karta-graficzna-amd-amd-radeon-pro-wx-3100-4gb-gddr5.html",
+        "name" : "AMD Radeon Pro WX 3100 4GB GDDR5",
+        "prices" : {
+          "2021-09-28" : 969.0
+        }
+      }
+    },
     "new-4282da97-96ad-4485-bd1f-fe7e48ed13f8" : {
       "fox" : {
         "link" : "https://foxkomputer.pl/pl/p/Karta-graficzna-MSI-GeForce-RTX-3070-GAMING-Z-TRIO-8GB-GDDR6-LHR/18323",
@@ -2240,6 +2475,15 @@
           "2021-09-26" : 4999.99,
           "2021-09-27" : 4999.99,
           "2021-09-28" : 4999.99
+        }
+      }
+    },
+    "new-42832754-6098-435c-9bb0-79e34831e6dc" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-gigabyte-geforce-gt-1030-low-profile-d4-2gb-ddr4-gv-n1030d4-2gl-4107408/",
+        "name" : "Karta graficzna Gigabyte GeForce GT 1030 Low Profile D4 2GB DDR4 (GV-N1030D4-2GL)",
+        "prices" : {
+          "2021-09-28" : 399.0
         }
       }
     },
@@ -2278,6 +2522,15 @@
           "2021-09-26" : 4499.0,
           "2021-09-27" : 4499.0,
           "2021-09-28" : 4499.0
+        }
+      }
+    },
+    "new-42fdd24f-2c6c-431f-a2e1-542e08fc74e5" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-palit-geforce-gt-1030-2gb-ddr4-nec103000646-1082f-5647376/",
+        "name" : "Karta graficzna Palit GeForce GT 1030 2GB DDR4 (NEC103000646-1082F)",
+        "prices" : {
+          "2021-09-28" : 483.6
         }
       }
     },
@@ -2364,7 +2617,7 @@
           "2021-09-25" : 9038.99,
           "2021-09-26" : 9038.99,
           "2021-09-27" : 9048.99,
-          "2021-09-28" : 9048.99
+          "2021-09-28" : 9058.99
         }
       }
     },
@@ -2421,7 +2674,7 @@
           "2021-09-25" : 4464.24,
           "2021-09-26" : 4464.24,
           "2021-09-27" : 4443.64,
-          "2021-09-28" : 3970.99
+          "2021-09-28" : 4443.64
         }
       }
     },
@@ -2512,7 +2765,7 @@
           "2021-09-25" : 9399.9,
           "2021-09-26" : 9399.9,
           "2021-09-27" : 9399.9,
-          "2021-09-28" : 9399.9
+          "2021-09-28" : 9860.12
         }
       }
     },
@@ -2552,6 +2805,15 @@
           "2021-09-26" : 11315.99,
           "2021-09-27" : 11282.99,
           "2021-09-28" : 11282.99
+        }
+      }
+    },
+    "new-4a8dc586-da08-4a53-8938-7370262d844d" : {
+      "proline" : {
+        "link" : "https://proline.pl//gigabyte-geforce-rtx-3080-aorus-xtreme-10gb-gddr6x-lhr-gv-n3080aorus-x-10gd-2-0-p8078958",
+        "name" : "Gigabyte GeForce RTX 3080 Aorus XTREME 10GB GDDR6X LHR (GV-N3080AORUS X-10GD 2.0)",
+        "prices" : {
+          "2021-09-28" : 7299.0
         }
       }
     },
@@ -2672,7 +2934,7 @@
           "2021-09-25" : 655.99,
           "2021-09-26" : 655.99,
           "2021-09-27" : 649.0,
-          "2021-09-28" : 649.0
+          "2021-09-28" : 643.31
         }
       }
     },
@@ -2685,7 +2947,7 @@
           "2021-09-25" : 1599.9,
           "2021-09-26" : 1599.9,
           "2021-09-27" : 1599.9,
-          "2021-09-28" : 1599.9
+          "2021-09-28" : 1578.74
         }
       }
     },
@@ -2787,7 +3049,7 @@
           "2021-09-25" : 11281.82,
           "2021-09-26" : 11281.82,
           "2021-09-27" : 11248.33,
-          "2021-09-28" : 11248.33
+          "2021-09-28" : 11240.24
         }
       }
     },
@@ -2813,7 +3075,7 @@
           "2021-09-25" : 461.73,
           "2021-09-26" : 461.73,
           "2021-09-27" : 461.73,
-          "2021-09-28" : 355.67
+          "2021-09-28" : 397.49
         }
       }
     },
@@ -2968,7 +3230,7 @@
           "2021-09-25" : 1148.92,
           "2021-09-26" : 1148.92,
           "2021-09-27" : 1148.18,
-          "2021-09-28" : 1148.18
+          "2021-09-28" : 1145.88
         }
       }
     },
@@ -3126,7 +3388,7 @@
         "name" : "Karta graficzna Zotac GeForce RTX 3070 Twin Edge OC White Edition 8GB GDDR6 (ZT-A30700J-10PLHR)",
         "prices" : {
           "2021-09-27" : 7070.62,
-          "2021-09-28" : 6398.99
+          "2021-09-28" : 6426.99
         }
       }
     },
@@ -3152,7 +3414,7 @@
           "2021-09-25" : 9399.9,
           "2021-09-26" : 9399.9,
           "2021-09-27" : 9399.9,
-          "2021-09-28" : 9399.9
+          "2021-09-28" : 9910.87
         }
       }
     },
@@ -3248,7 +3510,7 @@
           "2021-09-25" : 484.35,
           "2021-09-26" : 484.35,
           "2021-09-27" : 484.02,
-          "2021-09-28" : 484.02
+          "2021-09-28" : 483.06
         }
       }
     },
@@ -3345,7 +3607,7 @@
           "2021-09-25" : 3939.94,
           "2021-09-26" : 3939.94,
           "2021-09-27" : 3939.94,
-          "2021-09-28" : 3939.94
+          "2021-09-28" : 3760.85
         }
       }
     },
@@ -3454,7 +3716,7 @@
           "2021-09-25" : 10232.99,
           "2021-09-26" : 10232.99,
           "2021-09-27" : 10235.99,
-          "2021-09-28" : 11163.78
+          "2021-09-28" : 13999.0
         }
       }
     },
@@ -3480,6 +3742,15 @@
           "2021-09-25" : 3999.0,
           "2021-09-26" : 3999.0,
           "2021-09-27" : 3999.0
+        }
+      }
+    },
+    "new-621e3eed-1abf-4165-a14b-95ffe766edfe" : {
+      "proline" : {
+        "link" : "https://proline.pl//gigabyte-geforce-gtx-1650-d6-oc-4gb-gddr6-128bit-gv-n1656oc-4gd-3-0-p8111839",
+        "name" : "Gigabyte GeForce GTX 1650 D6 OC 4GB GDDR6 128Bit (GV-N1656OC-4GD 3.0)",
+        "prices" : {
+          "2021-09-28" : 1485.0
         }
       }
     },
@@ -3554,7 +3825,16 @@
         "link" : "https://www.komputronik.pl/product/718021/gigabyte-radeon-6900-xt-aorus-master-16gb.html",
         "name" : "Gigabyte Radeon RX 6900 XT AORUS MASTER 16GB",
         "prices" : {
-          "2021-09-28" : 9590.0
+          "2021-09-28" : 8090.0
+        }
+      }
+    },
+    "new-668b8662-e6dc-40d2-995a-c657839af803" : {
+      "xkom" : {
+        "link" : "https://www.x-kom.pl/p/625906-karta-graficzna-amd-amd-radeon-pro-w5500-8gb-gddr6.html",
+        "name" : "AMD Radeon Pro W5500 8GB GDDR6 ",
+        "prices" : {
+          "2021-09-28" : 2419.0
         }
       }
     },
@@ -3593,6 +3873,15 @@
           "2021-09-26" : 4099.0,
           "2021-09-27" : 4099.0,
           "2021-09-28" : 3899.0
+        }
+      }
+    },
+    "new-67f1ae90-f81e-4a48-80dc-50e186adedb8" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-msi-geforce-gt-1030-2ghd4-lp-oc-2gb-ddr4-gt-1030-2ghd4-lp-oc-4163918/",
+        "name" : "Karta graficzna MSI GeForce GT 1030 2GHD4 LP OC 2GB DDR4 (GT 1030 2GHD4 LP OC)",
+        "prices" : {
+          "2021-09-28" : 483.2
         }
       }
     },
@@ -3686,6 +3975,24 @@
         }
       }
     },
+    "new-6aae5175-682b-45dc-945d-efd2ad73dddf" : {
+      "proline" : {
+        "link" : "https://proline.pl//gigabyte-geforce-gt-710-2gb-64bit-ddr3-p8078352",
+        "name" : "Gigabyte GeForce GT 710 2GB 64Bit DDR3",
+        "prices" : {
+          "2021-09-28" : 265.0
+        }
+      }
+    },
+    "new-6b2ca85f-f7f2-4b30-98af-9e1856c8fad0" : {
+      "proline" : {
+        "link" : "https://proline.pl//msi-geforce-rtx-3080-ti-ventus-3x-12gb-oc-gddr6x-p8078706",
+        "name" : "MSI GeForce RTX 3080 Ti VENTUS 3X 12GB OC GDDR6X",
+        "prices" : {
+          "2021-09-28" : 8699.0
+        }
+      }
+    },
     "new-6b2e8f32-7241-4fd0-b312-d230bd415414" : {
       "sferis" : {
         "link" : "https://www.sferis.pl/karta-graficzna-msi-geforce-rtx-3070-gaming-z-trio-8g-lhr-v390-264r-p713320",
@@ -3695,7 +4002,7 @@
           "2021-09-25" : 5626.81,
           "2021-09-26" : 5626.81,
           "2021-09-27" : 5626.81,
-          "2021-09-28" : 5626.81
+          "2021-09-28" : 6065.69
         }
       }
     },
@@ -3822,6 +4129,15 @@
         }
       }
     },
+    "new-6f72adee-ca5f-4476-9163-d0ead7cddceb" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-afox-geforce-gt730-af730-4096d3l4-8659748/",
+        "name" : "Karta graficzna AFOX Geforce GT730 (AF730-4096D3L4)",
+        "prices" : {
+          "2021-09-28" : 464.44
+        }
+      }
+    },
     "new-6f7aa2d1-5b69-4e1f-8f58-8559854f8e40" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-amd-radeon-pro-w6800-32gb-gddr6-100-506157-8717731/",
@@ -3831,7 +4147,7 @@
           "2021-09-25" : 11197.99,
           "2021-09-26" : 11224.99,
           "2021-09-27" : 11175.99,
-          "2021-09-28" : 10999.0
+          "2021-09-28" : 11248.99
         }
       }
     },
@@ -3845,6 +4161,15 @@
           "2021-09-26" : 5920.99,
           "2021-09-27" : 5892.99,
           "2021-09-28" : 5892.99
+        }
+      }
+    },
+    "new-6f9f7e25-89c9-41a6-843c-8159d97345c3" : {
+      "proline" : {
+        "link" : "https://proline.pl//msi-geforce-rtx-3060-ti-gaming-x-8gb-lhr-gddr6-p8079048",
+        "name" : "MSI GeForce RTX 3060 Ti Gaming X 8GB LHR GDDR6",
+        "prices" : {
+          "2021-09-28" : 4099.0
         }
       }
     },
@@ -3871,6 +4196,15 @@
           "2021-09-26" : 3798.95,
           "2021-09-27" : 3798.95,
           "2021-09-28" : 3798.95
+        }
+      }
+    },
+    "new-70d44c83-6632-4008-b66b-217b4452a77b" : {
+      "proline" : {
+        "link" : "https://proline.pl//gigabyte-geforce-rtx-3060-ti-eagle-8gb-gddr6-lhr-gv-n306teagle-8gd-2-0-p8078733",
+        "name" : "Gigabyte GeForce RTX 3060 Ti EAGLE 8GB GDDR6 LHR (GV-N306TEAGLE-8GD 2.0)",
+        "prices" : {
+          "2021-09-28" : 3799.0
         }
       }
     },
@@ -3936,6 +4270,15 @@
           "2021-09-26" : 459.0,
           "2021-09-27" : 459.0,
           "2021-09-28" : 459.0
+        }
+      }
+    },
+    "new-727dcebf-1b42-4b5a-91b7-47d18a4b643e" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-biostar-geforce-gt-730-4gb-ddr3-vn7313th41-tbbrl-bs2-5946477/",
+        "name" : "Karta graficzna Biostar GeForce GT 730 4GB DDR3 (VN7313TH41-TBBRL-BS2)",
+        "prices" : {
+          "2021-09-28" : 461.99
         }
       }
     },
@@ -4115,6 +4458,15 @@
         }
       }
     },
+    "new-791aaa02-c89f-45dc-b73f-64808736ba22" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-palit-geforce-gt-730-2gb-ddr3-neat7300hd46h-651649/",
+        "name" : "Karta graficzna Palit GeForce GT 730 2GB DDR3 (NEAT7300HD46H)",
+        "prices" : {
+          "2021-09-28" : 336.99
+        }
+      }
+    },
     "new-792b1f05-d0b9-4d17-9c9a-70d0ffa77aa6" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-hp-quadro-p400-2gb-gddr5-1me43aa-1468436/",
@@ -4174,7 +4526,7 @@
           "2021-09-25" : 6114.99,
           "2021-09-26" : 6114.99,
           "2021-09-27" : 6111.0,
-          "2021-09-28" : 5960.34
+          "2021-09-28" : 6098.8
         }
       }
     },
@@ -4187,7 +4539,7 @@
           "2021-09-25" : 8399.9,
           "2021-09-26" : 8399.9,
           "2021-09-27" : 8399.9,
-          "2021-09-28" : 8399.9
+          "2021-09-28" : 8997.43
         }
       }
     },
@@ -4239,6 +4591,15 @@
         }
       }
     },
+    "new-7ea5777a-0295-42f9-89eb-da72ac72d004" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-afox-geforce-gt610-2gb-ddr3-af610-2048d3l5-7448086/",
+        "name" : "Karta graficzna AFOX Geforce GT610 2GB DDR3 (AF610-2048D3L5)",
+        "prices" : {
+          "2021-09-28" : 259.92
+        }
+      }
+    },
     "new-7ec0c778-c8d1-4d27-b9b3-3ca0f65ca5b6" : {
       "xkom" : {
         "link" : "https://www.x-kom.pl/p/574015-karta-graficzna-nvidia-hp-quadro-rtx-4000-8gb-gddr6.html",
@@ -4249,6 +4610,33 @@
           "2021-09-26" : 4899.0,
           "2021-09-27" : 4899.0,
           "2021-09-28" : 4899.0
+        }
+      }
+    },
+    "new-7ec1713d-c2e7-4548-ae86-fcbde1df9577" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-zotac-geforce-gt-710-zone-2gb-ddr3-zt-71302-20l-853578/",
+        "name" : "Karta graficzna Zotac GeForce GT 710 Zone 2GB DDR3 (ZT-71302-20L)",
+        "prices" : {
+          "2021-09-28" : 283.99
+        }
+      }
+    },
+    "new-81868a35-faa4-4bc0-9c36-2caf1f674894" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-afox-geforce-gt-220-1gb-gddr3-af220-1024d3l2-8224557/",
+        "name" : "Karta graficzna AFOX GeForce GT 220 1GB GDDR3 (AF220-1024D3L2)",
+        "prices" : {
+          "2021-09-28" : 206.5
+        }
+      }
+    },
+    "new-81ae9e92-393b-482b-b0f0-eb87b77b3f3b" : {
+      "proline" : {
+        "link" : "https://proline.pl//gigabyte-geforce-rtx-3080-aorus-xtreme-waterforce-wb-10gb-gddr6x-lhr-gv-n3080aorusx-wb-10gd-2-0-p8079295",
+        "name" : "Gigabyte GeForce RTX 3080 Aorus XTREME WaterForce WB 10GB GDDR6X LHR (GV-N3080AORUSX WB-10GD 2.0)",
+        "prices" : {
+          "2021-09-28" : 8499.0
         }
       }
     },
@@ -4360,6 +4748,15 @@
         }
       }
     },
+    "new-86376795-21ad-4e1b-91e7-ca5260f22042" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-arktek-geforce-gt-730-lp-2gb-ddr3-akn730d3s2gl1-6353171/",
+        "name" : "Karta graficzna Arktek GeForce GT 730 LP 2GB DDR3 (AKN730D3S2GL1)",
+        "prices" : {
+          "2021-09-28" : 315.59
+        }
+      }
+    },
     "new-866e9b66-8040-442b-8171-531b65dcc08d" : {
       "komputronik" : {
         "link" : "https://www.komputronik.pl/product/726947/gigabyte-geforce-gt-1030-2g-low-profile-ddr4.html",
@@ -4382,7 +4779,7 @@
           "2021-09-25" : 14462.99,
           "2021-09-26" : 14462.99,
           "2021-09-27" : 14462.99,
-          "2021-09-28" : 14462.99
+          "2021-09-28" : 14366.4
         }
       }
     },
@@ -4536,6 +4933,15 @@
         }
       }
     },
+    "new-892bbad5-63bd-44bd-b48c-9fac46fcc565" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-biostar-geforce-gt-730-2gb-ddr3-vn7313thx1-tbarl-bs2-8408284/",
+        "name" : "Karta graficzna Biostar GeForce GT 730 2GB DDR3 (VN7313THX1-TBARL-BS2)",
+        "prices" : {
+          "2021-09-28" : 424.77
+        }
+      }
+    },
     "new-892c6ac2-4a76-4003-9be2-60f3dff9658f" : {
       "fox" : {
         "link" : "https://foxkomputer.pl/pl/p/Karta-graficzna-ASUS-RTX-3060-Ti-TUF-GAMING-8GB-OC-LHR/15377",
@@ -4612,6 +5018,15 @@
         }
       }
     },
+    "new-8b596783-68de-41cb-8c50-fbd8c7b19dea" : {
+      "sferis" : {
+        "link" : "https://www.sferis.pl/karta-graficzna-asus-geforcer-gt-730-2gb-gddr5-64-bit-hdmi-dvi-gt730-sl-2gd5-brk-p389729",
+        "name" : "Karta graficzna ASUS GeForce® GT 730, 2GB GDDR5 (64 Bit), HDMI, DVI - GT730-SL-2GD5-BRK",
+        "prices" : {
+          "2021-09-28" : 279.35
+        }
+      }
+    },
     "new-8b74ce34-017b-4143-b886-a9028bf47a67" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-msi-geforce-gtx-1050ti-4gt-low-profile-4gb-gddr5-geforce-gtx-1050-ti-4gt-lp-976027/",
@@ -4667,7 +5082,7 @@
           "2021-09-25" : 469.0,
           "2021-09-26" : 469.0,
           "2021-09-27" : 490.99,
-          "2021-09-28" : 541.52
+          "2021-09-28" : 490.99
         }
       }
     },
@@ -4795,6 +5210,15 @@
         }
       }
     },
+    "new-913c2be5-8156-445d-92d2-46fe1ae2fc93" : {
+      "proline" : {
+        "link" : "https://proline.pl//gigabyte-geforce-rtx-3080-turbo-10gb-gddr6x-lhr-gv-n3080turbo-10gd-2-0-p8079187",
+        "name" : "Gigabyte GeForce RTX 3080 TURBO 10GB GDDR6X LHR (GV-N3080TURBO-10GD 2.0)",
+        "prices" : {
+          "2021-09-28" : 6999.0
+        }
+      }
+    },
     "new-91db2995-d30a-41bc-a607-8e4ad65658a4" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-msi-geforce-rtx-3060-ventus-x2-oc-12gb-gddr6-rtx-3060-ventus-2x-12g-oc-5946240/",
@@ -4802,6 +5226,15 @@
         "prices" : {
           "2021-09-27" : 4372.5,
           "2021-09-28" : 3499.0
+        }
+      }
+    },
+    "new-9227e745-f13d-46e2-8449-84b0f2db5f1f" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-gigabyte-geforce-gt-730-2gb-ddr3-gv-n730d3-2gi-827883/",
+        "name" : "Karta graficzna Gigabyte GeForce GT 730 2GB DDR3 (GV-N730D3-2GI)",
+        "prices" : {
+          "2021-09-28" : 472.15
         }
       }
     },
@@ -4916,6 +5349,15 @@
         }
       }
     },
+    "new-9515c0b7-5a37-49ae-ba98-6c971c8a73a1" : {
+      "proline" : {
+        "link" : "https://proline.pl//gigabyte-geforce-rtx-3070-ti-gaming-oc-8gb-gddr6x-gv-n307tgaming-oc-8gd-p8078662",
+        "name" : "Gigabyte GeForce RTX 3070 Ti Gaming OC 8GB GDDR6X (GV-N307TGAMING OC-8GD)",
+        "prices" : {
+          "2021-09-28" : 5299.0
+        }
+      }
+    },
     "new-952845bc-36c7-4a0c-a10d-7eca39e74d54" : {
       "sferis" : {
         "link" : "https://www.sferis.pl/afox-radeon-r5-220-2gb-ddr3-dvi-hdmi-vga-lp-fan-l4-afr5220-2048d3l4-p709704",
@@ -4981,6 +5423,15 @@
         }
       }
     },
+    "new-973c058f-c123-4865-9caf-69a2d81c9c4d" : {
+      "proline" : {
+        "link" : "https://proline.pl//pny-quadro-p400-2gb-gddr5-64bit-p6714707",
+        "name" : "PNY Quadro P400 2GB GDDR5 64bit",
+        "prices" : {
+          "2021-09-28" : 649.0
+        }
+      }
+    },
     "new-979fd529-074d-40b3-b8a8-bc414dbc27a2" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-power-color-radeon-rx-6900xt-red-devil-16gb-gddr6-axrx-6900xt-16gbd6-3dhe-oc-5947999/",
@@ -5027,6 +5478,15 @@
         }
       }
     },
+    "new-9a0fce41-1e23-4675-a1f8-04e502b6872e" : {
+      "proline" : {
+        "link" : "https://proline.pl//msi-geforce-gt-1030-lp-oc-2gb-ddr4-64bit-pci-e-p1287639",
+        "name" : "MSI GeForce GT 1030 LP OC 2GB DDR4 64bit PCI-e",
+        "prices" : {
+          "2021-09-28" : 395.0
+        }
+      }
+    },
     "new-9a122574-0a84-441f-889f-24d54f4625de" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-hp-quadro-t600-4gb-ddr6-340k9aa-9034122/",
@@ -5035,7 +5495,7 @@
           "2021-09-25" : 899.18,
           "2021-09-26" : 899.18,
           "2021-09-27" : 899.18,
-          "2021-09-28" : 899.18
+          "2021-09-28" : 1349.0
         }
       }
     },
@@ -5128,6 +5588,15 @@
         }
       }
     },
+    "new-9eff31d2-f471-42c8-a6cd-a3a5703f80a3" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-zotac-geforce-gt-730-zone-2gb-ddr3-zt-71113-20l-697738/",
+        "name" : "Karta graficzna Zotac GeForce GT 730 Zone 2GB DDR3 (ZT-71113-20L)",
+        "prices" : {
+          "2021-09-28" : 356.0
+        }
+      }
+    },
     "new-9f20994f-20a8-4eaf-a924-3858ac882610" : {
       "xkom" : {
         "link" : "https://www.x-kom.pl/p/428856-karta-graficzna-nvidia-msi-geforce-gt-1030-2ghd4-lp-oc-2gb-ddr4.html",
@@ -5189,6 +5658,15 @@
         }
       }
     },
+    "new-a26b0d7e-5c28-4fc2-a179-7269c0249d65" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-msi-geforce-gt-1030-aero-itx-2gd4-oc-2gb-ddr4-gt-1030-aero-itx-2gd4-oc-4163919/",
+        "name" : "Karta graficzna MSI GeForce GT 1030 AERO ITX 2GD4 OC 2GB DDR4 (GT 1030 AERO ITX 2GD4 OC)",
+        "prices" : {
+          "2021-09-28" : 477.0
+        }
+      }
+    },
     "new-a2cad844-b234-4bc9-b00b-060f505203da" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-gigabyte-geforce-rtx-3080-ti-vision-oc-12gb-gddr6x-gv-n308tvision-oc-12gd-1-0-5947949/",
@@ -5211,7 +5689,16 @@
           "2021-09-25" : 299.9,
           "2021-09-26" : 299.9,
           "2021-09-27" : 299.9,
-          "2021-09-28" : 299.9
+          "2021-09-28" : 286.81
+        }
+      }
+    },
+    "new-a3192c82-1c3a-4274-832d-46ed4d029e5a" : {
+      "proline" : {
+        "link" : "https://proline.pl//gigabyte-geforce-rtx-3060-gaming-oc-12gb-gddr6-lhr-gv-n3060gaming-oc-12gd-2-0-p8078593",
+        "name" : "Gigabyte GeForce RTX 3060 Gaming OC 12GB GDDR6 LHR (GV-N3060GAMING OC-12GD 2.0)",
+        "prices" : {
+          "2021-09-28" : 3549.0
         }
       }
     },
@@ -5309,7 +5796,7 @@
           "2021-09-25" : 516.8,
           "2021-09-26" : 516.8,
           "2021-09-27" : 516.47,
-          "2021-09-28" : 516.47
+          "2021-09-28" : 515.45
         }
       }
     },
@@ -5377,6 +5864,15 @@
         }
       }
     },
+    "new-a6a5a411-ef2e-4e5e-bad6-60a4a2fa1200" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-gainward-geforce-gt-1030-2gb-ddr4-426018336-4085-5628226/",
+        "name" : "Karta graficzna Gainward GeForce GT 1030 2GB DDR4 (426018336-4085)",
+        "prices" : {
+          "2021-09-28" : 472.39
+        }
+      }
+    },
     "new-a6f688ec-772c-4f9d-ba03-2d9659a30ddf" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-msi-geforce-rtx-3060-gaming-z-trio-12gb-gddr6-v390-245r-5949181/",
@@ -5414,6 +5910,15 @@
         }
       }
     },
+    "new-a7985193-f9ef-423e-8200-7cfa43ad2048" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-zotac-geforce-gt-730-zone-4gb-ddr3-zt-71115-20l-800628/",
+        "name" : "Karta graficzna Zotac GeForce GT 730 Zone 4GB DDR3 (ZT-71115-20L)",
+        "prices" : {
+          "2021-09-28" : 530.36
+        }
+      }
+    },
     "new-a7ee5057-11e8-4542-9b25-e8c124489723" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-gainward-geforce-rtx-3070-phoenix-8gb-gddr6-471056224-1990-5944663/",
@@ -5437,6 +5942,15 @@
           "2021-09-26" : 428.03,
           "2021-09-27" : 428.03,
           "2021-09-28" : 428.03
+        }
+      }
+    },
+    "new-a8b208cb-a2fa-4b4c-a0af-5f488dc2c95c" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-biostar-geforce-gt-1030-4gb-ddr4-vn1034tb46-tb1ra-bs2-7953789/",
+        "name" : "Karta graficzna Biostar GeForce GT 1030 4GB DDR4 (VN1034TB46-TB1RA-BS2)",
+        "prices" : {
+          "2021-09-28" : 828.99
         }
       }
     },
@@ -5476,6 +5990,15 @@
           "2021-09-26" : 3228.2,
           "2021-09-27" : 3213.3,
           "2021-09-28" : 3213.3
+        }
+      }
+    },
+    "new-a9bc1904-9e33-4ef5-8d5a-e4baaea48acf" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-amd-radeon-pro-w5500-8gb-gddr6-100-506095-7070169/",
+        "name" : "Karta graficzna AMD Radeon Pro W5500 8GB GDDR6 (100-506095)",
+        "prices" : {
+          "2021-09-28" : 2750.29
         }
       }
     },
@@ -5695,6 +6218,15 @@
         }
       }
     },
+    "new-b0d98487-c301-4770-9408-b14d32aed486" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-kfa2-geforce-gt-710-2gb-ddr3-71gpf4hi00gk-7347718/",
+        "name" : "Karta graficzna KFA2 GeForce GT 710 2GB DDR3 (71GPF4HI00GK)",
+        "prices" : {
+          "2021-09-28" : 304.36
+        }
+      }
+    },
     "new-b20c6cf0-6c41-493a-a85b-d6c28ef970ac" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-gigabyte-geforce-rtx-3060-vision-oc-12gb-gddr6-gv-n3060vision-oc-12gd-7912038/",
@@ -5716,7 +6248,7 @@
           "2021-09-24" : 4999.9,
           "2021-09-25" : 4999.9,
           "2021-09-26" : 4999.9,
-          "2021-09-28" : 4999.9
+          "2021-09-28" : 6340.46
         }
       }
     },
@@ -5728,6 +6260,15 @@
           "2021-09-24" : 3649.0,
           "2021-09-25" : 3649.0,
           "2021-09-26" : 3649.0
+        }
+      }
+    },
+    "new-b2780c1f-92c9-4884-bf91-056c0a44775a" : {
+      "xkom" : {
+        "link" : "https://www.x-kom.pl/p/418747-karta-graficzna-amd-amd-radeon-pro-wx-4100-4gb-gddr5.html",
+        "name" : "AMD Radeon Pro WX 4100 4GB GDDR5",
+        "prices" : {
+          "2021-09-28" : 1589.0
         }
       }
     },
@@ -5744,6 +6285,15 @@
         }
       }
     },
+    "new-b35f195b-93fa-420d-b2a7-01d055428536" : {
+      "proline" : {
+        "link" : "https://proline.pl//gigabyte-geforce-rtx-3060-aorus-elite-12gb-gddr6-lhr-gv-n3060aorus-e-12gd-2-0-p8078601",
+        "name" : "Gigabyte GeForce RTX 3060 AORUS ELITE 12GB GDDR6 LHR (GV-N3060AORUS E-12GD 2.0)",
+        "prices" : {
+          "2021-09-28" : 3599.0
+        }
+      }
+    },
     "new-b3648c97-148a-4ec9-9a9b-5daae0c13c86" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-hp-quadro-t1000-4gb-gddr6-20x22aa-8851353/",
@@ -5754,6 +6304,15 @@
           "2021-09-26" : 1903.57,
           "2021-09-27" : 1903.57,
           "2021-09-28" : 1903.57
+        }
+      }
+    },
+    "new-b37261ea-598d-4972-9294-d387fad8b998" : {
+      "proline" : {
+        "link" : "https://proline.pl//gigabyte-geforce-rtx-3080-ti-vision-oc-12gb-gddr6x-gv-n308tvision-oc-12gd-p8078454",
+        "name" : "Gigabyte GeForce RTX 3080 Ti VISION OC 12GB GDDR6X (GV-N308TVISION OC-12GD)",
+        "prices" : {
+          "2021-09-28" : 8299.0
         }
       }
     },
@@ -5822,6 +6381,15 @@
         }
       }
     },
+    "new-b52e943b-5bc1-4850-af89-0330335807af" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-afox-radeon-r5-220-2gb-gddr3-afr5220-2048d3l4-8485955/",
+        "name" : "Karta graficzna AFOX Radeon R5 220 2GB GDDR3 (AFR5220-2048D3L4)",
+        "prices" : {
+          "2021-09-28" : 216.42
+        }
+      }
+    },
     "new-b5853f78-36a6-4a3e-a2ee-5b39a358dbc6" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-gigabyte-radeon-rx-6600-xt-gaming-oc-8gb-gddr6-gv-r66xtgaming-oc-8gd-8852735/",
@@ -5831,6 +6399,15 @@
           "2021-09-25" : 3239.0,
           "2021-09-26" : 3239.0,
           "2021-09-27" : 3239.0
+        }
+      }
+    },
+    "new-b5aaa92e-4e59-4205-a354-5c88e590cb2c" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-palit-geforce-gt-1030-2gb-ddr4-nec103000646-1082f-4107406/",
+        "name" : "Karta graficzna Palit GeForce GT 1030 2GB DDR4 (NEC103000646-1082F)",
+        "prices" : {
+          "2021-09-28" : 483.6
         }
       }
     },
@@ -5844,6 +6421,15 @@
           "2021-09-26" : 3999.0,
           "2021-09-27" : 3999.0,
           "2021-09-28" : 3999.0
+        }
+      }
+    },
+    "new-b6b5b2f5-b0f8-44f6-9237-edb67add4cf6" : {
+      "proline" : {
+        "link" : "https://proline.pl//gigabyte-geforce-rtx-3080-gaming-oc-10gb-gddr6x-lhr-gv-n3080gaming-oc-10gd-2-0-p8078959",
+        "name" : "Gigabyte GeForce RTX 3080 Gaming OC 10GB GDDR6X LHR (GV-N3080GAMING OC-10GD 2.0)",
+        "prices" : {
+          "2021-09-28" : 6999.0
         }
       }
     },
@@ -5869,6 +6455,15 @@
         }
       }
     },
+    "new-b79f394a-6476-479d-8b35-22abf74180fa" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-gigabyte-geforce-gt-730-2gb-gddr3-gv-n730d3-2gi-v3-0-6289480/",
+        "name" : "Karta graficzna Gigabyte GeForce GT 730 2GB GDDR3 (GV-N730D3-2GI V3.0)",
+        "prices" : {
+          "2021-09-28" : 427.3
+        }
+      }
+    },
     "new-b79fac72-707f-4e36-95fa-49f66819af5e" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-asus-tuf-geforce-rtx-3060-gaming-oc-12gb-gddr6-tuf-rtx3060-o12g-v2-gaming-5948083/",
@@ -5890,7 +6485,7 @@
           "2021-09-24" : 4558.53,
           "2021-09-25" : 4558.53,
           "2021-09-26" : 4558.53,
-          "2021-09-28" : 4544.99
+          "2021-09-28" : 4556.36
         }
       }
     },
@@ -5903,7 +6498,7 @@
           "2021-09-25" : 496.83,
           "2021-09-26" : 496.83,
           "2021-09-27" : 496.22,
-          "2021-09-28" : 496.22
+          "2021-09-28" : 495.38
         }
       }
     },
@@ -5955,6 +6550,15 @@
         }
       }
     },
+    "new-b9a8a1fb-af69-4ef5-a3f9-b1432b35a6f2" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-afox-radeon-r5-230-2gb-ddr3-afr5230-2048d3l4-7934845/",
+        "name" : "Karta graficzna AFOX Radeon R5 230 2GB DDR3 (AFR5230-2048D3L4)",
+        "prices" : {
+          "2021-09-28" : 243.1
+        }
+      }
+    },
     "new-babac937-9695-4999-8a91-3098ae5c6abf" : {
       "sferis" : {
         "link" : "https://www.sferis.pl/karta-graficzna-zotac-gaming-geforce-rtx-3060-twin-edge-oc-12gb-gddr6-zt-a30600h-10m-p717539",
@@ -5965,6 +6569,15 @@
           "2021-09-26" : 4310.99,
           "2021-09-27" : 4297.99,
           "2021-09-28" : 4315.99
+        }
+      }
+    },
+    "new-bb36d5a1-078b-4590-b716-9c5f5d8739e6" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-gigabyte-geforce-gt-710-2gb-ddr3-gv-n710d3-2gl-2-0-6059670/",
+        "name" : "Karta graficzna Gigabyte GeForce GT 710 2GB DDR3 (GV-N710D3-2GL 2.0)",
+        "prices" : {
+          "2021-09-28" : 277.0
         }
       }
     },
@@ -6173,7 +6786,7 @@
           "2021-09-25" : 629.0,
           "2021-09-26" : 629.0,
           "2021-09-27" : 629.0,
-          "2021-09-28" : 629.0
+          "2021-09-28" : 741.99
         }
       }
     },
@@ -6197,7 +6810,16 @@
           "2021-09-25" : 5190.0,
           "2021-09-26" : 5190.0,
           "2021-09-27" : 5190.0,
-          "2021-09-28" : 5190.0
+          "2021-09-28" : 5163.9
+        }
+      }
+    },
+    "new-c12d8e5b-44d6-48c2-8b93-c2abb4d7da4b" : {
+      "sferis" : {
+        "link" : "https://www.sferis.pl/karta-graf-gigabyte-12gb-rtx3080ti-eagle-12g-gv-n308teagle-12gd-p711648",
+        "name" : "Karta graf. Gigabyte 12GB RTX3080TI EAGLE-12G - GV-N308TEAGLE-12GD",
+        "prices" : {
+          "2021-09-28" : 8205.78
         }
       }
     },
@@ -6236,7 +6858,7 @@
           "2021-09-25" : 6809.99,
           "2021-09-26" : 6809.99,
           "2021-09-27" : 6789.99,
-          "2021-09-28" : 6789.99
+          "2021-09-28" : 6818.99
         }
       }
     },
@@ -6260,6 +6882,15 @@
           "2021-09-26" : 8889.0,
           "2021-09-27" : 8889.0,
           "2021-09-28" : 8889.0
+        }
+      }
+    },
+    "new-c2d3cb3e-0aaf-4528-9e69-ff399310d33d" : {
+      "sferis" : {
+        "link" : "https://www.sferis.pl/karta-graficzna-asus-rog-strix-gef-rtx-3090-oc-24g-90yv0f93-m0nm00-p688779",
+        "name" : "Karta graficzna Asus ROG Strix GeF. RTX 3090 OC 24G - 90YV0F93-M0NM00",
+        "prices" : {
+          "2021-09-28" : 15039.9
         }
       }
     },
@@ -6301,12 +6932,21 @@
         }
       }
     },
+    "new-c36ad9c6-3661-495b-ac4a-4cb4f5258122" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-biostar-geforce-gt-710-2gb-ddr3-vn7103thx6-tbbrl-bs2-8408285/",
+        "name" : "Karta graficzna Biostar GeForce GT 710 2GB DDR3 (VN7103THX6-TBBRL-BS2)",
+        "prices" : {
+          "2021-09-28" : 349.57
+        }
+      }
+    },
     "new-c3a708d6-29f8-48d6-adaa-5f235d187ba0" : {
       "sferis" : {
         "link" : "https://www.sferis.pl/karta-graficzna-msi-geforce-rtx-3070-ventus-3x-8g-oc-lhr-v390-273r-p713321",
         "name" : "Karta graficzna MSI GeForce RTX 3070 VENTUS 3X 8G OC LHR - V390-273R",
         "prices" : {
-          "2021-09-28" : 5671.47
+          "2021-09-28" : 5577.39
         }
       }
     },
@@ -6319,7 +6959,7 @@
           "2021-09-25" : 5190.0,
           "2021-09-26" : 5190.0,
           "2021-09-27" : 5190.0,
-          "2021-09-28" : 5190.0
+          "2021-09-28" : 5090.0
         }
       }
     },
@@ -6332,7 +6972,16 @@
           "2021-09-25" : 7999.0,
           "2021-09-26" : 7999.0,
           "2021-09-27" : 7688.13,
-          "2021-09-28" : 7688.13
+          "2021-09-28" : 7708.86
+        }
+      }
+    },
+    "new-c4c2c525-0c41-4650-9ef0-a2d2554f21a1" : {
+      "proline" : {
+        "link" : "https://proline.pl//gigabyte-geforce-rtx-3070-aorus-master-8gb-gddr6-lhr-gv-n3070aorus-m-8gd-2-0-p8079013",
+        "name" : "Gigabyte GeForce RTX 3070 AORUS MASTER 8GB GDDR6 LHR (GV-N3070AORUS M-8GD 2.0)",
+        "prices" : {
+          "2021-09-28" : 5449.0
         }
       }
     },
@@ -6599,6 +7248,15 @@
         }
       }
     },
+    "new-c8f675b4-4035-4a12-999c-0d6a29c720ef" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-asus-geforce-gt-710-1gb-ddr3-gt710-sl-1gd5-930041/",
+        "name" : "Karta graficzna Asus GeForce GT 710 1GB DDR3 (GT710-SL-1GD5)",
+        "prices" : {
+          "2021-09-28" : 269.94
+        }
+      }
+    },
     "new-c9147c10-cad1-4ad3-81d4-cc078f49fe3d" : {
       "sferis" : {
         "link" : "https://www.sferis.pl/karta-graf-powercolor-radeon-rx-550-red-dragon-4gb-axrx-550-4gbd5-dh-p698542",
@@ -6630,7 +7288,7 @@
           "2021-09-25" : 7360.85,
           "2021-09-26" : 7360.85,
           "2021-09-27" : 7338.97,
-          "2021-09-28" : 6641.99
+          "2021-09-28" : 6670.99
         }
       }
     },
@@ -6753,7 +7411,7 @@
         "prices" : {
           "2021-09-26" : 1299.0,
           "2021-09-27" : 1349.0,
-          "2021-09-28" : 1495.78
+          "2021-09-28" : 1399.0
         }
       }
     },
@@ -6839,7 +7497,8 @@
           "2021-09-24" : 13800.0,
           "2021-09-25" : 13800.0,
           "2021-09-26" : 13800.0,
-          "2021-09-27" : 13800.0
+          "2021-09-27" : 13800.0,
+          "2021-09-28" : 13800.0
         }
       }
     },
@@ -6880,6 +7539,24 @@
         }
       }
     },
+    "new-cfc074b9-cb7c-4bc3-b2ae-d122e6b8be71" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-zotac-geforce-gt-710-zone-1gb-ddr3-zt-71304-20l-881560/",
+        "name" : "Karta graficzna Zotac GeForce GT 710 Zone 1GB DDR3 (ZT-71304-20L)",
+        "prices" : {
+          "2021-09-28" : 449.83
+        }
+      }
+    },
+    "new-d0b28145-155d-496c-bbcf-54b28325ebc3" : {
+      "proline" : {
+        "link" : "https://proline.pl//gigabyte-geforce-rtx-3070-gaming-oc-8gb-gddr6-lhr-gv-n3070gaming-oc-8gd-2-0-p8078925",
+        "name" : "Gigabyte GeForce RTX 3070 Gaming OC 8GB GDDR6 LHR (GV-N3070GAMING OC-8GD 2.0)",
+        "prices" : {
+          "2021-09-28" : 4899.0
+        }
+      }
+    },
     "new-d140d49b-216d-429e-a022-a811f7f4d954" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-pny-geforce-rtx-2060-xlr-6gb-gddr6-vcg20606blmpb-6045266/",
@@ -6909,7 +7586,8 @@
         "name" : "Karta graficzna Asus ROG Strix GeForce RTX 3060 Gaming OC 12GB GDDR6 (ROG-STRIX-RTX3060-O12G-V2-GAMING)",
         "prices" : {
           "2021-09-24" : 3849.0,
-          "2021-09-25" : 4028.99
+          "2021-09-25" : 4028.99,
+          "2021-09-28" : 4438.58
         }
       }
     },
@@ -6930,7 +7608,7 @@
           "2021-09-25" : 6800.9,
           "2021-09-26" : 6800.9,
           "2021-09-27" : 6800.9,
-          "2021-09-28" : 6800.9
+          "2021-09-28" : 8601.6
         }
       }
     },
@@ -7023,6 +7701,15 @@
         }
       }
     },
+    "new-d4c75517-3f12-4310-9dec-5a5c488e7bfb" : {
+      "proline" : {
+        "link" : "https://proline.pl//msi-geforce-rtx-3080-ti-suprim-x-12gb-gddr6x-p8078478",
+        "name" : "MSI GeForce RTX 3080 Ti SUPRIM X 12GB GDDR6X",
+        "prices" : {
+          "2021-09-28" : 9199.0
+        }
+      }
+    },
     "new-d50679d5-1439-46b3-ba1d-7df2637b289b" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-msi-geforce-rtx-3090-ventus-oc-3x-24gb-gddr6x-rtx-3090-ventus-3x-24g-oc-5943774/",
@@ -7104,6 +7791,15 @@
         }
       }
     },
+    "new-d6f61d8b-ff8a-4f5c-9709-3cf277392df5" : {
+      "xkom" : {
+        "link" : "https://www.x-kom.pl/p/572611-karta-graficzna-amd-amd-radeon-pro-wx-8200-8gb-hbm2.html",
+        "name" : "AMD Radeon Pro WX 8200 8GB HBM2",
+        "prices" : {
+          "2021-09-28" : 5059.0
+        }
+      }
+    },
     "new-d71d46d6-2444-4f26-b04d-6efa28ff0101" : {
       "sferis" : {
         "link" : "https://www.sferis.pl/karta-graf-evga-rtx-2060-6gb-sc-oc-06g-p4-2062-kr-p716307",
@@ -7127,6 +7823,15 @@
           "2021-09-26" : 4343.55,
           "2021-09-27" : 4323.5,
           "2021-09-28" : 4323.5
+        }
+      }
+    },
+    "new-d75b1205-80f0-4c5e-b76e-0add75a636a3" : {
+      "proline" : {
+        "link" : "https://proline.pl//gigabyte-geforce-rtx-3060-vision-oc-12gb-gddr6-lhr-gv-n3060vision-oc-12gd-2-0-p8078603",
+        "name" : "Gigabyte GeForce RTX 3060 VISION OC 12GB GDDR6 LHR (GV-N3060VISION OC-12GD 2.0)",
+        "prices" : {
+          "2021-09-28" : 3499.0
         }
       }
     },
@@ -7179,6 +7884,15 @@
           "2021-09-26" : 4049.0,
           "2021-09-27" : 4049.0,
           "2021-09-28" : 4049.0
+        }
+      }
+    },
+    "new-d832ca86-c40c-4f1b-a630-c0d111457fd9" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-gainward-geforce-gt-730-silentfx-2gb-ddr3-426018336-3224-648381/",
+        "name" : "Karta graficzna Gainward GeForce GT 730 SilentFX 2GB DDR3 (426018336-3224)",
+        "prices" : {
+          "2021-09-28" : 349.0
         }
       }
     },
@@ -7262,7 +7976,7 @@
           "2021-09-25" : 4311.96,
           "2021-09-26" : 4311.96,
           "2021-09-27" : 4292.06,
-          "2021-09-28" : 4292.06
+          "2021-09-28" : 4449.57
         }
       }
     },
@@ -7347,6 +8061,15 @@
           "2021-09-26" : 2819.0,
           "2021-09-27" : 2819.0,
           "2021-09-28" : 2819.0
+        }
+      }
+    },
+    "new-dac20d61-ae0d-49f9-9e7b-cfd4328f93ce" : {
+      "proline" : {
+        "link" : "https://proline.pl//gigabyte-geforce-rtx-3080-gaming-oc-waterforce-wb-10gb-gddr6x-lhr-gv-n3080gamingoc-wb-10gd-2-0-p8111788",
+        "name" : "Gigabyte GeForce RTX 3080 Gaming OC WATERFORCE WB 10GB GDDR6X LHR (GV-N3080GAMINGOC WB-10GD 2.0)",
+        "prices" : {
+          "2021-09-28" : 7775.0
         }
       }
     },
@@ -7458,6 +8181,15 @@
         }
       }
     },
+    "new-dca7eaae-6e06-426e-b6ed-9d521ca4af4f" : {
+      "sferis" : {
+        "link" : "https://www.sferis.pl/karta-graficzna-gigabyte-gef-rtx-3070-gaming-oc-8g-gv-n3070gaming-oc-8gd-20-p716588",
+        "name" : "Karta graficzna Gigabyte GeF RTX 3070 GAMING OC 8G - GV-N3070GAMING OC-8GD 2.0",
+        "prices" : {
+          "2021-09-28" : 5647.99
+        }
+      }
+    },
     "new-dcb7a863-3a1a-417e-bbf6-48e41d931faf" : {
       "komputronik" : {
         "link" : "https://www.komputronik.pl/product/716845/afox-geforce-gtx-750-4gb.html",
@@ -7480,7 +8212,7 @@
           "2021-09-25" : 429.9,
           "2021-09-26" : 429.9,
           "2021-09-27" : 429.9,
-          "2021-09-28" : 429.9
+          "2021-09-28" : 406.18
         }
       }
     },
@@ -7644,6 +8376,24 @@
         }
       }
     },
+    "new-e2624205-a58f-40f3-a8c0-6684251cbeb9" : {
+      "xkom" : {
+        "link" : "https://www.x-kom.pl/p/418759-karta-graficzna-amd-amd-radeon-pro-wx-7100-8gb-gddr5.html",
+        "name" : "AMD Radeon Pro WX 7100 8GB GDDR5",
+        "prices" : {
+          "2021-09-28" : 3399.0
+        }
+      }
+    },
+    "new-e2c2d591-3575-4118-8ef7-22c3ca18ca9b" : {
+      "proline" : {
+        "link" : "https://proline.pl//msi-geforce-rtx-3080-ti-gaming-x-trio-12gb-gddr6x-p8078477",
+        "name" : "MSI GeForce RTX 3080 Ti Gaming X Trio 12GB GDDR6X",
+        "prices" : {
+          "2021-09-28" : 8899.0
+        }
+      }
+    },
     "new-e32751e3-d3cc-476e-ac08-d72d142b0437" : {
       "sferis" : {
         "link" : "https://www.sferis.pl/karta-graf-asus-dual-geforce-rtx-3060-v2-oc-ed-12g-90yv0gb2-m0na10-p712712",
@@ -7692,7 +8442,7 @@
           "2021-09-25" : 7536.99,
           "2021-09-26" : 7536.99,
           "2021-09-27" : 7501.99,
-          "2021-09-28" : 7501.99
+          "2021-09-28" : 7899.0
         }
       }
     },
@@ -7735,6 +8485,15 @@
         }
       }
     },
+    "new-e5e66f0d-bc18-42c8-8e6b-a107eee10cf3" : {
+      "proline" : {
+        "link" : "https://proline.pl//gigabyte-geforce-rtx-3060-ti-aorus-elite-8gb-gddr6-lhr-gv-n306taorus-e-8gd-2-0-p8079029",
+        "name" : "Gigabyte GeForce RTX 3060 Ti AORUS ELITE 8GB GDDR6 LHR (GV-N306TAORUS E-8GD 2.0)",
+        "prices" : {
+          "2021-09-28" : 4199.0
+        }
+      }
+    },
     "new-e690550a-1044-4ba4-9583-be215a262766" : {
       "fox" : {
         "link" : "https://foxkomputer.pl/pl/p/Karta-graficzna-Asus-RTX-3080-Ti-ROG-STRIX-GAMING-OC-12GB-GDDR6X/18285",
@@ -7769,7 +8528,7 @@
           "2021-09-25" : 4690.99,
           "2021-09-26" : 4690.99,
           "2021-09-27" : 4669.99,
-          "2021-09-28" : 4669.99
+          "2021-09-28" : 4473.26
         }
       }
     },
@@ -7832,7 +8591,7 @@
         "link" : "https://www.sferis.pl/karta-graf-gigabyte-rtx3060-aorus-elite-lhr-12gb-gv-n3060aorus-e-12gd-20-p713141",
         "name" : "Karta graf. Gigabyte RTX3060 AORUS ELITE LHR 12GB - GV-N3060AORUS E-12GD 2.0",
         "prices" : {
-          "2021-09-28" : 3718.36
+          "2021-09-28" : 3880.03
         }
       }
     },
@@ -7862,13 +8621,22 @@
         }
       }
     },
+    "new-ec37a72e-8e3a-415d-8afe-4faac3425b80" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-afox-radeon-r5-230-1gb-ddr3-afr5230-1024d3l9-v2-8648285/",
+        "name" : "Karta graficzna AFOX Radeon R5 230 1GB DDR3 (AFR5230-1024D3L9-V2)",
+        "prices" : {
+          "2021-09-28" : 232.88
+        }
+      }
+    },
     "new-ec85288d-0b53-4481-90cf-4a738b66cb0c" : {
       "sferis" : {
         "link" : "https://www.sferis.pl/karta-graficzna-gigabyte-geforce-gtx-1050-4096mb-ddr5-128b-p445485",
         "name" : "Karta Graficzna GIGABYTE GeForce GTX 1050 4096MB DDR5/128b",
         "prices" : {
           "2021-09-27" : 1399.9,
-          "2021-09-28" : 1399.9
+          "2021-09-28" : 1485.87
         }
       }
     },
@@ -7908,6 +8676,15 @@
         }
       }
     },
+    "new-eddeb018-bdbf-47a6-b069-6e0cc0f349b8" : {
+      "proline" : {
+        "link" : "https://proline.pl//gigabyte-geforce-gtx-1660-ti-oc-6gb-gddr6-192bit-pci-e-gv-n166toc-6gd-p1336656",
+        "name" : "Gigabyte GeForce GTX 1660 Ti OC 6GB GDDR6 192Bit PCI-E (GV-N166TOC-6GD)",
+        "prices" : {
+          "2021-09-28" : 2549.0
+        }
+      }
+    },
     "new-ee671afe-cb80-4e75-98f7-caeabee4256c" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-msi-geforce-rtx-3060-gaming-x-trio-12gb-gddr6-rtx-3060-gaming-x-trio-12g-5946237/",
@@ -7918,6 +8695,15 @@
           "2021-09-26" : 3999.0,
           "2021-09-27" : 3988.0,
           "2021-09-28" : 3988.0
+        }
+      }
+    },
+    "new-f0501f96-bfa4-4fa9-a3c8-d7aa16f95fa0" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-amd-radeon-pro-wx-8200-8gb-hbm2-100-505956-6116926/",
+        "name" : "Karta graficzna AMD Radeon Pro WX 8200 8GB HBM2 (100-505956)",
+        "prices" : {
+          "2021-09-28" : 5074.99
         }
       }
     },
@@ -7968,6 +8754,15 @@
         }
       }
     },
+    "new-f16a21f0-7b86-4668-aa14-ddc70c3e5117" : {
+      "proline" : {
+        "link" : "https://proline.pl//gigabyte-geforce-gt-1030-oc-2gb-64bit-gddr5-p1157670",
+        "name" : "Gigabyte GeForce GT 1030 OC 2GB 64Bit GDDR5",
+        "prices" : {
+          "2021-09-28" : 475.0
+        }
+      }
+    },
     "new-f3763d35-3eaf-41a2-9d1a-406e16ebf7a7" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-zotac-geforce-rtx-3080-ti-trinity-12gb-gddr6x-zt-a30810d-10p-5948152/",
@@ -7977,7 +8772,7 @@
           "2021-09-25" : 8999.0,
           "2021-09-26" : 8999.0,
           "2021-09-27" : 8405.99,
-          "2021-09-28" : 8405.99
+          "2021-09-28" : 8441.99
         }
       }
     },
@@ -8029,6 +8824,15 @@
           "2021-09-26" : 5199.0,
           "2021-09-27" : 5199.0,
           "2021-09-28" : 5199.0
+        }
+      }
+    },
+    "new-f4cb25b7-5156-485a-bf08-d49f3aa7f81a" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-kfa2-geforce-rtx-2060-1-click-oc-6gb-gddr6-26nrl7hpx7ok-5803945/",
+        "name" : "Karta graficzna KFA2 GeForce RTX 2060 1-Click OC 6GB GDDR6 (26NRL7HPX7OK)",
+        "prices" : {
+          "2021-09-28" : 2709.34
         }
       }
     },
@@ -8099,6 +8903,15 @@
           "2021-09-26" : 1499.0,
           "2021-09-27" : 1499.0,
           "2021-09-28" : 1499.0
+        }
+      }
+    },
+    "new-f6634a98-d06e-46e7-b7af-0be3a0817ad0" : {
+      "proline" : {
+        "link" : "https://proline.pl//msi-geforce-rtx-3080-suprim-x-10gb-lhr-gddr6x-p8079318",
+        "name" : "MSI GeForce RTX 3080 SUPRIM X 10GB LHR GDDR6X",
+        "prices" : {
+          "2021-09-28" : 7299.0
         }
       }
     },
@@ -8366,7 +9179,7 @@
           "2021-09-25" : 9378.24,
           "2021-09-26" : 9378.24,
           "2021-09-27" : 9350.4,
-          "2021-09-28" : 9350.4
+          "2021-09-28" : 9390.38
         }
       }
     },
@@ -8380,6 +9193,15 @@
           "2021-09-26" : 4999.0,
           "2021-09-27" : 4999.0,
           "2021-09-28" : 3999.0
+        }
+      }
+    },
+    "new-ff1b6fb7-ddfa-4424-937f-f137d920b1da" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-msi-geforce-rtx-3060-ti-gaming-x-8gb-gddr6-rtx-3060-ti-gaming-x-5946079/",
+        "name" : "Karta graficzna MSI GeForce RTX 3060 Ti Gaming X 8GB GDDR6 (RTX 3060 Ti GAMING X)",
+        "prices" : {
+          "2021-09-28" : 5306.9
         }
       }
     },
