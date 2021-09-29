@@ -204,7 +204,7 @@ def scrapKomtek(database, allCards, date):
 def scrapPcforce(database, allCards, date):
     cardsAdded = 0
     for i in range(1,maxPagesNumber):
-        soup = getWebpage('https://pcforce.pl/Podzespoly-komputerowe/Karty-graficzne/1/Karty-graficzne-nVidia/AMD/'+ str(i) +'/default/1/f_availability_2/1')
+        soup = getWebpage('https://pcforce.pl/Podzespoly-komputerowe/Karty-graficzne/Karty-graficzne-nVidia/AMD/' + str(i) + '/default/1/f_availability_2/1')
         pages = getPagesKP(soup)
 
         for product in  soup.find('div', class_='products viewphot s-row').find_all('div', class_='product-inner-wrap'):
