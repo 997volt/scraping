@@ -8,6 +8,7 @@ allCards = getAllCards(database)
 
 if 1:
     scrapFromAllShops(database, allCards, today)
-giveCardNewName(database, allCards)
+if 0:
+    giveCardNewName(database, allCards)
 
 print('End of program reached')
