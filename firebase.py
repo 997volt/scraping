@@ -24,12 +24,13 @@ def getAllCards(database):
     return database.child('cards').get()
 
 def addCard(database, allCards, shopName, cardName, cardLink, date, price):
-    cardId = getCardId(allCards, shopName, cardName)
-    if(cardId == ''):
-        cardId = createRandomName()
-        database.child('cards').child(cardId).child(shopName).set({'name': cardName, 'link': cardLink, 'prices': {date: price}})
-    else:
-        database.child('cards').child(cardId).child(shopName).child('prices').update({date: price})
+    if(price != 0):
+        cardId = getCardId(allCards, shopName, cardName)
+        if(cardId == ''):
+            cardId = createRandomName()
+            database.child('cards').child(cardId).child(shopName).set({'name': cardName, 'link': cardLink, 'prices': {date: price}})
+        else:
+            database.child('cards').child(cardId).child(shopName).child('prices').update({date: price})
 
 def getCardId(allCards, shopName, cardName):    
     for card in allCards.each():

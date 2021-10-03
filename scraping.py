@@ -22,7 +22,10 @@ def getWebpage(url):
     return BeautifulSoup(source, 'lxml')
 
 def priceCleanup(price):
-    return float(price.replace(",", ".").replace(" ", "").replace("zł", "").replace("\n", "").replace("\xa0", "").replace("\t", ""))
+    try:
+        return float(price.replace(",", ".").replace(" ", "").replace("zł", "").replace("\n", "").replace("\xa0", "").replace("\t", ""))
+    except:
+        return 0
 
 def scrapSferis(database, allCards, date):
     cardsAdded = 0
