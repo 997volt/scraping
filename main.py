@@ -6,9 +6,9 @@ today = datetime.now().strftime("%Y-%m-%d")
 database = getDatabase()
 allCards = getAllCards(database)
 
-if 1:
-    scrapFromAllShops(database, allCards, today)
 if 0:
+    scrapFromAllShops(database, allCards, today)
+if 1:
     giveCardNewName(database, allCards)
 
 print('End of program reached')

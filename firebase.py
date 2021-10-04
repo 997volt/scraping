@@ -51,12 +51,13 @@ def isCardInDatabase(allCards, cardId):
     return False
 
 def giveCardNewName(database, allCards):
-    searchFor = '3.0'
+    searchFor = '3060'
+    searchFor2 = ' '
     for card in allCards.each():
         if(card.key()[0:3] == 'new'):
             for shop in shops:
                 try:
-                    if(searchFor in card.val()[shop]['name']):
+                    if(searchFor in card.val()[shop]['name'] and searchFor2 in card.val()[shop]['name']):
                         print(card.val()[shop]['name'])
                         newName = input('Give new name: ')
                         if(len(newName) > 5):
