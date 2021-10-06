@@ -11,7 +11,9 @@ shops = {
     'sferis',
     'proline',
     'komtek',
-    'pcforce'
+    'pcforce',
+    'vobis',
+    'mediaexpert'
 }
 
 def getDatabase():
@@ -23,7 +25,7 @@ def getDatabase():
 def getAllCards(database):
     return database.child('cards').get()
 
-def addCard(database, allCards, shopName, cardName, cardLink, date, price):
+def addCard(database, allCards, shopName, cardName, cardLink, date, price, cardsAdded):
     if(price != 0):
         cardId = getCardId(allCards, shopName, cardName)
         if(cardId == ''):
@@ -31,6 +33,8 @@ def addCard(database, allCards, shopName, cardName, cardLink, date, price):
             database.child('cards').child(cardId).child(shopName).set({'name': cardName, 'link': cardLink, 'prices': {date: price}})
         else:
             database.child('cards').child(cardId).child(shopName).child('prices').update({date: price})
+        return cardsAdded + 1
+    return cardsAdded
 
 def getCardId(allCards, shopName, cardName):    
     for card in allCards.each():
