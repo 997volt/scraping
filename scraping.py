@@ -16,6 +16,7 @@ def scrapFromAllShops(database, allCards, date):
     scrapPcforce(database, allCards, date)
     scrapVobis(database, allCards, date)
     scrapMediaExpert(database, allCards, date)
+    scrapAvans(database, allCards, date)
 
 
 def getWebpage(url):
@@ -255,3 +256,27 @@ def scrapMediaExpert(database, allCards, date):
         if(finished):
             break    
     print('Scrapped ' + str(cardsAdded) + ' cards from mediaexpert.pl')
+
+
+def scrapAvans(database, allCards, date):
+    cardsAdded = 0
+    finished = False
+    for i in range(1,maxPagesNumber):
+        soup = getWebpage('https://www.avans.pl/komputery-i-tablety/podzespoly-komputerowe/karty-graficzne?limit=50&page='+ str(i))
+        for product in soup.find('div', class_='c-grid').find_all('div', class_='c-offerBox is-wide'):
+            try:
+                if(product.find('div', class_='c-availabilityNotification_text is-heading') != None):
+                    finished = True
+                else:
+                    card = product.find('div', class_='c-offerBox_data').a
+                    name = card.text[1:-1]
+                    link = 'https://www.avans.pl' + card['href']
+                    price_main = product.find('div', class_='c-offerBox_col is-last is-col4').find('div', class_='c-offerBox_row is-prices').find('div', class_='a-price_new is-big')
+                    price = priceCleanup(price_main.find('span', class_='a-price_price').text) + priceCleanup(price_main.find('span', class_='a-price_divider').text)/100
+                    cardsAdded = addCard(database, allCards, 'avans', name, link, date, price, cardsAdded) 
+            except:
+                pass
+
+        if(finished):
+            break    
+    print('Scrapped ' + str(cardsAdded) + ' cards from avans.pl')

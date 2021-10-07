@@ -13,7 +13,8 @@ shops = {
     'komtek',
     'pcforce',
     'vobis',
-    'mediaexpert'
+    'mediaexpert',
+    'avans'
 }
 
 def getDatabase():
