@@ -7,9 +7,9 @@ database = getDatabase()
 allCards = getAllCards(database)
 
 #scrapElectro(database, allCards, today)
-if 1:
-    scrapFromAllShops(database, allCards, today)
 if 0:
+    scrapFromAllShops(database, allCards, today)
+if 1:
     giveCardNewName(database, allCards)
 
 print('End of program reached')

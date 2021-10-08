@@ -43,6 +43,37 @@
         }
       }
     },
+    "Asus ROG Strix RTX 3060 V2 Gaming OC" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-asus-rog-strix-geforce-rtx-3060-gaming-oc-12gb-gddr6-rog-strix-rtx3060-o12g-v2-gaming-8648109/",
+        "name" : "Karta graficzna Asus ROG Strix GeForce RTX 3060 Gaming OC 12GB GDDR6 (ROG-STRIX-RTX3060-O12G-V2-GAMING)",
+        "prices" : {
+          "2021-09-24" : 3849.0,
+          "2021-09-25" : 4028.99,
+          "2021-09-28" : 4438.58,
+          "2021-09-30" : 4513.93,
+          "2021-10-04" : 4453.15,
+          "2021-10-05" : 4466.09,
+          "2021-10-06" : 4041.99,
+          "2021-10-07" : 3914.38,
+          "2021-10-08" : 3617.44
+        }
+      },
+      "sferis" : {
+        "link" : "https://www.sferis.pl/karta-graf-asus-rog-strix-gef-rtx-3060-v2-oc-12gb-90yv0gc2-m0na10-p712711",
+        "name" : "Karta graf. ASUS ROG Strix GeF RTX 3060 V2 OC 12GB - 90YV0GC2-M0NA10",
+        "prices" : {
+          "2021-09-24" : 4016.73,
+          "2021-09-25" : 4016.73,
+          "2021-09-26" : 4016.73,
+          "2021-09-28" : 4004.8,
+          "2021-09-30" : 4072.78,
+          "2021-10-04" : 4017.95,
+          "2021-10-05" : 4029.62,
+          "2021-10-06" : 4073.63
+        }
+      }
+    },
     "EVGA RTX 2060 SC" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-evga-geforce-rtx-2060-sc-gaming-6gb-gddr6-06g-p4-2062-kr-6352921/",
@@ -2230,18 +2261,6 @@
         "prices" : {
           "2021-10-07" : 3549.0,
           "2021-10-08" : 3549.0
-        }
-      }
-    },
-    "new-16e7f3ca-476d-4d27-91ff-fadfe44bb36a" : {
-      "morele" : {
-        "link" : "https://www.morele.net/karta-graficzna-asus-rog-strix-rtx-3060ti-gaming-oc-8gb-gddr6-rog-strix-rtx3060ti-o8g-v2-gaming-5948840/",
-        "name" : "Karta graficzna Asus ROG Strix RTX 3060Ti Gaming OC 8GB GDDR6 (ROG-STRIX-RTX3060TI-O8G-V2-GAMING)",
-        "prices" : {
-          "2021-09-25" : 5059.99,
-          "2021-09-26" : 5119.7,
-          "2021-09-27" : 5516.93,
-          "2021-09-28" : 5418.28
         }
       }
     },
@@ -14107,22 +14126,6 @@
         }
       }
     },
-    "new-ae5cd54d-764d-4a45-961d-ad27da43fc4f" : {
-      "sferis" : {
-        "link" : "https://www.sferis.pl/karta-graf-asus-rog-strix-gef-rtx-3060-v2-oc-12gb-90yv0gc2-m0na10-p712711",
-        "name" : "Karta graf. ASUS ROG Strix GeF RTX 3060 V2 OC 12GB - 90YV0GC2-M0NA10",
-        "prices" : {
-          "2021-09-24" : 4016.73,
-          "2021-09-25" : 4016.73,
-          "2021-09-26" : 4016.73,
-          "2021-09-28" : 4004.8,
-          "2021-09-30" : 4072.78,
-          "2021-10-04" : 4017.95,
-          "2021-10-05" : 4029.62,
-          "2021-10-06" : 4073.63
-        }
-      }
-    },
     "new-ae97b6c9-85ed-422a-8d80-8e0f239eeb37" : {
       "morele" : {
         "link" : "https://www.morele.net/karta-graficzna-palit-geforce-rtx-3080-ti-gamingpro-12gb-gddr6x-ned308t019kb-132aa-5947954/",
@@ -17158,23 +17161,6 @@
           "2021-10-06" : 11205.99,
           "2021-10-07" : 11205.99,
           "2021-10-08" : 11205.99
-        }
-      }
-    },
-    "new-d1c7feae-8142-41bf-b4c1-2394e3d58637" : {
-      "morele" : {
-        "link" : "https://www.morele.net/karta-graficzna-asus-rog-strix-geforce-rtx-3060-gaming-oc-12gb-gddr6-rog-strix-rtx3060-o12g-v2-gaming-8648109/",
-        "name" : "Karta graficzna Asus ROG Strix GeForce RTX 3060 Gaming OC 12GB GDDR6 (ROG-STRIX-RTX3060-O12G-V2-GAMING)",
-        "prices" : {
-          "2021-09-24" : 3849.0,
-          "2021-09-25" : 4028.99,
-          "2021-09-28" : 4438.58,
-          "2021-09-30" : 4513.93,
-          "2021-10-04" : 4453.15,
-          "2021-10-05" : 4466.09,
-          "2021-10-06" : 4041.99,
-          "2021-10-07" : 3914.38,
-          "2021-10-08" : 3617.44
         }
       }
     },
