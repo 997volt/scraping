@@ -17,6 +17,8 @@ def scrapFromAllShops(database, allCards, date):
     scrapVobis(database, allCards, date)
     scrapMediaExpert(database, allCards, date)
     scrapAvans(database, allCards, date)
+    scrapOleOle(database, allCards, date)
+    scrapElectro(database, allCards, date)
 
 
 def getWebpage(url):
@@ -69,14 +71,14 @@ def scrapXkom(database, allCards, date):
     print('Scrapped ' + str(cardsAdded) + ' cards from x-kom.pl')
 
 
+#almost the same as OleOle
 def scrapEuro(database, allCards, date):
     cardsAdded = 0
     for i in range(1,maxPagesNumber):
         soup = getWebpage('https://www.euro.com.pl/karty-graficzne,strona-'+str(i)+'.bhtml')
-
         for product in soup.find_all('div', class_="product-for-list"):
-            card = product.find('h2', class_='product-name').a
             try:
+                card = product.find('h2', class_='product-name').a
                 name = card.text.replace("\n", "").replace("\t", "")
                 link = "https://www.euro.com.pl" + card['href']
                 price = priceCleanup(product.find('div', class_='price-normal selenium-price-normal').text)
@@ -87,6 +89,25 @@ def scrapEuro(database, allCards, date):
         if(i >= len(soup.find('div', class_="paging-numbers").text.replace("\t", "").replace("\n", ""))):            
             break  
     print('Scrapped ' + str(cardsAdded) + ' cards from Euro.com')
+
+
+def scrapOleOle(database, allCards, date):
+    cardsAdded = 0
+    for i in range(1,maxPagesNumber):
+        soup = getWebpage('https://www.oleole.pl/karty-graficzne,strona-'+str(i)+'.bhtml')
+        for product in soup.find_all('div', class_="product-for-list"):
+            try:
+                card = product.find('h2', class_='product-name').a
+                name = card.text.replace("\n", "").replace("\t", "")
+                link = "https://www.oleole.pl" + card['href']
+                price = priceCleanup(product.find('div', class_='price-normal selenium-price-normal').text)
+                cardsAdded = addCard(database, allCards, 'oleole', name, link, date, price, cardsAdded)
+            except:
+                pass
+
+        if(i >= len(soup.find('div', class_="paging-numbers").text.replace("\t", "").replace("\n", ""))):            
+            break  
+    print('Scrapped ' + str(cardsAdded) + ' cards from oleole.com')
 
 
 def scrapFox(database, allCards, date):
@@ -265,13 +286,13 @@ def scrapAvans(database, allCards, date):
         soup = getWebpage('https://www.avans.pl/komputery-i-tablety/podzespoly-komputerowe/karty-graficzne?limit=50&page='+ str(i))
         for product in soup.find('div', class_='c-grid').find_all('div', class_='c-offerBox is-wide'):
             try:
-                if(product.find('div', class_='c-availabilityNotification_text is-heading') != None):
+                if(product.find('div', class_='c-availabilityNotification') != None):
                     finished = True
                 else:
                     card = product.find('div', class_='c-offerBox_data').a
                     name = card.text[1:-1]
                     link = 'https://www.avans.pl' + card['href']
-                    price_main = product.find('div', class_='c-offerBox_col is-last is-col4').find('div', class_='c-offerBox_row is-prices').find('div', class_='a-price_new is-big')
+                    price_main = product.find('div', class_='c-offerBox_row is-prices').find('div', class_='a-price_new is-big')
                     price = priceCleanup(price_main.find('span', class_='a-price_price').text) + priceCleanup(price_main.find('span', class_='a-price_divider').text)/100
                     cardsAdded = addCard(database, allCards, 'avans', name, link, date, price, cardsAdded) 
             except:
@@ -280,3 +301,50 @@ def scrapAvans(database, allCards, date):
         if(finished):
             break    
     print('Scrapped ' + str(cardsAdded) + ' cards from avans.pl')
+
+
+def scrapElectro(database, allCards, date):
+    cardsAdded = 0
+    finished = False
+    for i in range(1,maxPagesNumber):
+        soup = getWebpage('https://www.electro.pl/komputery-i-tablety/podzespoly-komputerowe/karty-graficzne?limit=50&page='+ str(i))
+        for product in soup.find('div', class_='c-grid').find_all('div', class_='c-offerBox'):
+            try:
+                if(product.find('div', class_='c-availabilityNotification') != None):
+                    finished = True
+                else:
+                    card = product.find('div', class_='c-offerBox_data').a
+                    name = card.text[1:-1]
+                    link = 'https://www.electro.pl' + card['href']
+                    price_main = product.find('div', class_='c-offerBox_row is-prices').find('div', class_='a-price_new is-big')
+                    price = priceCleanup(price_main.find('span', class_='a-price_price').text) + priceCleanup(price_main.find('span', class_='a-price_divider').text)/100
+                    cardsAdded = addCard(database, allCards, 'electro', name, link, date, price, cardsAdded) 
+            except:
+                pass
+
+        if(finished):
+            break    
+    print('Scrapped ' + str(cardsAdded) + ' cards from electro.pl')
+
+
+#działa tylko 1 strona, bo jest beznadziejnie napisane
+def scrapPcProjekt(database, allCards, date):
+    cardsAdded = 0
+    soup = getWebpage('https://www.pcprojekt.pl/130-karty-graficzne#/show-all')
+    for product in soup.find('ul', class_='product_list grid row').find_all('li', class_='ajax_block_product'):
+        try:
+            if(product.find('i', class_='fa fa-thumbs-up') != None):
+                card = product.find('a', class_='product-name')
+                name = card['title']
+                link = card['href']
+                price = priceCleanup(product.find('span', class_='price product-price').text)
+                cardsAdded = addCard(database, allCards, 'pcprojekt', name, link, date, price, cardsAdded) 
+                print()
+        except:
+            pass
+    print('Scrapped ' + str(cardsAdded) + ' cards from pcprojekt.pl')
+
+
+#https://www.gigaserwer.pl/karty-graficzne,57/29?id_kat=29_57&filter_change=1&cena_od=&cena_do=&dostepny=1
+#https://www.onexstore.pl/podzespoly-komputerowe/karty-graficzne/
+#https://bitcomputer.pl/pl/c/Karty-graficzne/161

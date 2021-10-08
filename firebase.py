@@ -14,7 +14,9 @@ shops = {
     'pcforce',
     'vobis',
     'mediaexpert',
-    'avans'
+    'avans',
+    'oleole',
+    'electro'
 }
 
 def getDatabase():
@@ -56,8 +58,8 @@ def isCardInDatabase(allCards, cardId):
     return False
 
 def giveCardNewName(database, allCards):
-    searchFor = '3060'
-    searchFor2 = ' '
+    searchFor  = '3060'
+    searchFor2 = '3060'
     for card in allCards.each():
         if(card.key()[0:3] == 'new'):
             for shop in shops:
