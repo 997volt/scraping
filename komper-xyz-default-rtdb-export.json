@@ -23,23 +23,6 @@
         }
       }
     },
-    "Asus ROG Strix RTX 3060 Ti V2 Gaming" : {
-      "komputronik" : {
-        "link" : "https://www.komputronik.pl/product/733049/asus-geforce-rtx-3060-ti-strix-gaming-8gb-v2-lhr.html",
-        "name" : "ASUS GeForce RTX 3060 Ti STRIX Gaming 8GB V2 LHR",
-        "prices" : {
-          "2021-09-24" : 4449.0,
-          "2021-09-25" : 4449.0,
-          "2021-09-26" : 4449.0,
-          "2021-09-27" : 4449.0,
-          "2021-09-28" : 4449.0,
-          "2021-10-04" : 4449.0,
-          "2021-10-05" : 4449.0,
-          "2021-10-06" : 4449.0,
-          "2021-10-09" : 4449.0
-        }
-      }
-    },
     "Asus Dual RTX 3060 Ti V2" : {
       "sferis" : {
         "link" : "https://www.sferis.pl/karta-gr-asus-dual-rtx-3060-ti-8gb-v2-90yv0g1j-m0na00-p717929",
@@ -176,6 +159,23 @@
         }
       }
     },
+    "Asus ROG Strix RTX 3060 Ti V2 Gaming" : {
+      "komputronik" : {
+        "link" : "https://www.komputronik.pl/product/733049/asus-geforce-rtx-3060-ti-strix-gaming-8gb-v2-lhr.html",
+        "name" : "ASUS GeForce RTX 3060 Ti STRIX Gaming 8GB V2 LHR",
+        "prices" : {
+          "2021-09-24" : 4449.0,
+          "2021-09-25" : 4449.0,
+          "2021-09-26" : 4449.0,
+          "2021-09-27" : 4449.0,
+          "2021-09-28" : 4449.0,
+          "2021-10-04" : 4449.0,
+          "2021-10-05" : 4449.0,
+          "2021-10-06" : 4449.0,
+          "2021-10-09" : 4449.0
+        }
+      }
+    },
     "Asus ROG Strix RTX 3060 Ti V2 Gaming OC" : {
       "fox" : {
         "link" : "https://foxkomputer.pl/pl/p/Karta-graficzna-ASUS-RTX-3060-Ti-ROG-STRIX-GAMING-OC-8GB-LHR/15111",
@@ -190,38 +190,6 @@
           "2021-09-30" : 4199.0,
           "2021-10-01" : 4199.0,
           "2021-10-03" : 4199.0
-        }
-      },
-      "morele" : {
-        "link" : "https://www.morele.net/karta-graficzna-asus-rog-strix-rtx-3060ti-gaming-oc-8gb-gddr6-rog-strix-rtx3060ti-o8g-v2-gaming-5948840/",
-        "name" : "Karta graficzna Asus ROG Strix RTX 3060Ti Gaming OC 8GB GDDR6 (ROG-STRIX-RTX3060TI-O8G-V2-GAMING)",
-        "prices" : {
-          "2021-09-25" : 5059.99,
-          "2021-09-26" : 5119.7,
-          "2021-09-27" : 5516.93,
-          "2021-09-28" : 5418.28,
-          "2021-09-29" : 5526.67,
-          "2021-09-30" : 5440.01,
-          "2021-10-01" : 5448.26,
-          "2021-10-03" : 5495.85,
-          "2021-10-04" : 5459.39,
-          "2021-10-05" : 5405.61,
-          "2021-10-06" : 5391.76,
-          "2021-10-07" : 5422.52,
-          "2021-10-08" : 5415.34,
-          "2021-10-09" : 5369.46
-        }
-      },
-      "xkom" : {
-        "link" : "https://www.x-kom.pl/p/671958-karta-graficzna-nvidia-asus-geforce-rtx-3060-ti-rog-strix-oc-v2-lhr-8gb-gddr6.html",
-        "name" : "ASUS GeForce RTX 3060 Ti ROG STRIX OC V2 LHR 8GB GDDR6",
-        "prices" : {
-          "2021-09-24" : 4399.0,
-          "2021-09-25" : 4399.0,
-          "2021-09-26" : 4399.0,
-          "2021-09-27" : 4399.0,
-          "2021-09-28" : 4399.0,
-          "2021-10-04" : 4299.0
         }
       },
       "komputronik" : {
@@ -245,6 +213,26 @@
           "2021-10-09" : 4499.0
         }
       },
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-asus-rog-strix-rtx-3060ti-gaming-oc-8gb-gddr6-rog-strix-rtx3060ti-o8g-v2-gaming-5948840/",
+        "name" : "Karta graficzna Asus ROG Strix RTX 3060Ti Gaming OC 8GB GDDR6 (ROG-STRIX-RTX3060TI-O8G-V2-GAMING)",
+        "prices" : {
+          "2021-09-25" : 5059.99,
+          "2021-09-26" : 5119.7,
+          "2021-09-27" : 5516.93,
+          "2021-09-28" : 5418.28,
+          "2021-09-29" : 5526.67,
+          "2021-09-30" : 5440.01,
+          "2021-10-01" : 5448.26,
+          "2021-10-03" : 5495.85,
+          "2021-10-04" : 5459.39,
+          "2021-10-05" : 5405.61,
+          "2021-10-06" : 5391.76,
+          "2021-10-07" : 5422.52,
+          "2021-10-08" : 5415.34,
+          "2021-10-09" : 5369.46
+        }
+      },
       "sferis" : {
         "link" : "https://www.sferis.pl/karta-gr-asus-rtx-3060-ti-oc-8g-gaming-v2-lhr-90yv0g03-m0na00-p718445",
         "name" : "Karta gr. ASUS RTX 3060 TI OC 8G GAMING V2 LHR - 90YV0G03-M0NA00",
@@ -255,6 +243,18 @@
           "2021-10-01" : 5192.78,
           "2021-10-03" : 5192.78,
           "2021-10-04" : 5149.8
+        }
+      },
+      "xkom" : {
+        "link" : "https://www.x-kom.pl/p/671958-karta-graficzna-nvidia-asus-geforce-rtx-3060-ti-rog-strix-oc-v2-lhr-8gb-gddr6.html",
+        "name" : "ASUS GeForce RTX 3060 Ti ROG STRIX OC V2 LHR 8GB GDDR6",
+        "prices" : {
+          "2021-09-24" : 4399.0,
+          "2021-09-25" : 4399.0,
+          "2021-09-26" : 4399.0,
+          "2021-09-27" : 4399.0,
+          "2021-09-28" : 4399.0,
+          "2021-10-04" : 4299.0
         }
       }
     },
@@ -21345,38 +21345,38 @@
   },
   "dictionary" : {
     "Asus Dual RTX 3060 Ti V2" : {
-      "searchFor" : "3060,Ti,Asus,Dual,v2",
+      "searchFor" : "3060,Ti,Asus,Dual,v2/lhr",
       "searchNot" : "Mini,Oc",
       "tpuLink" : "https://www.techpowerup.com/gpu-specs/asus-dual-rtx-3060-ti-v2.b9084"
     },
     "Asus Dual RTX 3060 Ti V2 Mini" : {
-      "searchFor" : "3060,Ti,Asus,Dual,v2,Mini",
+      "searchFor" : "3060,Ti,Asus,Dual,v2/lhr,Mini",
       "searchNot" : "Oc",
       "tpuLink" : "https://www.techpowerup.com/gpu-specs/asus-dual-rtx-3060-ti-v2-mini.b9088"
     },
     "Asus Dual RTX 3060 Ti V2 Mini OC" : {
-      "searchFor" : "3060,Ti,Asus,Dual,v2,Mini,Oc",
+      "searchFor" : "3060,Ti,Asus,Dual,v2/lhr,Mini,Oc",
       "searchNot" : "",
       "tpuLink" : "https://www.techpowerup.com/gpu-specs/asus-dual-rtx-3060-ti-v2-mini-oc.b9087"
     },
     "Asus Dual RTX 3060 Ti V2 OC" : {
-      "searchFor" : "3060,Ti,Asus,Dual,v2,Oc",
+      "searchFor" : "3060,Ti,Asus,Dual,v2/lhr,Oc",
       "searchNot" : "Mini",
       "tpuLink" : "https://www.techpowerup.com/gpu-specs/asus-dual-rtx-3060-ti-v2-oc.b9085"
     },
     "Asus ROG Strix RTX 3060 Ti V2 Gaming" : {
-      "searchFor" : "3060,Ti,Asus,Strix,v2",
-      "searchNot" : "oc",
+      "searchFor" : "3060,Ti,Asus,Strix,v2/lhr",
+      "searchNot" : "Oc",
       "tpuLink" : "https://www.techpowerup.com/gpu-specs/asus-rog-strix-rtx-3060-ti-v2-gaming.b9090"
     },
     "Asus ROG Strix RTX 3060 Ti V2 Gaming OC" : {
-      "searchFor" : "3060,Ti,Asus,Strix,v2,Oc",
-      "searchNot" : "Oc",
+      "searchFor" : "3060,Ti,Asus,Strix,v2/lhr,Oc",
+      "searchNot" : "",
       "tpuLink" : "https://www.techpowerup.com/gpu-specs/asus-rog-strix-rtx-3060-ti-v2-gaming-oc.b9089"
     },
     "Asus TUF RTX 3060 Ti V2 Gaming" : {
-      "searchFor" : "3060,Ti,Asus,Tuf,v2",
-      "searchNot" : "",
+      "searchFor" : "3060,Ti,Asus,Tuf,v2/lhr",
+      "searchNot" : "Oc",
       "tpuLink" : "https://www.techpowerup.com/gpu-specs/asus-tuf-rtx-3060-ti-v2-gaming.b9092"
     },
     "Asus TUF RTX 3060 Ti V2 Gaming OC" : {
