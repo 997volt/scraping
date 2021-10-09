@@ -57,19 +57,43 @@ def isCardInDatabase(allCards, cardId):
             return True
     return False
 
-def giveCardNewName(database, allCards):
-    searchFor  = '3060'
-    searchFor2 = 'Gigabyte'
+def checkCardMatch(cardName, searchFor, searchNot):
+    match = True
+    for s in searchFor:
+        if (not (s in cardName or s.upper() in cardName)):
+            match = False
+            break
+    for s in searchNot:
+        if (s != '' and (s in cardName or s.upper() in cardName)):
+            match = False
+            break
+    return match
+
+def renameCard(database, card, cardName, newName):
+    print('old name: ' + cardName)
+    print('new name: ' + newName)
+    response = input('write "y" to accept: ')
+    if(response == 'y'):
+        database.child('cards').child(newName).update(card.val())
+        database.child('cards').child(card.key()).remove()
+
+def giveCardNewName(database, allCards, newName, searchFor, searchNot, tpuLink):
+    addToDictionary(database, newName, searchFor, searchNot, tpuLink)
     for card in allCards.each():
-        if(card.key()[0:3] == 'new'):
-            for shop in shops:
-                try:
-                    if(searchFor in card.val()[shop]['name'] and searchFor2 in card.val()[shop]['name']):
-                        print(card.val()[shop]['name'])
-                        newName = input('Give new name: ')
-                        if(len(newName) > 5):
-                            database.child('cards').child(newName).update(card.val())
-                            database.child('cards').child(card.key()).remove()
-                except:
-                    pass
-        
+        if(card.key()[0:3] == 'new'):      
+            shop = list(card.val().keys())[0]
+            cardName = card.val()[shop]['name']
+            if(checkCardMatch(cardName, searchFor, searchNot)):
+                renameCard(database, card, cardName, newName)
+                
+                
+def addToDictionary(database, name, searchFor, searchNot, tpuLink):
+    searchForParsed = ''
+    searchNotParsed = ''
+    for s in searchFor:
+        searchForParsed = searchForParsed + s + ','
+    searchForParsed = searchForParsed[:-1]
+    for s in searchNot:
+        searchNotParsed = searchNotParsed + s + ','
+    searchNotParsed = searchNotParsed[:-1]
+    database.child('dictionary').child(name).set({'searchFor': searchForParsed, 'searchNot': searchNotParsed, 'tpuLink': tpuLink})
