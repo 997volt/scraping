@@ -78,13 +78,16 @@ def renameCard(database, card, cardName, newName):
         database.child('cards').child(card.key()).remove()
 
 def giveCardNewName(database, allCards, newName, searchFor, searchNot, tpuLink):
-    addToDictionary(database, newName, searchFor, searchNot, tpuLink)
     for card in allCards.each():
         if(card.key()[0:3] == 'new'):      
             shop = list(card.val().keys())[0]
             cardName = card.val()[shop]['name']
             if(checkCardMatch(cardName, searchFor, searchNot)):
                 renameCard(database, card, cardName, newName)
+    response = input('write "y" to replace data in dictionary: ')
+    if(response == 'y'):
+        addToDictionary(database, newName, searchFor, searchNot, tpuLink)
+
                 
                 
 def addToDictionary(database, name, searchFor, searchNot, tpuLink):

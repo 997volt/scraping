@@ -10,10 +10,10 @@ allCards = getAllCards(database)
 if 0:
     scrapFromAllShops(database, allCards, today)
 if 1:
-    newName = 'ASUS Dual RTX 3060 Ti V2 OC'
-    searchFor  = ['3060', 'Ti', 'Asus', 'Dual', 'v2', 'Oc']
-    searchNot = ['Mini']
-    tpuLink = 'https://www.techpowerup.com/gpu-specs/asus-dual-rtx-3060-ti-v2-oc.b9085'
+    newName = ''
+    searchFor  = ['3060', 'Ti', 'Asus']
+    searchNot = ['']
+    tpuLink = 'https://www.techpowerup.com/gpu-specs/asus-tuf-rtx-3060-ti-v2-gaming.b9092'
     giveCardNewName(database, allCards, newName, searchFor, searchNot, tpuLink)
 
 print('End of program reached')
