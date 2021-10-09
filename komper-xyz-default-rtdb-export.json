@@ -383,6 +383,71 @@
         }
       }
     },
+    "EVGA RTX 3060 Ti FTW3 Ultra" : {
+      "xkom" : {
+        "link" : "https://www.x-kom.pl/p/681024-karta-graficzna-nvidia-evga-geforce-rtx-3060-ti-ftw3-ultra-gaming-8gb-gddr6.html",
+        "name" : "EVGA GeForce RTX 3060 Ti FTW3 ULTRA GAMING 8GB GDDR6",
+        "prices" : {
+          "2021-09-29" : 4549.0,
+          "2021-09-30" : 4549.0,
+          "2021-10-01" : 4549.0,
+          "2021-10-03" : 4549.0,
+          "2021-10-04" : 4099.0,
+          "2021-10-05" : 4099.0,
+          "2021-10-06" : 4099.0,
+          "2021-10-07" : 4099.0,
+          "2021-10-08" : 4099.0,
+          "2021-10-09" : 4099.0
+        }
+      }
+    },
+    "EVGA RTX 3060 Ti XC" : {
+      "xkom" : {
+        "link" : "https://www.x-kom.pl/p/673619-karta-graficzna-nvidia-evga-geforce-rtx-3060-ti-xc-gaming-lhr-8gb-gddr6.html",
+        "name" : "EVGA GeForce RTX 3060 Ti XC GAMING LHR 8GB GDDR6",
+        "prices" : {
+          "2021-09-24" : 4499.0,
+          "2021-09-25" : 4499.0,
+          "2021-09-26" : 4499.0,
+          "2021-09-27" : 4499.0,
+          "2021-09-28" : 4499.0,
+          "2021-09-29" : 4499.0,
+          "2021-09-30" : 4499.0,
+          "2021-10-01" : 4499.0,
+          "2021-10-03" : 4499.0,
+          "2021-10-04" : 3899.0,
+          "2021-10-05" : 3899.0,
+          "2021-10-06" : 3899.0,
+          "2021-10-07" : 3899.0,
+          "2021-10-08" : 3899.0,
+          "2021-10-09" : 3899.0
+        }
+      }
+    },
+    "Gainward RTX 3060 Ti Ghost LHR" : {
+      "morele" : {
+        "link" : "https://www.morele.net/karta-graficzna-gainward-geforce-rtx-3060ti-ghost-8gb-gddr6-471056224-2270-7469192/",
+        "name" : "Karta graficzna Gainward GeForce RTX 3060Ti Ghost 8GB GDDR6 (471056224-2270)",
+        "prices" : {
+          "2021-09-26" : 3806.4,
+          "2021-09-29" : 3806.4,
+          "2021-09-30" : 3806.4,
+          "2021-10-01" : 3806.4,
+          "2021-10-03" : 3806.4,
+          "2021-10-04" : 3806.4,
+          "2021-10-05" : 3099.0,
+          "2021-10-06" : 3806.4,
+          "2021-10-07" : 3806.4
+        }
+      },
+      "xkom" : {
+        "link" : "https://www.x-kom.pl/p/610289-karta-graficzna-nvidia-gainward-geforce-rtx-3060-ti-ghost-lhr-8gb-gddr6.html",
+        "name" : "Gainward GeForce RTX 3060 Ti Ghost LHR 8GB GDDR6",
+        "prices" : {
+          "2021-10-04" : 3749.0
+        }
+      }
+    },
     "Gainward RTX 3080 Ti Phoenix" : {
       "euro" : {
         "link" : "https://www.euro.com.pl/karty-graficzne/gainward-karta-graf-gainward-rtx-3080ti-ph-12g.bhtml",
@@ -4781,15 +4846,6 @@
         }
       }
     },
-    "new-293f8857-7718-4364-a3bb-c99b57bc5c2b" : {
-      "xkom" : {
-        "link" : "https://www.x-kom.pl/p/610289-karta-graficzna-nvidia-gainward-geforce-rtx-3060-ti-ghost-lhr-8gb-gddr6.html",
-        "name" : "Gainward GeForce RTX 3060 Ti Ghost LHR 8GB GDDR6",
-        "prices" : {
-          "2021-10-04" : 3749.0
-        }
-      }
-    },
     "new-298833e5-a59b-47dc-ac8c-264156bb6bf1" : {
       "xkom" : {
         "link" : "https://www.x-kom.pl/p/673559-karta-graficzna-nvidia-gigabyte-geforce-rtx-3080-aorus-xtreme-wf-lhr-10gb-gddr6x.html",
@@ -6723,29 +6779,6 @@
           "2021-10-07" : 1299.0,
           "2021-10-08" : 1299.0,
           "2021-10-09" : 1299.0
-        }
-      }
-    },
-    "new-42f68279-f257-4b9a-8d8f-3ce0bbdcffc7" : {
-      "xkom" : {
-        "link" : "https://www.x-kom.pl/p/673619-karta-graficzna-nvidia-evga-geforce-rtx-3060-ti-xc-gaming-lhr-8gb-gddr6.html",
-        "name" : "EVGA GeForce RTX 3060 Ti XC GAMING LHR 8GB GDDR6",
-        "prices" : {
-          "2021-09-24" : 4499.0,
-          "2021-09-25" : 4499.0,
-          "2021-09-26" : 4499.0,
-          "2021-09-27" : 4499.0,
-          "2021-09-28" : 4499.0,
-          "2021-09-29" : 4499.0,
-          "2021-09-30" : 4499.0,
-          "2021-10-01" : 4499.0,
-          "2021-10-03" : 4499.0,
-          "2021-10-04" : 3899.0,
-          "2021-10-05" : 3899.0,
-          "2021-10-06" : 3899.0,
-          "2021-10-07" : 3899.0,
-          "2021-10-08" : 3899.0,
-          "2021-10-09" : 3899.0
         }
       }
     },
@@ -9124,23 +9157,6 @@
           "2021-10-07" : 7299.0,
           "2021-10-08" : 7299.0,
           "2021-10-09" : 7299.0
-        }
-      }
-    },
-    "new-5e90cc71-cbf7-470c-9b67-b8e6582c9ee0" : {
-      "morele" : {
-        "link" : "https://www.morele.net/karta-graficzna-gainward-geforce-rtx-3060ti-ghost-8gb-gddr6-471056224-2270-7469192/",
-        "name" : "Karta graficzna Gainward GeForce RTX 3060Ti Ghost 8GB GDDR6 (471056224-2270)",
-        "prices" : {
-          "2021-09-26" : 3806.4,
-          "2021-09-29" : 3806.4,
-          "2021-09-30" : 3806.4,
-          "2021-10-01" : 3806.4,
-          "2021-10-03" : 3806.4,
-          "2021-10-04" : 3806.4,
-          "2021-10-05" : 3099.0,
-          "2021-10-06" : 3806.4,
-          "2021-10-07" : 3806.4
         }
       }
     },
@@ -18658,24 +18674,6 @@
         }
       }
     },
-    "new-d8a838de-a7e4-475e-b821-004e13078425" : {
-      "xkom" : {
-        "link" : "https://www.x-kom.pl/p/681024-karta-graficzna-nvidia-evga-geforce-rtx-3060-ti-ftw3-ultra-gaming-8gb-gddr6.html",
-        "name" : "EVGA GeForce RTX 3060 Ti FTW3 ULTRA GAMING 8GB GDDR6",
-        "prices" : {
-          "2021-09-29" : 4549.0,
-          "2021-09-30" : 4549.0,
-          "2021-10-01" : 4549.0,
-          "2021-10-03" : 4549.0,
-          "2021-10-04" : 4099.0,
-          "2021-10-05" : 4099.0,
-          "2021-10-06" : 4099.0,
-          "2021-10-07" : 4099.0,
-          "2021-10-08" : 4099.0,
-          "2021-10-09" : 4099.0
-        }
-      }
-    },
     "new-d8e1ee5a-59f7-4961-b2a8-fd58ab9dbd02" : {
       "sferis" : {
         "link" : "https://www.sferis.pl/karta-graf-manli-rtx-3070ti-8gb-triple-fan-lhr-n651307tim35141-p720192",
@@ -21384,13 +21382,25 @@
       "searchNot" : "",
       "tpuLink" : "https://www.techpowerup.com/gpu-specs/asus-tuf-rtx-3060-ti-v2-gaming-oc.b9091"
     },
-    "MSI RTX 3060 Gaming X LHR" : {
-      "searchFor" : "3060,Msi,Gaming X",
-      "searchNot" : "Ti,Gaming Z,Trio"
+    "EVGA RTX 3060 Ti FTW3" : {
+      "searchFor" : "3060,Ti,Evga,Ftw",
+      "searchNot" : "Ultra",
+      "tpuLink" : "https://www.techpowerup.com/gpu-specs/evga-rtx-3060-ti-ftw3.b8533"
     },
-    "MSI RTX 3060 Ti Gaming X LHR" : {
-      "searchFor" : "3060,Ti,Msi,Gaming X",
-      "searchNot" : "Gaming Z,Trio"
+    "EVGA RTX 3060 Ti FTW3 Ultra" : {
+      "searchFor" : "3060,Ti,Evga,Ftw,Ultra",
+      "searchNot" : "",
+      "tpuLink" : "https://www.techpowerup.com/gpu-specs/evga-rtx-3060-ti-ftw3-ultra.b8460"
+    },
+    "EVGA RTX 3060 Ti XC" : {
+      "searchFor" : "3060,Ti,Evga,Xc",
+      "searchNot" : "",
+      "tpuLink" : "https://www.techpowerup.com/gpu-specs/evga-rtx-3060-ti-xc.b8459"
+    },
+    "Gainward RTX 3060 Ti Ghost LHR" : {
+      "searchFor" : "3060,Ti,Gainward,Ghost",
+      "searchNot" : "Oc",
+      "tpuLink" : "https://www.techpowerup.com/gpu-specs/gainward-rtx-3060-ti-ghost-v1.b9230"
     }
   }
 }

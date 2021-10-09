@@ -11,9 +11,9 @@ if 0:
     scrapFromAllShops(database, allCards, today)
 if 1:
     newName = ''
-    searchFor  = ['3060', 'Ti', 'Asus']
+    searchFor  = ['3060', 'Ti', 'Gigabyte',]
     searchNot = ['']
-    tpuLink = 'https://www.techpowerup.com/gpu-specs/asus-tuf-rtx-3060-ti-v2-gaming.b9092'
+    tpuLink = 'https://www.techpowerup.com/gpu-specs/gainward-rtx-3060-ti-ghost-v1.b9230'
     giveCardNewName(database, allCards, newName, searchFor, searchNot, tpuLink)
 
 print('End of program reached')
