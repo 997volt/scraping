@@ -86,9 +86,7 @@ def giveCardNewName(database, allCards, newName, searchFor, searchNot, tpuLink):
                 renameCard(database, card, cardName, newName)
     response = input('write "y" to replace data in dictionary: ')
     if(response == 'y'):
-        addToDictionary(database, newName, searchFor, searchNot, tpuLink)
-
-                
+        addToDictionary(database, newName, searchFor, searchNot, tpuLink)             
                 
 def addToDictionary(database, name, searchFor, searchNot, tpuLink):
     searchForParsed = ''
@@ -100,3 +98,11 @@ def addToDictionary(database, name, searchFor, searchNot, tpuLink):
         searchNotParsed = searchNotParsed + s + ','
     searchNotParsed = searchNotParsed[:-1]
     database.child('dictionary').child(name).set({'searchFor': searchForParsed, 'searchNot': searchNotParsed, 'tpuLink': tpuLink})
+
+def printCards(allCards, searchFor):
+    count = 0
+    for card in allCards.each():
+        if(searchFor in card.key()):
+            print(card.key())
+            count = count + 1
+    print('Found ' + str(count) + ' ' + str(searchFor) + ' cards')
