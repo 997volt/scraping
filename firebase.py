@@ -25,9 +25,6 @@ def getDatabase():
     firebase = pyrebase.initialize_app(firebaseConfig)
     return firebase.database()
 
-def getAllCards(database):
-    return database.child('cards').get()
-
 def addCard(database, allCards, shopName, cardName, cardLink, date, price, cardsAdded):
     if(price != 0):
         cardId = getCardId(allCards, shopName, cardName)
@@ -106,3 +103,8 @@ def printCards(allCards, searchFor):
             print(card.key())
             count = count + 1
     print('Found ' + str(count) + ' ' + str(searchFor) + ' cards')
+    
+def addGpuTypeToDictionary(database, dict):
+    for card in dict.each():
+        if '3060 Ti' in card.key():
+            database.child('dictionary').child(card.key()).update({'gpu': 'rtx3060ti'})
