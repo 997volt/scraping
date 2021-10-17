@@ -8,8 +8,7 @@ database = getDatabase()
 allCards = database.child('cards').get()
 dictionary = database.child('dictionary').get()
 
-#scrapElectro(database, allCards, today)
-if 0:
+if 1:
     scrapFromAllShops(database, allCards, today)
 if 0:
     newName = ''
