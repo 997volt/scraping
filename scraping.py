@@ -86,8 +86,12 @@ def scrapEuro(database, allCards, date):
             except:
                 pass
 
-        if(i >= len(soup.find('div', class_="paging-numbers").text.replace("\t", "").replace("\n", ""))):            
-            break  
+        try:
+            if(i >= len(soup.find('div', class_="paging-numbers").text.replace("\t", "").replace("\n", ""))):            
+                break  
+        except:
+            print('ERROR: Only 1 page loaded from Euro.com')
+            break
     print('Scrapped ' + str(cardsAdded) + ' cards from Euro.com')
 
 
@@ -104,9 +108,12 @@ def scrapOleOle(database, allCards, date):
                 cardsAdded = addCard(database, allCards, 'oleole', name, link, date, price, cardsAdded)
             except:
                 pass
-
-        if(i >= len(soup.find('div', class_="paging-numbers").text.replace("\t", "").replace("\n", ""))):            
-            break  
+        try:
+            if(i >= len(soup.find('div', class_="paging-numbers").text.replace("\t", "").replace("\n", ""))):            
+                break  
+        except:
+            print('ERROR: Only 1 page loaded from OleOle.pl')
+            break
     print('Scrapped ' + str(cardsAdded) + ' cards from oleole.com')
 
 
