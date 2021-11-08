@@ -14,7 +14,7 @@ def scrapFromAllShops(database, allCards, date):
     scrapProline(database, allCards, date)
     scrapKomtek(database, allCards, date)
     scrapPcforce(database, allCards, date)
-    scrapVobis(database, allCards, date)
+    #scrapVobis(database, allCards, date)
     scrapMediaExpert(database, allCards, date)
     scrapAvans(database, allCards, date)
     scrapOleOle(database, allCards, date)
