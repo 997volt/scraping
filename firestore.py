@@ -9,6 +9,13 @@ def connect():
     return firestore.client()
 
 
+def getAllGpus(db):
+    allGpus = []
+    gpusStream = db.collection(u'gpus').stream()
+    for gpu in gpusStream:
+        allGpus.append(gpu)
+    return allGpus
+
 def createCardDict(name):
     newCardDict = {'name': name, 'clock_base': 1410, 'clock_boost': 1770, 
         'power': {'connector': '6+8', 'max_power_limit': 270, 'stock_power_limit': 240, 'max_vrm_current': 400}, 'cooler_score': 9,
@@ -17,28 +24,31 @@ def createCardDict(name):
     return newCardDict
 
 
-def printCards(gpusStream, gpu):
-    for gpus in gpusStream:
-        if(gpus.id == gpu):
-            gpusDict = gpus.to_dict()
-            for card in gpusDict["cards"]:
+def printGpuCards(allGpus, gpuName):
+    for gpu in allGpus:
+        if(gpu.id == gpuName):
+            gpuDict = gpu.to_dict()
+            for card in gpuDict["cards"]:
                 print(card['name'])
-            gpusDict['cards'].append(createCardDict('testF'))
-            db.collection(u'test').document(u'test').update(gpusDict)
 
 
-def addCard(gpusStream, gpu):
+def addCard(db, gpusStream, gpu):
     for gpus in gpusStream:
         if(gpus.id == gpu):
             gpusDict = gpus.to_dict()
             gpusDict['cards'].append(createCardDict('testF'))
             db.collection(u'test').document(u'test').update(gpusDict)
 
+
+def doGpusBackup(db, allGpus):
+    for gpu in allGpus:
+        if(gpu.id == 'rtx3060ti'):
+            db.collection(u'gpusBackup').document(u'rtx3060ti').set(gpu.to_dict())
 
 
 db = connect()
-gpusStream = db.collection(u'gpus').stream()
-printCards(gpusStream, 'rtx3060ti')
-
+allGpus = getAllGpus(db)
+printGpuCards(allGpus, 'rtx3060ti')
+doGpusBackup(db, allGpus)
         
 
