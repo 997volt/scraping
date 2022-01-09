@@ -1,2 +1,5 @@
 *.pyc
 fb.py
+komper-xyz-firebase-adminsdk.json
+firebase-credentials.json
+testenv/

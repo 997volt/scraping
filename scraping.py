@@ -5,7 +5,7 @@ from firebase import addCard
 maxPagesNumber = 100
 
 def scrapFromAllShops(database, allCards, date):
-    scrapKomputronik(database, allCards, date)
+    #scrapKomputronik(database, allCards, date)
     scrapSferis(database, allCards, date)
     scrapXkom(database, allCards, date)
     scrapEuro(database, allCards, date)
