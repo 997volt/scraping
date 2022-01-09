@@ -18,8 +18,8 @@ def getAllGpus(db):
 
 def createCardDict(name):
     newCardDict = {'name': name, 'clock_base': 1410, 'clock_boost': 1770, 
-        'power': {'connector': '6+8', 'max_power_limit': 270, 'stock_power_limit': 240, 'max_vrm_current': 400}, 'cooler_score': 9,
-        'shops': {'best_name': 'xkom', 'best_price': 4499, 'best_url': 'https://www.x-kom.pl...'},  
+        'power': {'connector': '6+8', 'max_power_limit': 270, 'stock_power_limit': 0, 'max_vrm_current': 0}, 'cooler_score': 0,
+        'shops': {'best_name': 'xkom', 'best_price': 0, 'best_url': 'https://www.x-kom.pl'},  
         'size': {'length': 281, 'height': 40, 'width': 117}}
     return newCardDict
 
@@ -32,12 +32,12 @@ def printGpuCards(allGpus, gpuName):
                 print(card['name'])
 
 
-def addCard(db, gpusStream, gpu):
-    for gpus in gpusStream:
-        if(gpus.id == gpu):
-            gpusDict = gpus.to_dict()
-            gpusDict['cards'].append(createCardDict('testF'))
-            db.collection(u'test').document(u'test').update(gpusDict)
+def addCard(db, allGpus, gpuName):
+    for gpu in allGpus:
+        if(gpu.id == gpuName):
+            gpuDict = gpu.to_dict()
+            gpuDict['cards'].append(createCardDict('testF'))
+            db.collection(u'gpus').document(u'rtx3060ti').update(gpuDict)
 
 
 def doGpusBackup(db, allGpus):
@@ -49,6 +49,7 @@ def doGpusBackup(db, allGpus):
 db = connect()
 allGpus = getAllGpus(db)
 printGpuCards(allGpus, 'rtx3060ti')
+addCard(db, allGpus, 'rtx3060ti')
 doGpusBackup(db, allGpus)
         
 
