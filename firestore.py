@@ -53,3 +53,5 @@ addCard(db, allGpus, 'rtx3060ti')
 doGpusBackup(db, allGpus)
         
 
+
+

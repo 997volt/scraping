@@ -8,9 +8,9 @@ database = getDatabase()
 allCards = database.child('cards').get()
 dictionary = database.child('dictionary').get()
 
-if 0:
-    scrapFromAllShops(database, allCards, today)
 if 1:
+    scrapFromAllShops(database, allCards, today)
+if 0:
     newName = ''
     searchFor  = ['3060', 'Ti']
     searchNot = ['']
