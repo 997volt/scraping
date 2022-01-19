@@ -10,5 +10,5 @@ firebase_admin.initialize_app(cred, {
 })
 
 bucket = storage.bucket()
-blob=bucket.blob('gpu.jpg')
+blob=bucket.blob('gpus/rtx3060ti/msi_rtx_3060ti_gaming_x_lhr.jpg')
 blob.make_public()
