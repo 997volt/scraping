@@ -1,3 +1,5 @@
+from audioop import reverse
+from email import iterators
 from bs4 import BeautifulSoup
 import requests
 
@@ -5,8 +7,12 @@ import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import firestore
 
+from firebase import getDatabase, shops
+from datetime import datetime
+
 import time
 import random
+import math
 
 
 ###########################################################
@@ -59,9 +65,9 @@ def createNewDocument(db, collection, gpuName):
 def createNewDocumentFromVgabios(db, collection, gpuName):
     allGpus = getAllGpus(db, collection)
     removeAllCards(allGpus, gpuName)
-    scrapTpuVgabios(allGpus, gpuName)
-    #scrapAllVgabiosDetails(allGpus, gpuName)
-    #scrapAllGpusDetails(allGpus, gpuName)
+    scrapTpuVgabiosMain(allGpus, gpuName)
+    scrapAllVgabiosDetails(allGpus, gpuName)
+    scrapAllGpusDetails(allGpus, gpuName)
     setAllGpus(db, collection, allGpus)
 
 
@@ -103,6 +109,7 @@ def getWebpage(url):
     return BeautifulSoup(source, 'lxml')
 
 
+# not used
 def scrapTpuMain(allGpus, gpuName):
     url = ''
     if(gpuName == 'rtx3060ti'):
@@ -119,7 +126,8 @@ def scrapTpuMain(allGpus, gpuName):
             addCard(allGpus, gpuName, createNewCard(cardName, cardTpuUrl))
 
 
-def scrapTpuVgabios(allGpus, gpuName):
+def scrapTpuVgabiosMain(allGpus, gpuName):
+    counter = 0
     url = ''
     if(gpuName == 'rtx3060ti'):
         for i in range(1,10):
@@ -130,18 +138,56 @@ def scrapTpuVgabios(allGpus, gpuName):
             for product in table.find('tbody').find_all('tr'):
                 cardTpuVgabiosUrl = product.find('td', class_='name').find('a')['href'][9:15:]
                 addCard(allGpus, gpuName, {'tpu_vgabios_nr': cardTpuVgabiosUrl})
+            counter += 1
+            print('Added bios numbers: ' + str(counter))
             if( i == max):
                 break
-            time.sleep(random.randrange(10,30))
+            time.sleep(random.randrange(90,150))
+
+
+def scrapAllVgabiosDetails(allGpus, gpuName):
+    counter = 0
+    for gpu in allGpus:
+        if(gpu['gpuName'] == gpuName):
+            for card in gpu['cards']:
+                scrapVgabiosDetails(card)
+                counter += 1
+                print('Added bios details ' + str(counter))
+                time.sleep(random.randrange(90,150))
+
+
+def scrapVgabiosDetails(card):
+    passed = False
+    iterations = 0
+    while(not passed):
+        try:
+            soup = getWebpage('https://www.techpowerup.com/vgabios/' + card['tpu_vgabios_nr'])
+            card['tpu_url'] = soup.find('figcaption').find('a')['href'][11::]
+            bios = soup.find('table', class_='biosinternals').find('td').text
+            power = bios[bios.find('Board power limit')+18:bios.find('Board power limit')+58:].split('\n')
+            stock_power_limit = int(power[0].split(': ')[1].split('.0')[0])
+            max_power_limit = int(power[1].split(': ')[1].split('.0')[0])
+            card['power'] = {'max_power_limit': max_power_limit, 'stock_power_limit': stock_power_limit, 'connector': '', 'max_vrm_current': 0}
+            passed = True
+        except:
+            print('error')
+            rand = random.randrange(5*60,15*60)
+            time.sleep(rand)
+            iterations += 1
+            if(iterators == 5):
+                print('scrapVgabiosDetails failed')
+                passed = True
 
 
 def scrapAllGpusDetails(allGpus, gpuName):
+    counter = 0
     for gpu in allGpus:
         if(gpu['gpuName'] == gpuName):
             for card in gpu['cards']:
                 scrapTpuDetails(card)
-                print('Added details for ' + card['name'])
-                time.sleep(random.randrange(60,120))
+                counter += 1
+                print('Added gpu details: ' + str(counter))
+                time.sleep(random.randrange(90,150))
 
 
 def getTpuCardClocks(card, websiteSection):
@@ -195,6 +241,7 @@ def getTpuCardBusWidth(card, fieldContent):
 
 
 def getTpuCardDesign(card, websiteSection):
+    card['design'] = {'length': 0, 'width': 0, 'height': 0, 'slot_width': 0}
     for field in websiteSection.find_all('dl', class_='clearfix'):
         fieldName = field.find('dt').text
         fieldContent = field.find('dd').text
@@ -210,15 +257,11 @@ def scrapTpuDetails(card):
     passed = False
     while(not passed):
         try:
-            soup = getWebpage(card['tpu_url'])
-            #soup = getWebpage(card)
+            soup = getWebpage('https://www.techpowerup.com/gpu-specs/' + card['tpu_url'])
+            card['name'] = fixCardName(soup.find('h1', class_='gpudb-name').text)
+            card['slug'] = slugify(card['name'])
             for section in soup.find('div', class_='sectioncontainer').find_all('section', class_='details'):
                 sectionName = section.find('h2').text.replace('\n','').replace('\t','')
-                #if(sectionName == 'Graphics Processor'):
-                    #for field in section.find_all('dl', class_='clearfix'):
-                        #if(field.find('dt').text == 'GPU Variant'):
-                            #t = field.find('dd').text.split('\n')
-                            #TODO: finish
                 if(sectionName == 'Clock Speeds'):
                     getTpuCardClocks(card, section)
                 elif(sectionName == 'Board Design'):
@@ -230,12 +273,64 @@ def scrapTpuDetails(card):
             time.sleep(rand)
 
 
+def calculateCardSCore(db, collection, allGpus):
+    for gpu in allGpus:
+        if(gpu['gpuName'] == gpuName):
+            for card in gpu['cards']:
+                sizeScore = math.sqrt(math.sqrt(card['design']['height']) * math.sqrt(card['design']['width']) * math.sqrt(card['design']['length']))
+                powerScore = (card['power']['max_power_limit'])
+                card['score'] = round(sizeScore * powerScore)
+            gpu['cards'].sort(key=sortCards, reverse=True)
+
+
+def sortCards(card):
+    return card['score']
+
+
+def getCurrentPrices(db, gpuName):
+    collection = 'gpusPrices'
+    gpuDict = []
+
+    gpusStream = db.collection(collection).stream()
+    for gpu in gpusStream:
+        if(gpu.id == 'dictionary'):
+            gpuDict = gpu.to_dict()
+            
+    today = datetime.now().strftime("%Y-%m-%d")
+    database = getDatabase()
+    allCards = database.child('cards').get()
+    for card in allCards.each():
+        key = card.key()
+        for shop in shops:
+            try:
+                link = card.val()[shop]['link']
+                name = card.val()[shop]['name']
+                if(gpuName == 'rtx3060ti'):
+                    if(('3060' in key and 'ti' in key.lower()) or ('3060' in link and 'ti' in link.lower()) or ('3060' in name and 'ti' in name.lower())):
+                        price = card.val()[shop]['prices'][today]
+                        add = True
+                        for gpu in gpuDict['cards']:
+                            try:
+                                if(gpu['url'] == link):
+                                    add = False
+                            except:
+                                error = ''
+                        if(add):
+                            gpuDict['cards'].append({'slug': '', 'name': name, 'url': link})
+            except:
+                error = ''
+    db.collection(collection).document('dictionary').set(gpuDict)
+
+
 ###########################################################
 #                           Main                          #
 ###########################################################
 
+
 db = connect()
 collection = 'gpusTest2'
 gpuName = 'rtx3060ti'
-createNewDocumentFromVgabios(db, collection, gpuName)
-#scrapTpuDetails('https://www.techpowerup.com/gpu-specs/colorful-tomahawk-rtx-3060-ti-deluxe-edition-lhr.b9306')
+#allGpus = getAllGpus(db, collection)
+#setAllGpus(db, collection, allGpus)
+
+getCurrentPrices(db, gpuName)

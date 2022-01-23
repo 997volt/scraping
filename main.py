@@ -1,4 +1,3 @@
-from pyasn1_modules.rfc2459 import PhysicalDeliveryCountryName
 from firebase import getDatabase, giveCardNewName
 from scraping import scrapFromAllShops
 from datetime import datetime
